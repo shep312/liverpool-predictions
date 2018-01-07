@@ -74,20 +74,27 @@ class ProcessInput:
 
         df['result'] = 0
 
+        # Convert home score and away score into liverpool/opposition goals
+        df.loc[df['liverpool_at_home'], 'liverpool_goals_scored'] = df.loc[df['liverpool_at_home'], 'home_score']
+        df.loc[df['liverpool_at_home'], 'opposition_goals_scored'] = df.loc[df['liverpool_at_home'], 'away_score']
+
+        df.loc[~df['liverpool_at_home'], 'opposition_goals_scored'] = df.loc[~df['liverpool_at_home'], 'home_score']
+        df.loc[~df['liverpool_at_home'], 'liverpool_goals_scored'] = df.loc[~df['liverpool_at_home'], 'away_score']
+
         # Win
-        df.loc[(df['liverpool_at_home'] & (df['home_score'] > df['away_score'])) | \
-               (~df['liverpool_at_home'] & (df['home_score'] > df['away_score'])), 'result'] = 1
+        df.loc[df['liverpool_goals_scored'] > df['opposition_goals_scored'], 'result'] = 1
 
         # Draw
-        df.loc[df['home_score'] == df['away_score'], 'result'] = 0
+        df.loc[df['liverpool_goals_scored'] == df['opposition_goals_scored'], 'result'] = 0
 
         # Loss
-        df.loc[(~df['liverpool_at_home'] & (df['home_score'] < df['away_score'])) | \
-               (df['liverpool_at_home'] & (df['home_score'] < df['away_score'])), 'result'] = 2
+        df.loc[df['liverpool_goals_scored'] < df['opposition_goals_scored'], 'result'] = 2
 
         # Win / Not win binary flag
         df['win_flag'] = df['result'] == 1
         df['loss_flag'] = df['result'] == 2
+
+        df.drop(['home_score', 'away_score'], axis=1, inplace=True)
 
         return df
 
@@ -110,9 +117,9 @@ class ProcessInput:
             times_played.append(sum(temp_df['opposition'] == team))
 
         self.beatability_df = pd.DataFrame({'opposition': unique_opponents,
-                                               'win_proportion': win_proportion,
-                                               'loss_proportion': loss_proportion,
-                                               'times_played': times_played})
+                                            'win_proportion': win_proportion,
+                                            'loss_proportion': loss_proportion,
+                                            'times_played': times_played})
         self.beatability_df['beatability_index'] = self.beatability_df['win_proportion'] - \
                                                    self.beatability_df['loss_proportion']
 
@@ -223,7 +230,7 @@ class ProcessInput:
         # Count the season number
         season_number = 0
 
-        for i in range(len(prem_df)):
+        for i in range(len(prem_df) - 1):
 
             # Check if its a season end
             if i == 0:
@@ -239,6 +246,8 @@ class ProcessInput:
             if season_end_flag:
                 prem_game_counter = 1
                 points_counter = 0
+                goals_for_counter = 0
+                goals_against_counter = 0
                 season_number += 1
 
             prem_df.loc[i, 'pl_gameweek'] = prem_game_counter
@@ -247,16 +256,32 @@ class ProcessInput:
             # Increment premier league game
             prem_game_counter += 1
 
+            # Record goal stats
+            goals_for_counter += prem_df.loc[i, 'liverpool_goals_scored']
+            goals_against_counter += prem_df.loc[i, 'opposition_goals_scored']
+
             # Calculate points accrued at this stage and therefore points per game (PPG)
             if prem_df.loc[i, 'win_flag']:
                 points_counter += 3
             elif ~prem_df.loc[i, 'win_flag'] and ~prem_df.loc[i, 'loss_flag']:
                 points_counter += 1
 
-            prem_df.loc[i, 'PPG'] = points_counter / prem_df.loc[i, 'pl_gameweek']
-            prem_df.loc[i, 'season_points'] = points_counter
+            # Variables must be stored in the next game, otherwise they
+            # are unknown at the time of prediction
+            prem_df.loc[i + 1, 'PPG'] = points_counter / prem_df.loc[i, 'pl_gameweek']
+            prem_df.loc[i + 1, 'season_points'] = points_counter
+
+            # Goals for per game, goals against per game and goal difference
+            # per game
+            prem_df.loc[i + 1, 'GFPG'] = goals_for_counter / prem_df.loc[i, 'pl_gameweek']
+            prem_df.loc[i + 1, 'GAPG'] = goals_against_counter / prem_df.loc[i, 'pl_gameweek']
+            prem_df.loc[i + 1, 'GDPG'] = prem_df.loc[i + 1 , 'GFPG'] - prem_df.loc[i + 1, 'GAPG']
 
 
-        df = df.merge(prem_df[['date', 'pl_gameweek', 'PPG', 'season_number', 'season_points']], left_on='date', right_on='date', how='left')
+        df = df.merge(prem_df[['date', 'pl_gameweek',
+                               'PPG', 'season_number',
+                               'season_points', 'GFPG',
+                               'GAPG', 'GDPG']],
+                               left_on='date', right_on='date', how='left')
 
         return df
