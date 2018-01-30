@@ -2,15 +2,19 @@ import numpy as np
 import pandas as pd
 import pickle
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
+from sklearn.model_selection import StratifiedShuffleSplit
 
 class ProcessInput:
     """ A class that processes raw data for the liverpool model """
 
     def __init__(self):
-        """ Constructor """
+        """ Constructor. Initialise some of the variable types and define
+        those features that are categorical """
+
         self.opposition_encoder = LabelEncoder()
         self.opposition_count_dict = {}
         self.beatability_df = pd.DataFrame()
+        self.categoricals = ['opposition', 'liverpool_at_home', 'day_of_week']
 
     def fit(self, df):
         """ Fits all the objects that require fitting """
@@ -58,6 +62,9 @@ class ProcessInput:
         # data set
         self.opposition_count_dict = dict(df['opposition'].value_counts())
         df['n_times_teams_played'] = df['opposition'].map(self.opposition_count_dict)
+
+        # Only interested in the Premier League for now
+        df = df[df['competition'] == 'Premier League']
 
         return df
 
@@ -187,7 +194,7 @@ class ProcessInput:
             won_last_game = bool(df.loc[i + 1, 'result'] == 1)
 
             # Not a loss?
-            undefeated_last_game = bool((df.loc[i + 1, 'result'] == 1) | (df.loc[i + 1, 'result'] == 0))
+            undefeated_last_game = bool(df.loc[i + 1, 'result'] != 2)
 
             # Keep going back until we break the win streak
             while won_last_game:
@@ -203,7 +210,7 @@ class ProcessInput:
                 undefeated_streak += 1
                 index_undef = i + 1 + undefeated_streak
                 if index_undef < len(df):
-                    undefeated_last_game = bool((df.loc[index_undef, 'result'] == 1) | (df.loc[index_undef, 'result'] == 0))
+                    undefeated_last_game = bool(df.loc[index_undef, 'result'] != 2)
                 else:
                     break
 
@@ -277,6 +284,12 @@ class ProcessInput:
             prem_df.loc[i + 1, 'GAPG'] = goals_against_counter / prem_df.loc[i, 'pl_gameweek']
             prem_df.loc[i + 1, 'GDPG'] = prem_df.loc[i + 1 , 'GFPG'] - prem_df.loc[i + 1, 'GAPG']
 
+        # Final row is the most recent game. If the last game wasn't the final
+        # one in a season then increment the gameweek
+        if prem_df.loc[i, 'pl_gameweek'] < 38:
+            prem_df.loc[i + 1, 'pl_gameweek'] = prem_df.loc[i, 'pl_gameweek'] + 1
+        else:
+            prem_df.loc[i + 1, 'pl_gameweek'] = 1
 
         df = df.merge(prem_df[['date', 'pl_gameweek',
                                'PPG', 'season_number',
@@ -285,3 +298,61 @@ class ProcessInput:
                                left_on='date', right_on='date', how='left')
 
         return df
+
+    def drop_features(self, df):
+        """ Drop features that are either leaks of the label or aren't desired
+        for training. Includes:
+            - competition: No variation, only PL
+            - liverpool_goals_scored/opposition_goals_scored: Not known at
+              inference
+            - season_number: Not thought to be useful
+            - season_points: Not thought to be useful
+            - win_flag/loss_flag: Gives the label away
+        """
+
+        df.drop(['competition',
+                'liverpool_goals_scored',
+                'opposition_goals_scored',
+                'season_number',
+                'season_points',
+                'win_flag',
+                'loss_flag'], axis=1, inplace=True)
+
+        return df
+
+    def stratified_train_test(self, df, test_size=0.2):
+        """ Split input data into train and test sets. Since the dataset is
+        small, stratify by label to make sure there the sets are representative
+        of each other at least in the label."""
+
+        # Make splitter
+        split = StratifiedShuffleSplit(n_splits=1,
+                                       test_size=test_size,
+                                       random_state=42)
+
+        # Get startified indices and split
+        df.reset_index(inplace=True, drop=True)
+        for train_index, test_index in split.split(df, df['result']):
+            train = df.loc[train_index]
+            test = df.loc[test_index]
+
+        # Check and print distributions
+        sample_comparison = pd.DataFrame({
+            'overall': df['result'].value_counts().sort_index() / len(df),
+            'stratified': test['result'].value_counts().sort_index() / len(test),
+            })
+        sample_comparison['strat_perc_error'] = \
+            100 * (sample_comparison['stratified'] - sample_comparison['overall']) \
+            / sample_comparison['overall']
+
+        #TODO and print here
+
+        # Separate the labels
+        y_train = train.pop('result')
+        y_test = test.pop('result')
+
+        # Drop dates, but keep the training dates as a weight
+        train_weight = train.pop('date')
+        test.drop('date', axis=1, inplace=True)
+
+        return train, test, y_train, y_test, train_weight
