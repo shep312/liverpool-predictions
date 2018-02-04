@@ -5,7 +5,7 @@ from io import StringIO
 import urllib3
 import os
 
-def scape_training_data():
+def scrape_training_data():
     """ Scrapes http://www.lfchistory.net/SeasonArchive/Games/ for historical
     PL fixture results for LFC """
 
@@ -113,7 +113,7 @@ def scape_training_data():
     final_df['away_score'] = final_df['away_score'].astype(np.int32)
     final_df['home_score'] = final_df['home_score'].astype(np.int32)
 
-    out_path = os.path.join(os.pardir, 'data', 'training_data', 'liverpool_fixture_history.csv')
+    out_path = os.path.join('data', 'training_data', 'liverpool_fixture_history.csv')
     final_df.to_csv(out_path, index=False, encoding='utf-8')
 
     return

@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.preprocessing import MinMaxScaler
 from data.data_processing import ProcessInput
-from data.data_importation import scape_training_data
+from data.data_importation import scrape_training_data
 from train.train import train_lgbm_model, get_training_metrics
 import lightgbm as lgbm
 
@@ -14,7 +14,9 @@ def main(collect_current_data=False):
 
     # Update training data if necessary
     if collect_current_data:
+        print('Scraping training data...')
         scrape_training_data()
+        print('Scraping complete.')
 
     # Load training data
     file_path = os.path.join('data', 'training_data',

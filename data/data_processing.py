@@ -39,7 +39,7 @@ class ProcessInput:
         df = self.define_results(df)
 
         # Convert the date to datetime
-        df['date'] = pd.to_datetime(df['date'], format='%d/%m/%Y')
+        df['date'] = pd.to_datetime(df['date'], format='%Y-%m-%d')
 
         # Get some opposition metrics
         df = self.get_beatability_index(df)
