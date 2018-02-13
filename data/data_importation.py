@@ -5,7 +5,7 @@ from io import StringIO
 import urllib3
 import os
 
-def scape_training_data():
+def scrape_training_data():
     """ Scrapes http://www.lfchistory.net/SeasonArchive/Games/ for historical
     PL fixture results for LFC """
 
@@ -19,7 +19,7 @@ def scape_training_data():
     for zz in range(len(page_indeces) - 1):
 
         # Print year
-        print(zz)
+        print('Season {} / {}'.format(zz, len(page_indeces) - 1))
 
         # Page to read
         target_page = 'http://www.lfchistory.net/SeasonArchive/Games/{}'.format(str(page_indeces[zz]))

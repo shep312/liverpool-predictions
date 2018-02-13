@@ -5,7 +5,6 @@ def train_lgbm_model(train, y_train, categoricals, train_weight):
     """ Train a LightGBM model on a training set and predict on a test """
 
     # Create a training set
-    categoricals = ['opposition', 'liverpool_at_home', 'day_of_week']
     lgbm_train_set = lgbm.Dataset(data=train, label=y_train,
                                   categorical_feature=categoricals,
                                   weight=train_weight,

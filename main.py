@@ -5,16 +5,18 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.preprocessing import MinMaxScaler
 from data.data_processing import ProcessInput
-from data.data_importation import scape_training_data
+from data.data_importation import scrape_training_data
 from train.train import train_lgbm_model, get_training_metrics
 import lightgbm as lgbm
 
 
-def main(collect_current_data=False):
+def main(collect_current_data=True):
 
     # Update training data if necessary
     if collect_current_data:
+        print('Loading fixture data...')
         scrape_training_data()
+        print('Fixture data loaded.')
 
     # Load training data
     file_path = os.path.join('data', 'training_data',
@@ -33,7 +35,7 @@ def main(collect_current_data=False):
 
     # Train and predict
     clf = train_lgbm_model(train, y_train, processor.categoricals, train_weight)
-    y_prob = clf.predict(test, num_iteration=best_iteration)
+    y_prob = clf.predict(test)
     y_pred = y_prob.argmax(axis=1)
 
     # Print out metrics
