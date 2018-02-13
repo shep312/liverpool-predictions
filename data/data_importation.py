@@ -62,14 +62,15 @@ def scrape_training_data():
 
             i += 5
 
-        # Extract the scores
-        home_score = []
-        away_score = []
+        # Extract the scores. Weirdly, i think this website always puts
+        # Liverpools score first
+        liverpool_score = []
+        opposition_score = []
         position = 0
 
         for score in scores:
-            home_score.append(score[0])
-            away_score.append(score[4])
+            liverpool_score.append(score[0])
+            opposition_score.append(score[4])
 
             # If its not a number then the scores have finished
             try:
@@ -88,8 +89,8 @@ def scrape_training_data():
             'opposition': opposition,
             'venue': venue,
             'competition': competition,
-            'home_score': home_score,
-            'away_score': away_score
+            'liverpool_score': liverpool_score,
+            'opposition_score': opposition_score
         })
 
         # Combine results
@@ -100,8 +101,8 @@ def scrape_training_data():
                 'opposition': [],
                 'venue': [],
                 'competition': [],
-                'home_score': [],
-                'away_score': []
+                'liverpool_score': [],
+                'opposition_score': []
             })
         else:
             final_df = pd.concat([final_df, fixture_history])
@@ -110,10 +111,10 @@ def scrape_training_data():
     final_df['date'] = pd.to_datetime(final_df['date'], format='%d.%m.%Y')
 
     # Scores as ints
-    final_df['away_score'] = final_df['away_score'].astype(np.int32)
-    final_df['home_score'] = final_df['home_score'].astype(np.int32)
+    final_df['opposition_score'] = final_df['opposition_score'].astype(np.int32)
+    final_df['liverpool_score'] = final_df['liverpool_score'].astype(np.int32)
 
-    out_path = os.path.join(os.pardir, 'data', 'training_data', 'liverpool_fixture_history.csv')
+    out_path = os.path.join('data', 'training_data', 'liverpool_fixture_history.csv')
     final_df.to_csv(out_path, index=False, encoding='utf-8')
 
     return

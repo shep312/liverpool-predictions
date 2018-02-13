@@ -14,9 +14,9 @@ def main(collect_current_data=True):
 
     # Update training data if necessary
     if collect_current_data:
-        print('Loading fixture data...')
+        print('Scraping training data...')
         scrape_training_data()
-        print('Fixture data loaded.')
+        print('Scraping complete.')
 
     # Load training data
     file_path = os.path.join('data', 'training_data',

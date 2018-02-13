@@ -1,1352 +1,1355 @@
-away_score,competition,date,home_score,nth_game_this_season,opposition,venue
-1,1st Division,17/08/1991,2,1,Oldham Athletic,Anfield
-2,1st Division,21/08/1991,1,2,Manchester City,Maine Road
-0,1st Division,24/08/1991,0,3,Luton Town,Kenilworth Road
-0,1st Division,27/08/1991,1,4,Queens Park Rangers,Anfield
-1,1st Division,31/08/1991,3,5,Everton,Anfield
-1,1st Division,07/09/1991,2,6,Notts County,Meadow Lane
-1,1st Division,14/09/1991,1,7,Aston Villa,Anfield
-1,UEFA Cup 1st round 1st leg,18/09/1991,6,8,Kuusysi Lahti,Anfield
-1,1st Division,21/09/1991,0,9,Leeds United,Elland Road
-2,League Cup 2nd round 1st leg,25/09/1991,2,10,Stoke City,Anfield
-1,1st Division,28/09/1991,1,11,Sheffield Wednesday,Anfield
-1,UEFA Cup 1st round 2nd leg,02/10/1991,0,12,Kuusysi Lahti,Lahden Stadion
-0,1st Division,06/10/1991,0,13,Manchester United,Old Trafford
-2,League Cup 2nd round 2nd leg,09/10/1991,3,14,Stoke City,Victoria Ground
-2,1st Division,19/10/1991,2,15,Chelsea,Stamford Bridge
-2,UEFA Cup 2nd round 1st leg,23/10/1991,0,16,Auxerre,Stade de l'Abbé Deschamps
-0,1st Division,26/10/1991,1,17,Coventry City,Anfield
-2,League Cup 3rd round,29/10/1991,2,18,Port Vale,Anfield
-2,1st Division,02/11/1991,1,19,Crystal Palace,Anfield
-0,UEFA Cup 2nd round 2nd leg,06/11/1991,3,20,Auxerre,Anfield
-0,1st Division,17/11/1991,0,21,West Ham United,Upton Park
-1,League Cup 3rd round replay,20/11/1991,4,22,Port Vale,Vale Park
-0,1st Division,23/11/1991,0,23,Wimbledon,Selhurst Park
-0,UEFA Cup 3rd round 1st leg,27/11/1991,2,24,Swarowski Tirol,Tivoli
-1,1st Division,30/11/1991,2,25,Norwich City,Anfield
-1,League Cup 4th round,03/12/1991,0,26,Peterborough United,London Road
-1,1st Division,07/12/1991,1,27,Southampton,The Dell
-0,UEFA Cup 3rd round 2nd leg,11/12/1991,4,28,Swarowski Tirol,Anfield
-0,1st Division,14/12/1991,2,29,Nottingham Forest,Anfield
-1,1st Division,18/12/1991,2,30,Tottenham Hotspur,White Hart Lane
-2,1st Division,21/12/1991,2,31,Manchester City,Anfield
-0,1st Division,26/12/1991,0,32,Queens Park Rangers,Loftus Road
-1,1st Division,28/12/1991,1,33,Everton,Goodison Park
-1,1st Division,01/01/1992,2,34,Sheffield United,Anfield
-0,FA Cup 3rd round,06/01/1992,4,35,Crewe Alexandra,Gresty Road
-1,1st Division,11/01/1992,2,36,Luton Town,Anfield
-2,1st Division,18/01/1992,3,37,Oldham Athletic,Boundary Park
-0,1st Division,29/01/1992,2,38,Arsenal,Anfield
-2,1st Division,01/02/1992,1,39,Chelsea,Anfield
-1,FA Cup 4th round,05/02/1992,1,40,Bristol Rovers,Twerton Park
-0,1st Division,08/02/1992,0,41,Coventry City,Highfield Road
-1,FA Cup 4th round replay,11/02/1992,2,42,Bristol Rovers,Anfield
-0,FA Cup 5th round,16/02/1992,0,43,Ipswich Town,Portman Road
-3,1st Division,22/02/1992,0,44,Norwich City,Carrow Road
-2,FA Cup 5th round replay,26/02/1992,3,45,Ipswich Town,Anfield
-0,1st Division,29/02/1992,0,46,Southampton,Anfield
-2,UEFA Cup 4th round 1st leg,04/03/1992,0,47,Genoa,Stadio Luigi Ferraris
-0,FA Cup 6th round,08/03/1992,1,48,Aston Villa,Anfield
-0,1st Division,11/03/1992,1,49,West Ham United,Anfield
-1,1st Division,14/03/1992,0,50,Crystal Palace,Selhurst Park
-2,UEFA Cup 4th round 2nd leg,18/03/1992,1,51,Genoa,Anfield
-1,1st Division,21/03/1992,2,52,Tottenham Hotspur,Anfield
-2,1st Division,28/03/1992,0,53,Sheffield United,Bramall Lane
-0,1st Division,31/03/1992,4,54,Notts County,Anfield
-1,FA Cup Semi-final,05/04/1992,1,55,Portsmouth,Highbury
-3,1st Division,08/04/1992,2,56,Wimbledon,Anfield
-1,1st Division,11/04/1992,0,57,Aston Villa,Villa Park
-0,FA Cup Semi-final replay,13/04/1992,0,58,Portsmouth,Villa Park
-0,1st Division,18/04/1992,0,59,Leeds United,Anfield
-4,1st Division,20/04/1992,0,60,Arsenal,Highbury
-1,1st Division,22/04/1992,1,61,Nottingham Forest,City Ground
-0,1st Division,26/04/1992,2,62,Manchester United,Anfield
-0,1st Division,02/05/1992,0,63,Sheffield Wednesday,Hillsborough
-0,FA Cup Final,09/05/1992,2,64,Sunderland,Wembley
-0,Premier League,14/08/1993,2,1,Sheffield Wednesday,Anfield
-1,Premier League,18/08/1993,3,2,Queens Park Rangers,Loftus Road
-0,Premier League,22/08/1993,5,3,Swindon Town,County Ground
-2,Premier League,25/08/1993,1,4,Tottenham Hotspur,Anfield
-0,Premier League,28/08/1993,2,5,Leeds United,Anfield
-1,Premier League,01/09/1993,0,6,Coventry City,Highfield Road
-1,Premier League,12/09/1993,0,7,Blackburn Rovers,Anfield
-2,Premier League,18/09/1993,0,8,Everton,Goodison Park
-1,League Cup 2nd round 1st leg,22/09/1993,3,9,Fulham,Craven Cottage
-1,Premier League,25/09/1993,0,10,Chelsea,Stamford Bridge
-0,Premier League,02/10/1993,0,11,Arsenal,Anfield
-0,League Cup 2nd round 2nd leg,05/10/1993,5,12,Fulham,Anfield
-1,Premier League,16/10/1993,2,13,Oldham Athletic,Anfield
-1,Premier League,23/10/1993,1,14,Manchester City,Maine Road
-2,League Cup 3rd round,27/10/1993,3,15,Ipswich Town,Anfield
-2,Premier League,30/10/1993,4,16,Southampton,Anfield
-0,Premier League,06/11/1993,2,17,West Ham United,Anfield
-3,Premier League,21/11/1993,0,18,Newcastle United,St James' Park
-1,Premier League,28/11/1993,2,19,Aston Villa,Anfield
-1,League Cup 4th round,01/12/1993,1,20,Wimbledon,Anfield
-3,Premier League,04/12/1993,1,21,Sheffield Wednesday,Hillsborough
-2,Premier League,08/12/1993,3,22,Queens Park Rangers,Anfield
-2,Premier League,11/12/1993,2,23,Swindon Town,Anfield
-2,League Cup 4th round replay,14/12/1993,2,24,Wimbledon,Selhurst Park
-3,Premier League,18/12/1993,3,25,Tottenham Hotspur,White Hart Lane
-0,Premier League,26/12/1993,0,26,Sheffield United,Bramall Lane
-1,Premier League,28/12/1993,1,27,Wimbledon,Anfield
-1,Premier League,01/01/1994,2,28,Ipswich Town,Portman Road
-3,Premier League,04/01/1994,3,29,Manchester United,Anfield
-0,Premier League,15/01/1994,3,30,Oldham Athletic,Boundary Park
-1,FA Cup 3rd round,19/01/1994,1,31,Bristol City,Ashton Gate
-1,Premier League,22/01/1994,2,32,Manchester City,Anfield
-1,FA Cup 3rd round replay,25/01/1994,0,33,Bristol City,Anfield
-2,Premier League,05/02/1994,2,34,Norwich City,Carrow Road
-4,Premier League,14/02/1994,2,35,Southampton,The Dell
-2,Premier League,19/02/1994,0,36,Leeds United,Elland Road
-0,Premier League,26/02/1994,1,37,Coventry City,Anfield
-2,Premier League,05/03/1994,0,38,Blackburn Rovers,Ewood Park
-1,Premier League,13/03/1994,2,39,Everton,Anfield
-1,Premier League,19/03/1994,2,40,Chelsea,Anfield
-1,Premier League,26/03/1994,0,41,Arsenal,Highbury
-1,Premier League,30/03/1994,0,42,Manchester United,Old Trafford
-2,Premier League,02/04/1994,1,43,Sheffield United,Anfield
-1,Premier League,04/04/1994,1,44,Wimbledon,Selhurst Park
-0,Premier League,09/04/1994,1,45,Ipswich Town,Anfield
-2,Premier League,16/04/1994,0,46,Newcastle United,Anfield
-1,Premier League,23/04/1994,2,47,West Ham United,Upton Park
-1,Premier League,30/04/1994,0,48,Norwich City,Anfield
-2,Premier League,07/05/1994,1,49,Aston Villa,Villa Park
-1,Premier League,20/08/1994,6,1,Crystal Palace,Selhurst Park
-0,Premier League,28/08/1994,3,2,Arsenal,Anfield
-0,Premier League,31/08/1994,2,3,Southampton,The Dell
-0,Premier League,10/09/1994,0,4,West Ham United,Anfield
-2,Premier League,17/09/1994,0,5,Manchester United,Old Trafford
-0,League Cup 2nd round 1st leg,21/09/1994,2,6,Burnley,Anfield
-1,Premier League,24/09/1994,1,7,Newcastle United,St James' Park
-1,Premier League,01/10/1994,4,8,Sheffield Wednesday,Anfield
-1,League Cup 2nd round 2nd leg,05/10/1994,4,9,Burnley,Turf Moor
-2,Premier League,08/10/1994,3,10,Aston Villa,Anfield
-3,Premier League,15/10/1994,2,11,Blackburn Rovers,Ewood Park
-0,Premier League,22/10/1994,3,12,Wimbledon,Anfield
-1,League Cup 3rd round,25/10/1994,2,13,Stoke City,Anfield
-1,Premier League,29/10/1994,3,14,Ipswich Town,Portman Road
-2,Premier League,31/10/1994,1,15,Queens Park Rangers,Loftus Road
-0,Premier League,05/11/1994,1,16,Nottingham Forest,Anfield
-1,Premier League,09/11/1994,3,17,Chelsea,Anfield
-2,Premier League,21/11/1994,0,18,Everton,Goodison Park
-1,Premier League,26/11/1994,1,19,Tottenham Hotspur,Anfield
-1,League Cup 4th round,30/11/1994,3,20,Blackburn Rovers,Ewood Park
-1,Premier League,03/12/1994,1,21,Coventry City,Highfield Road
-0,Premier League,11/12/1994,0,22,Crystal Palace,Anfield
-0,Premier League,18/12/1994,0,23,Chelsea,Stamford Bridge
-1,Premier League,26/12/1994,2,24,Leicester City,Filbert Street
-0,Premier League,28/12/1994,2,25,Manchester City,Anfield
-0,Premier League,31/12/1994,2,26,Leeds United,Elland Road
-0,Premier League,02/01/1995,4,27,Norwich City,Anfield
-0,FA Cup 3rd round,07/01/1995,0,28,Birmingham City,St Andrews
-0,League Cup 5th round ,11/01/1995,1,29,Arsenal,Anfield
-1,Premier League,14/01/1995,0,30,Ipswich Town,Anfield
-1,FA Cup 3rd round replay,18/01/1995,1,31,Birmingham City,Anfield
-0,Premier League,24/01/1995,0,32,Everton,Anfield
-0,FA Cup 4th round,28/01/1995,0,33,Burnley,Turf Moor
-1,Premier League,04/02/1995,1,34,Nottingham Forest,City Ground
-0,FA Cup 4th round replay,07/02/1995,1,35,Burnley,Anfield
-1,Premier League,11/02/1995,1,36,Queens Park Rangers,Anfield
-0,League Cup Semi-final 1st leg,15/02/1995,1,37,Crystal Palace,Anfield
-1,FA Cup 5th round,19/02/1995,1,38,Wimbledon,Anfield
-1,Premier League,25/02/1995,2,39,Sheffield Wednesday,Hillsborough
-0,FA Cup 5th round replay,28/02/1995,2,40,Wimbledon,Selhurst Park
-0,Premier League,04/03/1995,2,41,Newcastle United,Anfield
-0,League Cup Semi-final 2nd leg,08/03/1995,1,42,Crystal Palace,Selhurst Park
-2,FA Cup 6th round,11/03/1995,1,43,Tottenham Hotspur,Anfield
-3,Premier League,14/03/1995,2,44,Coventry City,Anfield
-0,Premier League,19/03/1995,2,45,Manchester United,Anfield
-0,Premier League,22/03/1995,0,46,Tottenham Hotspur,White Hart Lane
-1,League Cup Final ,02/04/1995,2,47,Bolton Wanderers,Wembley
-1,Premier League,05/04/1995,3,48,Southampton,Anfield
-1,Premier League,09/04/1995,0,49,Leeds United,Anfield
-0,Premier League,12/04/1995,1,50,Arsenal,Highbury
-2,Premier League,14/04/1995,1,51,Manchester City,Maine Road
-0,Premier League,17/04/1995,2,52,Leicester City,Anfield
-1,Premier League,29/04/1995,2,53,Norwich City,Carrow Road
-0,Premier League,02/05/1995,0,54,Wimbledon,Selhurst Park
-2,Premier League,06/05/1995,0,55,Aston Villa,Villa Park
-3,Premier League,10/05/1995,0,56,West Ham United,Upton Park
-1,Premier League,14/05/1995,2,57,Blackburn Rovers,Anfield
-0,Premier League,19/08/1995,1,1,Sheffield Wednesday,Anfield
-1,Premier League,21/08/1995,0,2,Leeds United,Elland Road
-1,Premier League,26/08/1995,3,3,Tottenham Hotspur,White Hart Lane
-0,Premier League,30/08/1995,1,4,Queens Park Rangers,Anfield
-1,Premier League,09/09/1995,0,5,Wimbledon,Selhurst Park
-1,UEFA Cup 1st round 1st leg,12/09/1995,2,6,Spartak Vladikavkaz,Spartak Stadium
-0,Premier League,16/09/1995,3,7,Blackburn Rovers,Anfield
-0,League Cup 2nd round 1st leg,20/09/1995,2,8,Sunderland,Anfield
-2,Premier League,23/09/1995,5,9,Bolton Wanderers,Anfield
-0,UEFA Cup 1st round 2nd leg,26/09/1995,0,10,Spartak Vladikavkaz,Anfield
-2,Premier League,01/10/1995,2,11,Manchester United,Old Trafford
-0,League Cup 2nd round 2nd leg,04/10/1995,1,12,Sunderland,Roker Park
-0,Premier League,14/10/1995,0,13,Coventry City,Anfield
-0,UEFA Cup 2nd round 1st leg,17/10/1995,0,14,Brøndby,Parken
-1,Premier League,22/10/1995,3,15,Southampton,The Dell
-0,League Cup 3rd round,25/10/1995,4,16,Manchester City,Anfield
-0,Premier League,28/10/1995,6,17,Manchester City,Anfield
-1,UEFA Cup 2nd round 2nd leg,31/10/1995,0,18,Brøndby,Anfield
-2,Premier League,04/11/1995,1,19,Newcastle United,St James' Park
-2,Premier League,18/11/1995,1,20,Everton,Anfield
-0,Premier League,22/11/1995,0,21,West Ham United,Upton Park
-2,Premier League,25/11/1995,1,22,Middlesbrough,Riverside
-1,League Cup 4th round,29/11/1995,0,23,Newcastle United,Anfield
-1,Premier League,02/12/1995,1,24,Southampton,Anfield
-0,Premier League,09/12/1995,1,25,Bolton Wanderers,Burnden Park
-0,Premier League,17/12/1995,2,26,Manchester United,Anfield
-1,Premier League,23/12/1995,3,27,Arsenal,Anfield
-2,Premier League,30/12/1995,2,28,Chelsea,Stamford Bridge
-2,Premier League,01/01/1996,4,29,Nottingham Forest,Anfield
-0,FA Cup 3rd round,06/01/1996,7,30,Rochdale,Anfield
-1,Premier League,13/01/1996,1,31,Sheffield Wednesday,Hillsborough
-0,Premier League,20/01/1996,5,32,Leeds United,Anfield
-0,Premier League,31/01/1996,2,33,Aston Villa,Villa Park
-0,Premier League,03/02/1996,0,34,Tottenham Hotspur,Anfield
-1,Premier League,11/02/1996,2,35,Queens Park Rangers,Loftus Road
-0,FA Cup 4th round,18/02/1996,4,36,Shrewsbury Town,Gay Meadow
-2,Premier League,24/02/1996,3,37,Blackburn Rovers,Ewood Park
-1,FA Cup 5th round,28/02/1996,2,38,Charlton Athletic,Anfield
-0,Premier League,03/03/1996,3,39,Aston Villa,Anfield
-0,FA Cup 6th round,10/03/1996,0,40,Leeds United,Elland Road
-2,Premier League,13/03/1996,2,41,Wimbledon,Anfield
-0,Premier League,16/03/1996,2,42,Chelsea,Anfield
-0,FA Cup 6th round replay,20/03/1996,3,43,Leeds United,Anfield
-1,Premier League,23/03/1996,0,44,Nottingham Forest,City Ground
-0,FA Cup Semi-final,31/03/1996,3,45,Aston Villa,Old Trafford
-3,Premier League,03/04/1996,4,46,Newcastle United,Anfield
-1,Premier League,06/04/1996,0,47,Coventry City,Highfield Road
-0,Premier League,08/04/1996,2,48,West Ham United,Anfield
-1,Premier League,16/04/1996,1,49,Everton,Goodison Park
-0,Premier League,27/04/1996,1,50,Middlesbrough,Anfield
-0,Premier League,01/05/1996,0,51,Arsenal,Highbury
-2,Premier League,05/05/1996,2,52,Manchester City,Maine Road
-1,FA Cup Final,11/05/1996,0,53,Manchester United,Wembley
-3,Premier League,17/08/1996,3,1,Middlesbrough,Riverside
-0,Premier League,19/08/1996,2,2,Arsenal,Anfield
-0,Premier League,24/08/1996,0,3,Sunderland,Anfield
-0,Premier League,04/09/1996,1,4,Coventry City,Highfield Road
-1,Premier League,07/09/1996,2,5,Southampton,Anfield
-0,European Cup Winners' Cup 1st round 1st leg,12/09/1996,1,6,Mypa 47,Saviniemi
-0,Premier League,15/09/1996,3,7,Leicester City,Filbert Street
-1,Premier League,21/09/1996,5,8,Chelsea,Anfield
-1,European Cup Winners' Cup 1st round 2nd leg,26/09/1996,3,9,Mypa 47,Anfield
-1,Premier League,29/09/1996,2,10,West Ham United,Upton Park
-1,Premier League,12/10/1996,0,11,Manchester United,Old Trafford
-1,European Cup Winners' Cup 2nd round 1st leg,17/10/1996,2,12,Sion,Stade de Tourbillon 
-1,League Cup 3rd round,23/10/1996,1,13,Charlton Athletic,The Valley
-1,Premier League,27/10/1996,2,14,Derby County,Anfield
-3,European Cup Winners' Cup 2nd round 2nd leg,31/10/1996,6,15,Sion,Anfield
-3,Premier League,03/11/1996,0,16,Blackburn Rovers,Ewood Park
-1,League Cup 3rd round replay,13/11/1996,4,17,Charlton Athletic,Anfield
-0,Premier League,16/11/1996,2,18,Leeds United,Elland Road
-1,Premier League,20/11/1996,1,19,Everton,Anfield
-1,Premier League,23/11/1996,1,20,Wimbledon,Anfield
-2,League Cup 4th round,27/11/1996,4,21,Arsenal,Anfield
-0,Premier League,02/12/1996,2,22,Tottenham Hotspur,White Hart Lane
-1,Premier League,07/12/1996,0,23,Sheffield Wednesday,Anfield
-1,Premier League,14/12/1996,5,24,Middlesbrough,Anfield
-2,Premier League,17/12/1996,4,25,Nottingham Forest,Anfield
-1,Premier League,23/12/1996,1,26,Newcastle United,St James' Park
-1,Premier League,26/12/1996,1,27,Leicester City,Anfield
-0,Premier League,29/12/1996,1,28,Southampton,The Dell
-1,Premier League,01/01/1997,0,29,Chelsea,Stamford Bridge
-0,FA Cup 3rd round,04/01/1997,1,30,Burnley,Anfield
-2,League Cup 5th round ,08/01/1997,1,31,Middlesbrough,Riverside
-0,Premier League,11/01/1997,0,32,West Ham United,Anfield
-0,Premier League,18/01/1997,3,33,Aston Villa,Anfield
-4,FA Cup 4th round,26/01/1997,2,34,Chelsea,Stamford Bridge
-0,Premier League,01/02/1997,1,35,Derby County,Baseball Ground
-0,Premier League,19/02/1997,4,36,Leeds United,Anfield
-0,Premier League,22/02/1997,0,37,Blackburn Rovers,Anfield
-1,Premier League,02/03/1997,0,38,Aston Villa,Villa Park
-1,European Cup Winners Cup 3rd round 1st leg,06/03/1997,1,39,Brann,Brann Stadion
-3,Premier League,10/03/1997,4,40,Newcastle United,Anfield
-1,Premier League,15/03/1997,1,41,Nottingham Forest,City Ground
-0,European Cup Winners Cup 3rd round 2nd leg,20/03/1997,3,42,Brann,Anfield
-1,Premier League,24/03/1997,2,43,Arsenal,Highbury
-2,Premier League,06/04/1997,1,44,Coventry City,Anfield
-3,European Cup Winners' Cup Semi-Final 1st leg,10/04/1997,0,45,Paris St Germain,Parc des Princes
-1,Premier League,13/04/1997,2,46,Sunderland,Roker Park
-1,Premier League,16/04/1997,1,47,Everton,Goodison Park
-3,Premier League,19/04/1997,1,48,Manchester United,Anfield
-0,European Cup Winners' Cup Semi-Final 2nd leg,24/04/1997,2,49,Paris St Germain,Anfield
-1,Premier League,03/05/1997,2,50,Tottenham Hotspur,Anfield
-2,Premier League,06/05/1997,1,51,Wimbledon,Selhurst Park
-1,Premier League,11/05/1997,1,52,Sheffield Wednesday,Hillsborough
-1,Premier League,09/08/1997,1,1,Wimbledon,Selhurst Park
-2,Premier League,13/08/1997,1,2,Leicester City,Anfield
-1,Premier League,23/08/1997,1,3,Blackburn Rovers,Ewood Park
-0,Premier League,26/08/1997,2,4,Leeds United,Elland Road
-1,Premier League,13/09/1997,2,5,Sheffield Wednesday,Anfield
-2,UEFA Cup 1st round 1st leg,16/09/1997,2,6,Celtic,Celtic Park
-1,Premier League,20/09/1997,1,7,Southampton,The Dell
-0,Premier League,22/09/1997,3,8,Aston Villa,Anfield
-2,Premier League,27/09/1997,1,9,West Ham United,Upton Park
-0,UEFA Cup 1st round 2nd leg,30/09/1997,0,10,Celtic,Anfield
-2,Premier League,05/10/1997,4,11,Chelsea,Anfield
-0,League Cup 3rd round,15/10/1997,2,12,West Bromwich Albion,The Hawthorns
-2,Premier League,18/10/1997,0,13,Everton,Goodison Park
-3,UEFA Cup 2nd round 1st leg,21/10/1997,0,14,Strasbourg,Stade de la Meinau
-0,Premier League,25/10/1997,4,15,Derby County,Anfield
-1,Premier League,01/11/1997,1,16,Bolton Wanderers,Reebok Stadium
-0,UEFA Cup 2nd round 2nd leg,04/11/1997,2,17,Strasbourg,Anfield
-0,Premier League,08/11/1997,4,18,Tottenham Hotspur,Anfield
-0,League Cup 4th round,18/11/1997,3,19,Grimsby Town,Anfield
-1,Premier League,22/11/1997,0,20,Barnsley,Anfield
-0,Premier League,30/11/1997,1,21,Arsenal,Highbury
-3,Premier League,06/12/1997,1,22,Manchester United,Anfield
-0,Premier League,13/12/1997,3,23,Crystal Palace,Selhurst Park
-0,Premier League,20/12/1997,1,24,Coventry City,Anfield
-1,Premier League,26/12/1997,3,25,Leeds United,Anfield
-1,Premier League,28/12/1997,2,26,Newcastle United,St James' Park
-3,FA Cup 3rd round,03/01/1998,1,27,Coventry City,Anfield
-0,League Cup 5th round ,07/01/1998,2,28,Newcastle United,St James' Park
-0,Premier League,10/01/1998,2,29,Wimbledon,Anfield
-0,Premier League,17/01/1998,0,30,Leicester City,Filbert Street
-0,Premier League,20/01/1998,1,31,Newcastle United,Anfield
-1,League Cup Semi-final 1st leg,27/01/1998,2,32,Middlesbrough,Anfield
-0,Premier League,31/01/1998,0,33,Blackburn Rovers,Anfield
-3,Premier League,07/02/1998,2,34,Southampton,Anfield
-3,Premier League,14/02/1998,3,35,Sheffield Wednesday,Hillsborough
-2,League Cup Semi-final 2nd leg,18/02/1998,0,36,Middlesbrough,Riverside
-1,Premier League,23/02/1998,1,37,Everton,Anfield
-2,Premier League,28/02/1998,1,38,Aston Villa,Villa Park
-1,Premier League,07/03/1998,2,39,Bolton Wanderers,Anfield
-3,Premier League,14/03/1998,3,40,Tottenham Hotspur,White Hart Lane
-2,Premier League,28/03/1998,3,41,Barnsley,Oakwell
-1,Premier League,10/04/1998,1,42,Manchester United,Old Trafford
-1,Premier League,13/04/1998,2,43,Crystal Palace,Anfield
-1,Premier League,19/04/1998,1,44,Coventry City,Highfield Road
-4,Premier League,25/04/1998,1,45,Chelsea,Stamford Bridge
-0,Premier League,02/05/1998,5,46,West Ham United,Anfield
-0,Premier League,06/05/1998,4,47,Arsenal,Anfield
-1,Premier League,10/05/1998,0,48,Derby County,Pride Park
-1,Premier League,16/08/1998,2,1,Southampton,The Dell
-0,Premier League,22/08/1998,0,2,Arsenal,Anfield
-1,Premier League,30/08/1998,4,3,Newcastle United,St James' Park
-0,Premier League,09/09/1998,2,4,Coventry City,Anfield
-2,Premier League,12/09/1998,1,5,West Ham United,Upton Park
-0,UEFA Cup 1st round 1st leg,15/09/1998,3,6,Kosice,Lokomotiva Stadium
-3,Premier League,19/09/1998,3,7,Charlton Athletic,Anfield
-2,Premier League,24/09/1998,0,8,Manchester United,Old Trafford
-0,UEFA Cup 1st round 2nd leg,29/09/1998,5,9,Kosice,Anfield
-1,Premier League,04/10/1998,1,10,Chelsea,Anfield
-0,Premier League,17/10/1998,0,11,Everton,Goodison Park
-0,UEFA Cup 2nd round 1st leg,20/10/1998,0,12,Valencia,Anfield
-1,Premier League,24/10/1998,5,13,Nottingham Forest,Anfield
-1,League Cup 3rd round,27/10/1998,3,14,Fulham,Anfield
-1,Premier League,31/10/1998,0,15,Leicester City,Filbert Street
-2,UEFA Cup 2nd round 2nd leg,03/11/1998,2,16,Valencia,Mestalla
-2,Premier League,07/11/1998,1,17,Derby County,Anfield
-3,League Cup 4th round,10/11/1998,1,18,Tottenham Hotspur,Anfield
-3,Premier League,14/11/1998,1,19,Leeds United,Anfield
-2,Premier League,21/11/1998,4,20,Aston Villa,Villa Park
-3,UEFA Cup 3rd round 1st leg,24/11/1998,1,21,Celta Vigo,Estadio Balaidos 
-0,Premier League,29/11/1998,2,22,Blackburn Rovers,Anfield
-2,Premier League,05/12/1998,1,23,Tottenham Hotspur,White Hart Lane
-1,UEFA Cup 3rd round 2nd leg,08/12/1998,0,24,Celta Vigo,Anfield
-1,Premier League,13/12/1998,0,25,Wimbledon,Selhurst Park
-0,Premier League,19/12/1998,2,26,Sheffield Wednesday,Anfield
-1,Premier League,26/12/1998,3,27,Middlesbrough,Riverside
-2,Premier League,28/12/1998,4,28,Newcastle United,Anfield
-0,FA Cup 3rd round,03/01/1999,3,29,Port Vale,Vale Park
-0,Premier League,09/01/1999,0,30,Arsenal,Highbury
-1,Premier League,16/01/1999,7,31,Southampton,Anfield
-2,FA Cup 4th round,24/01/1999,1,32,Manchester United,Old Trafford
-2,Premier League,30/01/1999,1,33,Coventry City,Highfield Road
-1,Premier League,06/02/1999,3,34,Middlesbrough,Anfield
-1,Premier League,13/02/1999,0,35,Charlton Athletic,The Valley
-2,Premier League,20/02/1999,2,36,West Ham United,Anfield
-2,Premier League,27/02/1999,1,37,Chelsea,Stamford Bridge
-3,Premier League,13/03/1999,2,38,Derby County,Pride Park
-2,Premier League,03/04/1999,3,39,Everton,Anfield
-2,Premier League,05/04/1999,2,40,Nottingham Forest,City Ground
-0,Premier League,12/04/1999,0,41,Leeds United,Elland Road
-1,Premier League,17/04/1999,0,42,Aston Villa,Anfield
-1,Premier League,21/04/1999,0,43,Leicester City,Anfield
-1,Premier League,24/04/1999,3,44,Blackburn Rovers,Ewood Park
-2,Premier League,01/05/1999,3,45,Tottenham Hotspur,Anfield
-2,Premier League,05/05/1999,2,46,Manchester United,Anfield
-1,Premier League,08/05/1999,0,47,Sheffield Wednesday,Hillsborough
-0,Premier League,16/05/1999,3,48,Wimbledon,Anfield
-0,Premier League,19/08/2000,1,1,Bradford City,Anfield
-2,Premier League,21/08/2000,0,2,Arsenal,Highbury
-3,Premier League,26/08/2000,3,3,Southampton,The Dell
-1,Premier League,06/09/2000,3,4,Aston Villa,Anfield
-2,Premier League,09/09/2000,3,5,Manchester City,Anfield
-0,UEFA Cup 1st round 1st leg,14/09/2000,1,6,Rapid Bucharest,Stadionul Giulesti
-1,Premier League,17/09/2000,1,7,West Ham United,Upton Park
-1,Premier League,23/09/2000,1,8,Sunderland,Anfield
-0,UEFA Cup 1st round 2nd leg,28/09/2000,0,9,Rapid Bucharest,Anfield
-3,Premier League,01/10/2000,0,10,Chelsea,Stamford Bridge
-0,Premier League,15/10/2000,4,11,Derby County,Pride Park
-0,Premier League,21/10/2000,1,12,Leicester City,Anfield
-0,UEFA Cup 2nd round 1st leg,26/10/2000,1,13,Slovan Liberec,Anfield
-1,Premier League,29/10/2000,3,14,Everton,Anfield
-1,League Cup 3rd round,01/11/2000,2,15,Chelsea,Anfield
-4,Premier League,04/11/2000,3,16,Leeds United,Elland Road
-2,UEFA Cup 2nd round 2nd leg,09/11/2000,3,17,Slovan Liberec,U Nisy Stadium
-1,Premier League,12/11/2000,4,18,Coventry City,Anfield
-2,Premier League,19/11/2000,1,19,Tottenham Hotspur,White Hart Lane
-2,UEFA Cup 3rd round 1st leg,23/11/2000,2,20,Olympiacos,Olympiako Stadio Athinas
-2,Premier League,26/11/2000,1,21,Newcastle United,St James' Park
-0,League Cup 4th round,29/11/2000,8,22,Stoke City,Britannia Stadium
-0,Premier League,02/12/2000,3,23,Charlton Athletic,Anfield
-0,UEFA Cup 3rd round 2nd leg,07/12/2000,2,24,Olympiacos,Anfield
-1,Premier League,10/12/2000,0,25,Ipswich Town,Anfield
-0,League Cup 5th round ,13/12/2000,3,26,Fulham,Anfield
-0,Premier League,17/12/2000,1,27,Manchester United,Old Trafford
-0,Premier League,23/12/2000,4,28,Arsenal,Anfield
-1,Premier League,26/12/2000,0,29,Middlesbrough,Riverside
-1,Premier League,01/01/2001,2,30,Southampton,Anfield
-0,FA Cup 3rd round,06/01/2001,3,31,Rotherham United,Anfield
-2,League Cup Semi-final 1st leg,10/01/2001,1,32,Crystal Palace,Selhurst Park
-0,Premier League,13/01/2001,3,33,Aston Villa,Villa Park
-0,Premier League,20/01/2001,0,34,Middlesbrough,Anfield
-0,League Cup Semi-final 2nd leg,24/01/2001,5,35,Crystal Palace,Anfield
-0,FA Cup 4th round,27/01/2001,2,36,Leeds United,Elland Road
-1,Premier League,31/01/2001,1,37,Manchester City,Maine Road
-0,Premier League,03/02/2001,3,38,West Ham United,Anfield
-1,Premier League,10/02/2001,1,39,Sunderland,Stadium of Light
-0,UEFA Cup 4th round 1st leg,15/02/2001,2,40,Roma,Stadio Olimpico
-2,FA Cup 5th round,18/02/2001,4,41,Manchester City,Anfield
-1,UEFA Cup 4th round 2nd leg,22/02/2001,0,42,Roma,Anfield
-1,League Cup Final ,25/02/2001,1,43,Birmingham City,Millennium Stadium
-2,Premier League,03/03/2001,0,44,Leicester City,Filbert Street
-0,UEFA Cup 5th round 1st leg,08/03/2001,0,45,Porto,Estadio Das Antas
-2,FA Cup 6th round,11/03/2001,4,46,Tranmere Rovers,Prenton Park
-0,UEFA Cup 5th round 2nd leg,15/03/2001,2,47,Porto,Anfield
-1,Premier League,18/03/2001,1,48,Derby County,Anfield
-0,Premier League,31/03/2001,2,49,Manchester United,Anfield
-0,UEFA Cup Semi-final 1st leg,05/04/2001,0,50,Barcelona,Nou Camp
-1,FA Cup Semi-final,08/04/2001,2,51,Wycombe Wanderers,Villa Park
-1,Premier League,10/04/2001,1,52,Ipswich Town,Portman Road
-2,Premier League,13/04/2001,1,53,Leeds United,Anfield
-2,Premier League,16/04/2001,3,54,Everton,Goodison Park
-0,UEFA Cup Semi-final 2nd leg,19/04/2001,1,55,Barcelona,Anfield
-1,Premier League,22/04/2001,3,56,Tottenham Hotspur,Anfield
-0,Premier League,28/04/2001,2,57,Coventry City,Highfield Road
-0,Premier League,01/05/2001,2,58,Bradford City,Valley Parade
-0,Premier League,05/05/2001,3,59,Newcastle United,Anfield
-2,Premier League,08/05/2001,2,60,Chelsea,Anfield
-1,FA Cup Final,12/05/2001,2,61,Arsenal,Millennium Stadium
-4,UEFA Cup Final,16/05/2001,5,62,Alaves,Westfalen Stadion
-0,Premier League,19/05/2001,4,63,Charlton Athletic,The Valley
-1,Premier League,07/08/1999,2,1,Sheffield Wednesday,Hillsborough
-1,Premier League,14/08/1999,0,2,Watford,Anfield
-1,Premier League,21/08/1999,0,3,Middlesbrough,Riverside
-1,Premier League,23/08/1999,2,4,Leeds United,Elland Road
-0,Premier League,28/08/1999,2,5,Arsenal,Anfield
-3,Premier League,11/09/1999,2,6,Manchester United,Anfield
-1,League Cup 2nd round 1st leg,14/09/1999,5,7,Hull City,Boothferry Park
-2,Premier League,18/09/1999,2,8,Leicester City,Filbert Street
-2,League Cup 2nd round 2nd leg,21/09/1999,4,9,Hull City,Anfield
-1,Premier League,27/09/1999,0,10,Everton,Anfield
-0,Premier League,02/10/1999,0,11,Aston Villa,Villa Park
-2,League Cup 3rd round,13/10/1999,1,12,Southampton,The Dell
-0,Premier League,16/10/1999,1,13,Chelsea,Anfield
-1,Premier League,23/10/1999,1,14,Southampton,The Dell
-0,Premier League,27/10/1999,1,15,West Ham United,Anfield
-1,Premier League,01/11/1999,3,16,Bradford City,Anfield
-0,Premier League,06/11/1999,2,17,Derby County,Anfield
-0,Premier League,20/11/1999,2,18,Sunderland,Stadium of Light
-1,Premier League,27/11/1999,0,19,West Ham United,Upton Park
-1,Premier League,05/12/1999,4,20,Sheffield Wednesday,Anfield
-0,FA Cup 3rd round,12/12/1999,2,21,Huddersfield Town,Kirklees Stadium
-0,Premier League,18/12/1999,2,22,Coventry City,Anfield
-2,Premier League,26/12/1999,2,23,Newcastle United,St James' Park
-1,Premier League,28/12/1999,3,24,Wimbledon,Anfield
-1,Premier League,03/01/2000,0,25,Tottenham Hotspur,White Hart Lane
-1,FA Cup 4th round,10/01/2000,0,26,Blackburn Rovers,Anfield
-2,Premier League,15/01/2000,3,27,Watford,Vicarage Road
-0,Premier League,22/01/2000,0,28,Middlesbrough,Anfield
-1,Premier League,05/02/2000,3,29,Leeds United,Anfield
-0,Premier League,13/02/2000,1,30,Arsenal,Highbury
-1,Premier League,04/03/2000,1,31,Manchester United,Old Trafford
-1,Premier League,11/03/2000,1,32,Sunderland,Anfield
-0,Premier League,15/03/2000,0,33,Aston Villa,Anfield
-0,Premier League,18/03/2000,2,34,Derby County,Pride Park
-1,Premier League,25/03/2000,2,35,Newcastle United,Anfield
-0,Premier League,01/04/2000,3,36,Coventry City,Highfield Road
-0,Premier League,09/04/2000,2,37,Tottenham Hotspur,Anfield
-1,Premier League,16/04/2000,2,38,Wimbledon,Selhurst Park
-0,Premier League,21/04/2000,0,39,Everton,Goodison Park
-2,Premier League,29/04/2000,0,40,Chelsea,Stamford Bridge
-2,Premier League,03/05/2000,0,41,Leicester City,Anfield
-0,Premier League,07/05/2000,0,42,Southampton,Anfield
-1,Premier League,14/05/2000,0,43,Bradford City,Valley Parade
-0,Champions League Qualifier 1st leg,08/08/2001,5,1,Haka,Olympia Stadion
-1,Charity Shield,12/08/2001,2,2,Manchester United,Millennium Stadium
-1,Premier League,18/08/2001,2,3,West Ham United,Anfield
-1,Champions League Qualifier 2nd leg,21/08/2001,4,4,Haka,Anfield
-2,European Super Cup,24/08/2001,3,5,Bayern Munich,Stade Louis II
-2,Premier League,27/08/2001,1,6,Bolton Wanderers,Reebok Stadium
-3,Premier League,08/09/2001,1,7,Aston Villa,Anfield
-1,Champions League First Group Phase,11/09/2001,1,8,Boavista,Anfield
-1,Premier League,15/09/2001,3,9,Everton,Goodison Park
-0,Champions League First Group Phase,19/09/2001,0,10,Borussia Dortmund,Westfalen Stadion
-0,Premier League,22/09/2001,1,11,Tottenham Hotspur,Anfield
-0,Champions League First Group Phase,26/09/2001,1,12,Dynamo Kiev,Anfield
-0,Premier League,30/09/2001,2,13,Newcastle United,St James' Park
-2,League Cup 3rd round,09/10/2001,1,14,Grimsby Town,Anfield
-1,Premier League,13/10/2001,1,15,Leeds United,Anfield
-1,Champions League First Group Phase,16/10/2001,2,16,Dynamo Kiev,Olympiysky Stadium
-1,Premier League,20/10/2001,4,17,Leicester City,Filbert Street
-1,Champions League First Group Phase,24/10/2001,1,18,Boavista,Estadio de Bessa
-0,Premier League,27/10/2001,2,19,Charlton Athletic,The Valley
-0,Champions League First Group Phase,30/10/2001,2,20,Borussia Dortmund,Anfield
-1,Premier League,04/11/2001,3,21,Manchester United,Anfield
-1,Premier League,17/11/2001,1,22,Blackburn Rovers,Ewood Park
-3,Champions League Second Group Phase,20/11/2001,1,23,Barcelona,Anfield
-0,Premier League,25/11/2001,1,24,Sunderland,Anfield
-0,Premier League,01/12/2001,1,25,Derby County,Pride Park
-0,Champions League Second Group Phase,05/12/2001,0,26,Roma,Stadio Olimpico
-0,Premier League,08/12/2001,2,27,Middlesbrough,Anfield
-0,Premier League,12/12/2001,0,28,Fulham,Anfield
-4,Premier League,16/12/2001,0,29,Chelsea,Stamford Bridge
-2,Premier League,23/12/2001,1,30,Arsenal,Anfield
-1,Premier League,26/12/2001,2,31,Aston Villa,Villa Park
-1,Premier League,29/12/2001,1,32,West Ham United,Upton Park
-1,Premier League,01/01/2002,1,33,Bolton Wanderers,Anfield
-0,FA Cup 3rd round,05/01/2002,3,34,Birmingham City,Anfield
-2,Premier League,09/01/2002,0,35,Southampton,St Mary's
-1,Premier League,13/01/2002,1,36,Arsenal,Highbury
-1,Premier League,19/01/2002,1,37,Southampton,Anfield
-0,Premier League,22/01/2002,1,38,Manchester United,Old Trafford
-1,FA Cup 4th round,27/01/2002,0,39,Arsenal,Highbury
-0,Premier League,30/01/2002,1,40,Leicester City,Anfield
-0,Premier League,03/02/2002,4,41,Leeds United,Elland Road
-0,Premier League,09/02/2002,6,42,Ipswich Town,Portman Road
-0,Champions League Second Group Phase,20/02/2002,0,43,Galatasaray,Anfield
-1,Premier League,23/02/2002,1,44,Everton,Anfield
-1,Champions League Second Group Phase,26/02/2002,1,45,Galatasaray,Ali Sami Yen
-0,Premier League,02/03/2002,2,46,Fulham,Craven Cottage
-0,Premier League,06/03/2002,3,47,Newcastle United,Anfield
-0,Champions League Second Group Phase,13/03/2002,0,48,Barcelona,Nou Camp
-1,Premier League,16/03/2002,2,49,Middlesbrough,Riverside
-0,Champions League Second Group Phase,19/03/2002,2,50,Roma,Anfield
-0,Premier League,24/03/2002,1,51,Chelsea,Anfield
-0,Premier League,30/03/2002,2,52,Charlton Athletic,Anfield
-0,Champions League Quarter-final 1st leg,03/04/2002,1,53,Bayer Leverkusen,Anfield
-4,Champions League Quarter-final 2nd leg,09/04/2002,2,54,Bayer Leverkusen,Bay Arena
-0,Premier League,13/04/2002,1,55,Sunderland,Stadium of Light
-0,Premier League,20/04/2002,2,56,Derby County,Anfield
-1,Premier League,27/04/2002,0,57,Tottenham Hotspur,White Hart Lane
-3,Premier League,08/05/2002,4,58,Blackburn Rovers,Anfield
-0,Premier League,11/05/2002,5,59,Ipswich Town,Anfield
-1,Community Shield,11/08/2002,0,1,Arsenal,Millennium Stadium
-0,Premier League,18/08/2002,1,2,Aston Villa,Villa Park
-0,Premier League,24/08/2002,3,3,Southampton,Anfield
-2,Premier League,28/08/2002,2,4,Blackburn Rovers,Ewood Park
-2,Premier League,02/09/2002,2,5,Newcastle United,Anfield
-2,Premier League,11/09/2002,2,6,Birmingham City,Anfield
-2,Premier League,14/09/2002,3,7,Bolton Wanderers,Reebok Stadium
-2,Champions League First Group Phase,17/09/2002,0,8,Valencia,Mestalla
-0,Premier League,21/09/2002,2,9,West Bromwich Albion,Anfield
-1,Champions League First Group Phase,25/09/2002,1,10,Basel,Anfield
-0,Premier League,28/09/2002,3,11,Manchester City,Maine Road
-0,Champions League First Group Phase,02/10/2002,5,12,Spartak Moscow,Anfield
-0,Premier League,06/10/2002,1,13,Chelsea,Anfield
-0,Premier League,19/10/2002,1,14,Leeds United,Elland Road
-1,Champions League First Group Phase,22/10/2002,3,15,Spartak Moscow,Dinamo Stadium
-1,Premier League,26/10/2002,2,16,Tottenham Hotspur,Anfield
-1,Champions League First Group Phase,30/10/2002,0,17,Valencia,Anfield
-0,Premier League,02/11/2002,2,18,West Ham United,Anfield
-1,League Cup 3rd round,06/11/2002,3,19,Southampton,Anfield
-1,Premier League,09/11/2002,0,20,Middlesbrough,Riverside
-3,Champions League First Group Phase,12/11/2002,3,21,Basel,Saint Jakob Stadium
-0,Premier League,17/11/2002,0,22,Sunderland,Anfield
-3,Premier League,23/11/2002,2,23,Fulham,Loftus Road
-0,UEFA Cup 3rd round 1st leg,28/11/2002,1,24,Vitesse Arnhem,Gelredome
-2,Premier League,01/12/2002,1,25,Manchester United,Anfield
-1,League Cup 4th round,04/12/2002,1,26,Ipswich Town,Anfield
-2,Premier League,07/12/2002,0,27,Charlton Athletic,The Valley
-0,UEFA Cup 3rd round 2nd leg,12/12/2002,1,28,Vitesse Arnhem,Anfield
-2,Premier League,15/12/2002,1,29,Sunderland,Stadium of Light
-3,League Cup 5th round ,18/12/2002,4,30,Aston Villa,Villa Park
-0,Premier League,22/12/2002,0,31,Everton,Anfield
-1,Premier League,26/12/2002,1,32,Blackburn Rovers,Anfield
-1,Premier League,29/12/2002,1,33,Arsenal,Highbury
-1,Premier League,01/01/2003,0,34,Newcastle United,St James' Park
-0,FA Cup 3rd round,05/01/2003,1,35,Manchester City,Maine Road
-2,League Cup Semi-final 1st leg,08/01/2003,1,36,Sheffield United,Bramall Lane
-1,Premier League,11/01/2003,1,37,Aston Villa,Anfield
-0,Premier League,18/01/2003,1,38,Southampton,St Mary's
-0,League Cup Semi-final 2nd leg,21/01/2003,2,39,Sheffield United,Anfield
-0,FA Cup 4th round,26/01/2003,0,40,Crystal Palace,Selhurst Park
-2,Premier League,29/01/2003,2,41,Arsenal,Anfield
-0,Premier League,02/02/2003,3,42,West Ham United,Upton Park
-2,FA Cup 4th round replay,05/02/2003,0,43,Crystal Palace,Anfield
-1,Premier League,08/02/2003,1,44,Middlesbrough,Anfield
-0,UEFA Cup 4th round 1st leg,20/02/2003,1,45,Auxerre,Stade de l'Abbé Deschamps
-2,Premier League,23/02/2003,1,46,Birmingham City,St Andrews
-0,UEFA Cup 4th round 2nd leg,27/02/2003,2,47,Auxerre,Anfield
-0,League Cup Final ,02/03/2003,2,48,Manchester United,Millennium Stadium
-0,Premier League,08/03/2003,2,49,Bolton Wanderers,Anfield
-1,UEFA Cup 5th round 1st leg,13/03/2003,1,50,Celtic,Celtic Park
-2,Premier League,16/03/2003,3,51,Tottenham Hotspur,White Hart Lane
-2,UEFA Cup 5th round 2nd leg,20/03/2003,0,52,Celtic,Anfield
-1,Premier League,23/03/2003,3,53,Leeds United,Anfield
-4,Premier League,05/04/2003,0,54,Manchester United,Old Trafford
-0,Premier League,12/04/2003,2,55,Fulham,Anfield
-1,Premier League,19/04/2003,2,56,Everton,Goodison Park
-1,Premier League,21/04/2003,2,57,Charlton Athletic,Anfield
-0,Premier League,26/04/2003,6,58,West Bromwich Albion,The Hawthorns
-2,Premier League,03/05/2003,1,59,Manchester City,Anfield
-2,Premier League,11/05/2003,1,60,Chelsea,Stamford Bridge
-3,Premier League,12/08/2017,3,1,Watford,Vicarage Road
-1,Champions League Qualifier 1st leg,15/08/2017,2,2,TSG 1899 Hoffenheim,Rhein-Neckar-Arena
-0,Premier League,19/08/2017,1,3,Crystal Palace,Anfield
-2,Champions League Qualifier 2nd leg,23/08/2017,4,4,TSG 1899 Hoffenheim,Anfield
-0,Premier League,27/08/2017,4,5,Arsenal,Anfield
-5,Premier League,09/09/2017,0,6,Manchester City,Etihad Stadium
-2,Champions League First Group Phase,13/09/2017,2,7,Sevilla,Anfield
-1,Premier League,16/09/2017,1,8,Burnley,Anfield
-2,League Cup 3rd round,19/09/2017,0,9,Leicester City,The Walkers Stadium
-2,Premier League,23/09/2017,3,10,Leicester City,The Walkers Stadium
-1,Champions League First Group Phase,26/09/2017,1,11,Spartak Moscow,Otkrytiye Arena
-1,Premier League,01/10/2017,1,12,Newcastle United,St James' Park
-0,Premier League,14/10/2017,0,13,Manchester United,Anfield
-0,Champions League First Group Phase,17/10/2017,7,14,NK Maribor,Ljudski vrt
-4,Premier League,22/10/2017,1,15,Tottenham Hotspur,Wembley
-0,Premier League,28/10/2017,3,16,Huddersfield Town,Anfield
-0,Champions League First Group Phase,01/11/2017,3,17,NK Maribor,Anfield
-1,Premier League,04/11/2017,4,18,West Ham United, London Stadium
-0,Premier League,18/11/2017,3,19,Southampton,Anfield
-3,Champions League First Group Phase,21/11/2017,3,20,Sevilla,Ramón Sánchez Pizjuán Stadium
-1,Premier League,25/11/2017,1,21,Chelsea,Anfield
-0,Premier League,29/11/2017,3,22,Stoke City,Britannia Stadium
-1,Premier League,02/12/2017,5,23,Brighton & Hove Albion,American Express Community Stadium
-0,Champions League First Group Phase,06/12/2017,7,24,Spartak Moscow,Anfield
-1,Premier League,10/12/2017,1,25,Everton,Anfield
-0,Premier League,13/12/2017,0,26,West Bromwich Albion,Anfield
-0,Premier League,17/12/2017,4,27,Bournemouth,Dean Court
-3,Premier League,22/12/2017,3,28,Arsenal,Emirates Stadium
-0,Premier League,26/12/2017,5,29,Swansea City,Anfield
-1,Premier League,30/12/2017,2,30,Leicester City,Anfield
-1,Premier League,01/01/2018,2,31,Burnley,Turf Moor
-1,FA Cup 3rd round,05/01/2018,2,32,Everton,Anfield
-3,Premier League,14/01/2018,4,33,Manchester City,Anfield
-1,Premier League,22/01/2018,0,34,Swansea City,Liberty Stadium
-3,FA Cup 4th round,27/01/2018,2,35,West Bromwich Albion,Anfield
-3,Premier League,14/08/2016,4,1,Arsenal,Emirates Stadium
-2,Premier League,20/08/2016,0,2,Burnley,Turf Moor
-0,League Cup 2nd round,23/08/2016,5,3,Burton Albion,Pirelli Stadium
-1,Premier League,27/08/2016,1,4,Tottenham Hotspur,White Hart Lane
-1,Premier League,10/09/2016,4,5,Leicester City,Anfield
-1,Premier League,16/09/2016,2,6,Chelsea,Stamford Bridge
-0,League Cup 3rd round,20/09/2016,3,7,Derby County,Pride Park
-1,Premier League,24/09/2016,5,8,Hull City,Anfield
-1,Premier League,01/10/2016,2,9,Swansea City,Liberty Stadium
-0,Premier League,17/10/2016,0,10,Manchester United,Anfield
-1,Premier League,22/10/2016,2,11,West Bromwich Albion,Anfield
-1,League Cup 4th round,25/10/2016,2,12,Tottenham Hotspur,Anfield
-2,Premier League,29/10/2016,4,13,Crystal Palace,Selhurst Park
-1,Premier League,06/11/2016,6,14,Watford,Anfield
-0,Premier League,19/11/2016,0,15,Southampton,St Mary's
-0,Premier League,26/11/2016,2,16,Sunderland,Anfield
-0,League Cup 5th round ,29/11/2016,2,17,Leeds United,Anfield
-4,Premier League,04/12/2016,3,18,Bournemouth,Dean Court
-2,Premier League,11/12/2016,2,19,West Ham United,Anfield
-0,Premier League,14/12/2016,3,20,Middlesbrough,Riverside
-0,Premier League,19/12/2016,1,21,Everton,Goodison Park
-1,Premier League,27/12/2016,4,22,Stoke City,Anfield
-0,Premier League,31/12/2016,1,23,Manchester City,Anfield
-2,Premier League,02/01/2017,2,24,Sunderland,Stadium of Light
-0,FA Cup 3rd round,08/01/2017,0,25,Plymouth Argyle,Anfield
-1,League Cup Semi-final 1st leg,11/01/2017,0,26,Southampton,St Mary's
-1,Premier League,15/01/2017,1,27,Manchester United,Old Trafford
-0,FA Cup 3rd round replay,18/01/2017,1,28,Plymouth Argyle,Home Park
-3,Premier League,21/01/2017,2,29,Swansea City,Anfield
-1,League Cup Semi-final 2nd leg,25/01/2017,0,30,Southampton,Anfield
-2,FA Cup 4th round,28/01/2017,1,31,Wolves,Anfield
-1,Premier League,31/01/2017,1,32,Chelsea,Anfield
-2,Premier League,04/02/2017,0,33,Hull City,Kingston Communications Stadium
-0,Premier League,11/02/2017,2,34,Tottenham Hotspur,Anfield
-3,Premier League,27/02/2017,1,35,Leicester City,The Walkers Stadium
-1,Premier League,04/03/2017,3,36,Arsenal,Anfield
-1,Premier League,12/03/2017,2,37,Burnley,Anfield
-1,Premier League,19/03/2017,1,38,Manchester City,Etihad Stadium
-1,Premier League,01/04/2017,3,39,Everton,Anfield
-2,Premier League,05/04/2017,2,40,Bournemouth,Anfield
-1,Premier League,08/04/2017,2,41,Stoke City,Britannia Stadium
-0,Premier League,16/04/2017,1,42,West Bromwich Albion,The Hawthorns
-2,Premier League,23/04/2017,1,43,Crystal Palace,Anfield
-0,Premier League,01/05/2017,1,44,Watford,Vicarage Road
-0,Premier League,07/05/2017,0,45,Southampton,Anfield
-0,Premier League,14/05/2017,4,46,West Ham United, London Stadium
-0,Premier League,21/05/2017,3,47,Middlesbrough,Anfield
-0,Premier League,09/08/2015,1,1,Stoke City,Britannia Stadium
-0,Premier League,17/08/2015,1,2,Bournemouth,Anfield
-0,Premier League,24/08/2015,0,3,Arsenal,Emirates Stadium
-3,Premier League,29/08/2015,0,4,West Ham United,Anfield
-3,Premier League,12/09/2015,1,5,Manchester United,Old Trafford
-1,Europa League Group Stage,17/09/2015,1,6,Bordeaux,Stade Atlantique
-1,Premier League,20/09/2015,1,7,Norwich City,Anfield
-1,League Cup 3rd round,23/09/2015,1,8,Carlisle United,Anfield
-2,Premier League,26/09/2015,3,9,Aston Villa,Anfield
-1,Europa League Group Stage,01/10/2015,1,10,Sion,Anfield
-1,Premier League,04/10/2015,1,11,Everton,Goodison Park
-0,Premier League,17/10/2015,0,12,Tottenham Hotspur,White Hart Lane
-1,Europa League Group Stage,22/10/2015,1,13,Rubin Kazan,Anfield
-1,Premier League,25/10/2015,1,14,Southampton,Anfield
-0,League Cup 4th round,28/10/2015,1,15,Bournemouth,Anfield
-1,Premier League,31/10/2015,3,16,Chelsea,Stamford Bridge
-0,Europa League Group Stage,05/11/2015,1,17,Rubin Kazan,Kazan Arena
-2,Premier League,08/11/2015,1,18,Crystal Palace,Anfield
-1,Premier League,21/11/2015,4,19,Manchester City,Etihad Stadium
-1,Europa League Group Stage,26/11/2015,2,20,Bordeaux,Anfield
-0,Premier League,29/11/2015,1,21,Swansea City,Anfield
-1,League Cup 5th round ,02/12/2015,6,22,Southampton,St Mary's
-2,Premier League,06/12/2015,0,23,Newcastle United,St James' Park
-0,Europa League Group Stage,10/12/2015,0,24,Sion,Stade de Tourbillon 
-2,Premier League,13/12/2015,2,25,West Bromwich Albion,Anfield
-3,Premier League,20/12/2015,0,26,Watford,Vicarage Road
-0,Premier League,26/12/2015,1,27,Leicester City,Anfield
-0,Premier League,30/12/2015,1,28,Sunderland,Stadium of Light
-2,Premier League,02/01/2016,0,29,West Ham United,Upton Park
-0,League Cup Semi-final 1st leg,05/01/2016,1,30,Stoke City,Britannia Stadium
-2,FA Cup 3rd round,08/01/2016,2,31,Exeter City,"St James Park, Exeter"
-3,Premier League,13/01/2016,3,32,Arsenal,Anfield
-1,Premier League,17/01/2016,0,33,Manchester United,Anfield
-0,FA Cup 3rd round replay,20/01/2016,3,34,Exeter City,Anfield
-4,Premier League,23/01/2016,5,35,Norwich City,Carrow Road
-1,League Cup Semi-final 2nd leg,26/01/2016,0,36,Stoke City,Anfield
-0,FA Cup 4th round,30/01/2016,0,37,West Ham United,Anfield
-2,Premier League,02/02/2016,0,38,Leicester City,The Walkers Stadium
-2,Premier League,06/02/2016,2,39,Sunderland,Anfield
-2,FA Cup 4th round replay,09/02/2016,1,40,West Ham United,Upton Park
-0,Premier League,14/02/2016,6,41,Aston Villa,Villa Park
-0,Europa League Round of 32,18/02/2016,0,42,Augsburg,WWK Arena
-0,Europa League Round of 32,25/02/2016,1,43,Augsburg,Anfield
-1,League Cup Final ,28/02/2016,1,44,Manchester City,Wembley
-0,Premier League,02/03/2016,3,45,Manchester City,Anfield
-1,Premier League,06/03/2016,2,46,Crystal Palace,Selhurst Park
-0,Europa League Round of 16,10/03/2016,2,47,Manchester United,Anfield
-1,Europa League Round of 16,17/03/2016,1,48,Manchester United,Old Trafford
-3,Premier League,20/03/2016,2,49,Southampton,St Mary's
-1,Premier League,02/04/2016,1,50,Tottenham Hotspur,Anfield
-1,Europa League Quarter Finals,07/04/2016,1,51,Borussia Dortmund,Westfalen Stadion
-1,Premier League,10/04/2016,4,52,Stoke City,Anfield
-3,Europa League Quarter Finals,14/04/2016,4,53,Borussia Dortmund,Anfield
-1,Premier League,17/04/2016,2,54,Bournemouth,Dean Court
-0,Premier League,20/04/2016,4,55,Everton,Anfield
-2,Premier League,23/04/2016,2,56,Newcastle United,Anfield
-1,Europa League Semi Finals,28/04/2016,0,57,Villarreal,Estadio El Madrigal
-3,Premier League,01/05/2016,1,58,Swansea City,Liberty Stadium
-0,Europa League Semi Finals,05/05/2016,3,59,Villarreal,Anfield
-0,Premier League,08/05/2016,2,60,Watford,Anfield
-1,Premier League,11/05/2016,1,61,Chelsea,Anfield
-1,Premier League,15/05/2016,1,62,West Bromwich Albion,The Hawthorns
-3,Europa League Final,18/05/2016,1,63,Sevilla,Saint Jakob Stadium
-1,Premier League,17/08/2014,2,1,Southampton,Anfield
-3,Premier League,25/08/2014,1,2,Manchester City,Etihad Stadium
-0,Premier League,31/08/2014,3,3,Tottenham Hotspur,White Hart Lane
-1,Premier League,13/09/2014,0,4,Aston Villa,Anfield
-1,Champions League First Group Phase,16/09/2014,2,5,Ludogorets Razgrad,Anfield
-3,Premier League,20/09/2014,1,6,West Ham United,Upton Park
-2,League Cup 3rd round,23/09/2014,2,7,Middlesbrough,Anfield
-1,Premier League,27/09/2014,1,8,Everton,Anfield
-1,Champions League First Group Phase,01/10/2014,0,9,Basel,Saint Jakob Stadium
-1,Premier League,04/10/2014,2,10,West Bromwich Albion,Anfield
-2,Premier League,19/10/2014,3,11,Queens Park Rangers,Loftus Road
-3,Champions League First Group Phase,22/10/2014,0,12,Real Madrid,Anfield
-0,Premier League,25/10/2014,0,13,Hull City,Anfield
-1,League Cup 4th round,28/10/2014,2,14,Swansea City,Anfield
-1,Premier League,01/11/2014,0,15,Newcastle United,St James' Park
-1,Champions League First Group Phase,04/11/2014,0,16,Real Madrid,Bernabeu Stadium
-2,Premier League,08/11/2014,1,17,Chelsea,Anfield
-3,Premier League,23/11/2014,1,18,Crystal Palace,Selhurst Park
-2,Champions League First Group Phase,26/11/2014,2,19,Ludogorets Razgrad,Vassil Levski
-0,Premier League,29/11/2014,1,20,Stoke City,Anfield
-1,Premier League,02/12/2014,3,21,Leicester City,The Walkers Stadium
-0,Premier League,06/12/2014,0,22,Sunderland,Anfield
-1,Champions League First Group Phase,09/12/2014,1,23,Basel,Anfield
-3,Premier League,14/12/2014,0,24,Manchester United,Old Trafford
-1,League Cup 5th round ,17/12/2014,3,25,Bournemouth,Dean Court
-2,Premier League,21/12/2014,2,26,Arsenal,Anfield
-0,Premier League,26/12/2014,1,27,Burnley,Turf Moor
-1,Premier League,29/12/2014,4,28,Swansea City,Anfield
-2,Premier League,01/01/2015,2,29,Leicester City,Anfield
-1,FA Cup 3rd round,05/01/2015,2,30,AFC Wimbledon,Kingsmeadow
-0,Premier League,10/01/2015,1,31,Sunderland,Stadium of Light
-0,Premier League,17/01/2015,2,32,Aston Villa,Villa Park
-1,League Cup Semi-final 1st leg,20/01/2015,1,33,Chelsea,Anfield
-0,FA Cup 4th round,24/01/2015,0,34,Bolton Wanderers,Anfield
-1,League Cup Semi-final 2nd leg,27/01/2015,0,35,Chelsea,Stamford Bridge
-0,Premier League,31/01/2015,2,36,West Ham United,Anfield
-1,FA Cup 4th round replay,04/02/2015,2,37,Bolton Wanderers,Reebok Stadium
-0,Premier League,07/02/2015,0,38,Everton,Goodison Park
-2,Premier League,10/02/2015,3,39,Tottenham Hotspur,Anfield
-1,FA Cup 5th round,14/02/2015,2,40,Crystal Palace,Selhurst Park
-0,Europa League Round of 32,19/02/2015,1,41,Besiktas,Anfield
-0,Premier League,22/02/2015,2,42,Southampton,St Mary's
-1,Europa League Round of 32,26/02/2015,0,43,Besiktas,Ataturk Stadium
-1,Premier League,01/03/2015,2,44,Manchester City,Anfield
-0,Premier League,04/03/2015,2,45,Burnley,Anfield
-0,FA Cup 6th round,08/03/2015,0,46,Blackburn Rovers,Anfield
-0,Premier League,16/03/2015,1,47,Swansea City,Liberty Stadium
-2,Premier League,22/03/2015,1,48,Manchester United,Anfield
-4,Premier League,04/04/2015,1,49,Arsenal,Emirates Stadium
-0,FA Cup 6th round replay,08/04/2015,1,50,Blackburn Rovers,Ewood Park
-0,Premier League,13/04/2015,2,51,Newcastle United,Anfield
-2,FA Cup Semi-final,19/04/2015,1,52,Aston Villa,Wembley
-0,Premier League,25/04/2015,0,53,West Bromwich Albion,The Hawthorns
-1,Premier League,28/04/2015,0,54,Hull City,Kingston Communications Stadium
-1,Premier League,02/05/2015,2,55,Queens Park Rangers,Anfield
-1,Premier League,10/05/2015,1,56,Chelsea,Stamford Bridge
-3,Premier League,16/05/2015,1,57,Crystal Palace,Anfield
-6,Premier League,24/05/2015,1,58,Stoke City,Britannia Stadium
-0,Premier League,17/08/2013,1,1,Stoke City,Anfield
-0,Premier League,24/08/2013,1,2,Aston Villa,Villa Park
-2,League Cup 2nd round,27/08/2013,4,3,Notts County,Anfield
-0,Premier League,01/09/2013,1,4,Manchester United,Anfield
-2,Premier League,16/09/2013,2,5,Swansea City,Liberty Stadium
-1,Premier League,21/09/2013,0,6,Southampton,Anfield
-1,League Cup 3rd round,25/09/2013,0,7,Manchester United,Old Trafford
-1,Premier League,29/09/2013,3,8,Sunderland,Stadium of Light
-1,Premier League,05/10/2013,3,9,Crystal Palace,Anfield
-2,Premier League,19/10/2013,2,10,Newcastle United,St James' Park
-1,Premier League,26/10/2013,4,11,West Bromwich Albion,Anfield
-2,Premier League,02/11/2013,0,12,Arsenal,Emirates Stadium
-0,Premier League,09/11/2013,4,13,Fulham,Anfield
-3,Premier League,23/11/2013,3,14,Everton,Goodison Park
-3,Premier League,01/12/2013,1,15,Hull City,Kingston Communications Stadium
-1,Premier League,04/12/2013,5,16,Norwich City,Anfield
-1,Premier League,07/12/2013,4,17,West Ham United,Anfield
-0,Premier League,15/12/2013,5,18,Tottenham Hotspur,White Hart Lane
-1,Premier League,21/12/2013,3,19,Cardiff City,Anfield
-2,Premier League,26/12/2013,1,20,Manchester City,Etihad Stadium
-2,Premier League,29/12/2013,1,21,Chelsea,Stamford Bridge
-0,Premier League,01/01/2014,2,22,Hull City,Anfield
-0,FA Cup 3rd round,05/01/2014,2,23,Oldham Athletic,Anfield
-3,Premier League,12/01/2014,5,24,Stoke City,Britannia Stadium
-2,Premier League,18/01/2014,2,25,Aston Villa,Anfield
-0,FA Cup 4th round,25/01/2014,2,26,Bournemouth,Dean Court
-0,Premier League,28/01/2014,4,27,Everton,Anfield
-1,Premier League,02/02/2014,1,28,West Bromwich Albion,The Hawthorns
-1,Premier League,08/02/2014,5,29,Arsenal,Anfield
-2,Premier League,12/02/2014,3,30,Fulham,Craven Cottage
-2,FA Cup 5th round,16/02/2014,1,31,Arsenal,Emirates Stadium
-3,Premier League,23/02/2014,4,32,Swansea City,Anfield
-0,Premier League,01/03/2014,3,33,Southampton,St Mary's
-0,Premier League,16/03/2014,3,34,Manchester United,Old Trafford
-3,Premier League,22/03/2014,6,35,Cardiff City,Cardiff City Stadium
-1,Premier League,26/03/2014,2,36,Sunderland,Anfield
-0,Premier League,30/03/2014,4,37,Tottenham Hotspur,Anfield
-1,Premier League,06/04/2014,2,38,West Ham United,Upton Park
-2,Premier League,13/04/2014,3,39,Manchester City,Anfield
-2,Premier League,20/04/2014,3,40,Norwich City,Carrow Road
-2,Premier League,27/04/2014,0,41,Chelsea,Anfield
-3,Premier League,05/05/2014,3,42,Crystal Palace,Selhurst Park
-1,Premier League,11/05/2014,2,43,Newcastle United,Anfield
-0,Europa League 3rd Qualifying Round 1st Leg,02/08/2012,1,1,Gomel,Central Stadion
-0,Europa League 3rd Qualifying Round 2nd Leg,09/08/2012,3,2,Gomel,Anfield
-3,Premier League,18/08/2012,0,3,West Bromwich Albion,The Hawthorns
-0,Europa League Play-off 1st Leg,23/08/2012,1,4,Heart Of Midlothian,Tynecastle Stadium
-2,Premier League,26/08/2012,2,5,Manchester City,Anfield
-1,Europa League Play-off 2nd Leg,30/08/2012,1,6,Heart Of Midlothian,Anfield
-2,Premier League,02/09/2012,0,7,Arsenal,Anfield
-1,Premier League,15/09/2012,1,8,Sunderland,Stadium of Light
-3,Europa League Group Stage,20/09/2012,5,9,Young Boys,Stade de Suisse
-2,Premier League,23/09/2012,1,10,Manchester United,Anfield
-1,League Cup 3rd round,26/09/2012,2,11,West Bromwich Albion,The Hawthorns
-2,Premier League,29/09/2012,5,12,Norwich City,Carrow Road
-3,Europa League Group Stage,04/10/2012,2,13,Udinese,Anfield
-0,Premier League,07/10/2012,0,14,Stoke City,Anfield
-0,Premier League,20/10/2012,1,15,Reading,Anfield
-0,Europa League Group Stage,25/10/2012,1,16,Anzhi Makhachkala,Anfield
-2,Premier League,28/10/2012,2,17,Everton,Goodison Park
-3,League Cup 4th round,31/10/2012,1,18,Swansea City,Anfield
-1,Premier League,04/11/2012,1,19,Newcastle United,Anfield
-1,Europa League Group Stage,08/11/2012,0,20,Anzhi Makhachkala,Lokomotiv Stadium
-1,Premier League,11/11/2012,1,21,Chelsea,Stamford Bridge
-0,Premier League,17/11/2012,3,22,Wigan Athletic,Anfield
-2,Europa League Group Stage,22/11/2012,2,23,Young Boys,Anfield
-0,Premier League,25/11/2012,0,24,Swansea City,Liberty Stadium
-2,Premier League,28/11/2012,1,25,Tottenham Hotspur,White Hart Lane
-0,Premier League,01/12/2012,1,26,Southampton,Anfield
-0,Europa League Group Stage,06/12/2012,1,27,Udinese,Stadio Friuli
-2,Premier League,09/12/2012,3,28,West Ham United,Upton Park
-3,Premier League,15/12/2012,1,29,Aston Villa,Anfield
-0,Premier League,22/12/2012,4,30,Fulham,Anfield
-3,Premier League,26/12/2012,1,31,Stoke City,Britannia Stadium
-0,Premier League,30/12/2012,3,32,Queens Park Rangers,Loftus Road
-0,Premier League,02/01/2013,3,33,Sunderland,Anfield
-1,FA Cup 3rd round,06/01/2013,2,34,Mansfield Town,Field Mill
-2,Premier League,13/01/2013,1,35,Manchester United,Old Trafford
-0,Premier League,19/01/2013,5,36,Norwich City,Anfield
-3,FA Cup 4th round,27/01/2013,2,37,Oldham Athletic,Boundary Park
-2,Premier League,30/01/2013,2,38,Arsenal,Emirates Stadium
-2,Premier League,03/02/2013,2,39,Manchester City,Etihad Stadium
-2,Premier League,11/02/2013,0,40,West Bromwich Albion,Anfield
-2,Europa League Round of 32,14/02/2013,0,41,Zenit Saint Petersburg,Petrovsky Stadium
-0,Premier League,17/02/2013,5,42,Swansea City,Anfield
-1,Europa League Round of 32,21/02/2013,3,43,Zenit Saint Petersburg,Anfield
-0,Premier League,02/03/2013,4,44,Wigan Athletic,DW Stadium
-2,Premier League,10/03/2013,3,45,Tottenham Hotspur,Anfield
-3,Premier League,16/03/2013,1,46,Southampton,St Mary's
-1,Premier League,31/03/2013,2,47,Aston Villa,Villa Park
-0,Premier League,07/04/2013,0,48,West Ham United,Anfield
-0,Premier League,13/04/2013,0,49,Reading,Madejski Stadium
-2,Premier League,21/04/2013,2,50,Chelsea,Anfield
-0,Premier League,27/04/2013,6,51,Newcastle United,St James' Park
-0,Premier League,05/05/2013,0,52,Everton,Anfield
-1,Premier League,12/05/2013,3,53,Fulham,Craven Cottage
-0,Premier League,19/05/2013,1,54,Queens Park Rangers,Anfield
-1,Premier League,13/08/2011,1,1,Sunderland,Anfield
-0,Premier League,20/08/2011,2,2,Arsenal,Emirates Stadium
-1,League Cup 2nd round,24/08/2011,3,3,Exeter City,"St James Park, Exeter"
-1,Premier League,27/08/2011,3,4,Bolton Wanderers,Anfield
-1,Premier League,10/09/2011,0,5,Stoke City,Britannia Stadium
-4,Premier League,18/09/2011,0,6,Tottenham Hotspur,White Hart Lane
-1,League Cup 3rd round,21/09/2011,2,7,Brighton & Hove Albion,American Express Community Stadium
-1,Premier League,24/09/2011,2,8,Wolves,Anfield
-0,Premier League,01/10/2011,2,9,Everton,Goodison Park
-1,Premier League,15/10/2011,1,10,Manchester United,Anfield
-1,Premier League,22/10/2011,1,11,Norwich City,Anfield
-1,League Cup 4th round,26/10/2011,2,12,Stoke City,Britannia Stadium
-0,Premier League,29/10/2011,2,13,West Bromwich Albion,The Hawthorns
-0,Premier League,05/11/2011,0,14,Swansea City,Anfield
-1,Premier League,20/11/2011,2,15,Chelsea,Stamford Bridge
-1,Premier League,27/11/2011,1,16,Manchester City,Anfield
-0,League Cup 5th round ,29/11/2011,2,17,Chelsea,Stamford Bridge
-1,Premier League,05/12/2011,0,18,Fulham,Craven Cottage
-0,Premier League,10/12/2011,1,19,Queens Park Rangers,Anfield
-0,Premier League,18/12/2011,2,20,Aston Villa,Villa Park
-0,Premier League,21/12/2011,0,21,Wigan Athletic,DW Stadium
-1,Premier League,26/12/2011,1,22,Blackburn Rovers,Anfield
-1,Premier League,30/12/2011,3,23,Newcastle United,Anfield
-3,Premier League,03/01/2012,0,24,Manchester City,Etihad Stadium
-1,FA Cup 3rd round,06/01/2012,5,25,Oldham Athletic,Anfield
-0,League Cup Semi-final 1st leg,11/01/2012,1,26,Manchester City,Etihad Stadium
-0,Premier League,14/01/2012,0,27,Stoke City,Anfield
-3,Premier League,21/01/2012,1,28,Bolton Wanderers,Reebok Stadium
-2,League Cup Semi-final 2nd leg,25/01/2012,2,29,Manchester City,Anfield
-1,FA Cup 4th round,28/01/2012,2,30,Manchester United,Anfield
-0,Premier League,31/01/2012,3,31,Wolves,Molineux
-0,Premier League,06/02/2012,0,32,Tottenham Hotspur,Anfield
-2,Premier League,11/02/2012,1,33,Manchester United,Old Trafford
-1,FA Cup 5th round,19/02/2012,6,34,Brighton & Hove Albion,Anfield
-2,League Cup Final ,26/02/2012,2,35,Cardiff City,Wembley
-2,Premier League,03/03/2012,1,36,Arsenal,Anfield
-1,Premier League,10/03/2012,0,37,Sunderland,Stadium of Light
-0,Premier League,13/03/2012,3,38,Everton,Anfield
-1,FA Cup 6th round,18/03/2012,2,39,Stoke City,Anfield
-3,Premier League,21/03/2012,2,40,Queens Park Rangers,Loftus Road
-2,Premier League,24/03/2012,1,41,Wigan Athletic,Anfield
-2,Premier League,01/04/2012,0,42,Newcastle United,St James' Park
-1,Premier League,07/04/2012,1,43,Aston Villa,Anfield
-2,Premier League,10/04/2012,3,44,Blackburn Rovers,Ewood Park
-1,FA Cup Semi-final,14/04/2012,2,45,Everton,Wembley
-1,Premier League,22/04/2012,0,46,West Bromwich Albion,Anfield
-0,Premier League,28/04/2012,3,47,Norwich City,Carrow Road
-1,Premier League,01/05/2012,0,48,Fulham,Anfield
-2,FA Cup Final,05/05/2012,1,49,Chelsea,Wembley
-1,Premier League,08/05/2012,4,50,Chelsea,Anfield
-1,Premier League,13/05/2012,0,51,Swansea City,Liberty Stadium
-0,Europa League 3rd Qualifying Round 1st Leg,29/07/2010,2,1,Rabotnicki,Philip II Arena
-0,Europa League 3rd Qualifying Round 2nd Leg,05/08/2010,2,2,Rabotnicki,Anfield
-1,Premier League,15/08/2010,1,3,Arsenal,Anfield
-0,Europa League Play-off 1st Leg,19/08/2010,1,4,Trabzonspor,Anfield
-3,Premier League,23/08/2010,0,5,Manchester City,City of Manchester Stadium 
-1,Europa League Play-off 2nd Leg,26/08/2010,2,6,Trabzonspor,Hüseyin Avni Aker Stadium
-0,Premier League,29/08/2010,1,7,West Bromwich Albion,Anfield
-0,Premier League,12/09/2010,0,8,Birmingham City,St Andrews
-1,Europa League Group Stage,16/09/2010,4,9,Steaua  Bucharest,Anfield
-3,Premier League,19/09/2010,2,10,Manchester United,Old Trafford
-2,League Cup 3rd round,22/09/2010,2,11,Northampton Town,Anfield
-2,Premier League,25/09/2010,2,12,Sunderland,Anfield
-0,Europa League Group Stage,30/09/2010,0,13,Utrecht,Stadion Galgenwaard
-2,Premier League,03/10/2010,1,14,Blackpool,Anfield
-2,Premier League,17/10/2010,0,15,Everton,Goodison Park
-0,Europa League Group Stage,21/10/2010,0,16,Napoli,Stadio San Paolo
-1,Premier League,24/10/2010,2,17,Blackburn Rovers,Anfield
-0,Premier League,31/10/2010,1,18,Bolton Wanderers,Reebok Stadium
-1,Europa League Group Stage,04/11/2010,3,19,Napoli,Anfield
-0,Premier League,07/11/2010,2,20,Chelsea,Anfield
-1,Premier League,10/11/2010,1,21,Wigan Athletic,DW Stadium
-2,Premier League,13/11/2010,0,22,Stoke City,Britannia Stadium
-0,Premier League,20/11/2010,3,23,West Ham United,Anfield
-2,Premier League,28/11/2010,1,24,Tottenham Hotspur,White Hart Lane
-1,Europa League Group Stage,02/12/2010,1,25,Steaua  Bucharest,Ghencea Stadium
-0,Premier League,06/12/2010,3,26,Aston Villa,Anfield
-3,Premier League,11/12/2010,1,27,Newcastle United,St James' Park
-0,Europa League Group Stage,15/12/2010,0,28,Utrecht,Anfield
-1,Premier League,29/12/2010,0,29,Wolves,Anfield
-1,Premier League,01/01/2011,2,30,Bolton Wanderers,Anfield
-3,Premier League,05/01/2011,1,31,Blackburn Rovers,Ewood Park
-1,FA Cup 3rd round,09/01/2011,0,32,Manchester United,Old Trafford
-2,Premier League,12/01/2011,1,33,Blackpool,Bloomfield Road
-2,Premier League,16/01/2011,2,34,Everton,Anfield
-0,Premier League,22/01/2011,3,35,Wolves,Molineux
-0,Premier League,26/01/2011,1,36,Fulham,Anfield
-0,Premier League,02/02/2011,2,37,Stoke City,Anfield
-0,Premier League,06/02/2011,1,38,Chelsea,Stamford Bridge
-1,Premier League,12/02/2011,1,39,Wigan Athletic,Anfield
-0,Europa League Round of 32,17/02/2011,0,40,Sparta Prague,Generali Arena
-0,Europa League Round of 32,24/02/2011,1,41,Sparta Prague,Anfield
-3,Premier League,27/02/2011,1,42,West Ham United,Upton Park
-1,Premier League,06/03/2011,3,43,Manchester United,Anfield
-1,Europa League Round of 16,10/03/2011,0,44,Braga,Estádio Municipal de Braga
-0,Europa League Round of 16,17/03/2011,0,45,Braga,Anfield
-0,Premier League,20/03/2011,2,46,Sunderland,Stadium of Light
-2,Premier League,02/04/2011,1,47,West Bromwich Albion,The Hawthorns
-0,Premier League,11/04/2011,3,48,Manchester City,Anfield
-1,Premier League,17/04/2011,1,49,Arsenal,Emirates Stadium
-0,Premier League,23/04/2011,5,50,Birmingham City,Anfield
-0,Premier League,01/05/2011,3,51,Newcastle United,Anfield
-2,Premier League,09/05/2011,5,52,Fulham,Craven Cottage
-2,Premier League,15/05/2011,0,53,Tottenham Hotspur,Anfield
-1,Premier League,22/05/2011,0,54,Aston Villa,Villa Park
-2,Premier League,16/08/2009,1,1,Tottenham Hotspur,White Hart Lane
-0,Premier League,19/08/2009,4,2,Stoke City,Anfield
-3,Premier League,24/08/2009,1,3,Aston Villa,Anfield
-2,Premier League,29/08/2009,3,4,Bolton Wanderers,Reebok Stadium
-0,Premier League,12/09/2009,4,5,Burnley,Anfield
-0,Champions League First Group Phase,16/09/2009,1,6,Debrecen VSC,Anfield
-2,Premier League,19/09/2009,3,7,West Ham United,Upton Park
-0,League Cup 3rd round,22/09/2009,1,8,Leeds United,Elland Road
-1,Premier League,26/09/2009,6,9,Hull City,Anfield
-2,Champions League First Group Phase,29/09/2009,0,10,Fiorentina,Stadio Artemio Franchi
-2,Premier League,04/10/2009,0,11,Chelsea,Stamford Bridge
-1,Premier League,17/10/2009,0,12,Sunderland,Stadium of Light
-2,Champions League First Group Phase,20/10/2009,1,13,Olympique Lyonnais,Anfield
-0,Premier League,25/10/2009,2,14,Manchester United,Anfield
-2,League Cup 4th round,28/10/2009,1,15,Arsenal,Emirates Stadium
-3,Premier League,31/10/2009,1,16,Fulham,Craven Cottage
-1,Champions League First Group Phase,04/11/2009,1,17,Olympique Lyonnais,Stade Gerland
-2,Premier League,09/11/2009,2,18,Birmingham City,Anfield
-2,Premier League,21/11/2009,2,19,Manchester City,Anfield
-0,Champions League First Group Phase,24/11/2009,1,20,Debrecen VSC,Ferenc Puskás
-0,Premier League,29/11/2009,2,21,Everton,Goodison Park
-0,Premier League,05/12/2009,0,22,Blackburn Rovers,Ewood Park
-2,Champions League First Group Phase,09/12/2009,1,23,Fiorentina,Anfield
-2,Premier League,13/12/2009,1,24,Arsenal,Anfield
-1,Premier League,16/12/2009,2,25,Wigan Athletic,Anfield
-2,Premier League,19/12/2009,0,26,Portsmouth,Fratton Park
-0,Premier League,26/12/2009,2,27,Wolves,Anfield
-0,Premier League,29/12/2009,1,28,Aston Villa,Villa Park
-1,FA Cup 3rd round,02/01/2010,1,29,Reading,Madejski Stadium
-2,FA Cup 3rd round replay,13/01/2010,1,30,Reading,Anfield
-1,Premier League,16/01/2010,1,31,Stoke City,Britannia Stadium
-0,Premier League,20/01/2010,2,32,Tottenham Hotspur,Anfield
-0,Premier League,26/01/2010,0,33,Wolves,Molineux
-0,Premier League,30/01/2010,2,34,Bolton Wanderers,Anfield
-0,Premier League,06/02/2010,1,35,Everton,Anfield
-1,Premier League,10/02/2010,0,36,Arsenal,Emirates Stadium
-0,Europa League Round of 32,18/02/2010,1,37,Unirea Urziceni,Anfield
-0,Premier League,21/02/2010,0,38,Manchester City,City of Manchester Stadium 
-1,Europa League Round of 32,25/02/2010,3,39,Unirea Urziceni,Ghencea Stadium
-1,Premier League,28/02/2010,2,40,Blackburn Rovers,Anfield
-1,Premier League,08/03/2010,0,41,Wigan Athletic,DW Stadium
-1,Europa League Round of 16,11/03/2010,0,42,Lille,Stadium Lille Métropole
-1,Premier League,15/03/2010,4,43,Portsmouth,Anfield
-0,Europa League Round of 16,18/03/2010,3,44,Lille,Anfield
-2,Premier League,21/03/2010,1,45,Manchester United,Old Trafford
-0,Premier League,28/03/2010,3,46,Sunderland,Anfield
-2,Europa League Quarter Finals,01/04/2010,1,47,Benfica,Estadio da Luz
-1,Premier League,04/04/2010,1,48,Birmingham City,St Andrews
-1,Europa League Quarter Finals,08/04/2010,4,49,Benfica,Anfield
-0,Premier League,11/04/2010,0,50,Fulham,Anfield
-0,Premier League,19/04/2010,3,51,West Ham United,Anfield
-1,Europa League Semi Finals,22/04/2010,0,52,Atletico Madrid,Estadio Vicente Calderon
-0,Premier League,25/04/2010,4,53,Burnley,Turf Moor
-1,Europa League Semi Finals,29/04/2010,2,54,Atletico Madrid,Anfield
-2,Premier League,02/05/2010,0,55,Chelsea,Anfield
-0,Premier League,09/05/2010,0,56,Hull City,Kingston Communications Stadium
-0,Champions League 3rd Qualifying round 1st leg,13/08/2008,0,1,Standard Liege,Stade de Sclessin
-0,Premier League,16/08/2008,1,2,Sunderland,Stadium of Light
-1,Premier League,23/08/2008,2,3,Middlesbrough,Anfield
-0,Champions League 3rd Qualifying round 2nd leg,27/08/2008,1,4,Standard Liege,Anfield
-0,Premier League,31/08/2008,0,5,Aston Villa,Villa Park
-1,Premier League,13/09/2008,2,6,Manchester United,Anfield
-1,Champions League First Group Phase,16/09/2008,2,7,Marseille,Velodrome
-0,Premier League,20/09/2008,0,8,Stoke City,Anfield
-1,League Cup 3rd round,23/09/2008,2,9,Crewe Alexandra,Anfield
-0,Premier League,27/09/2008,2,10,Everton,Goodison Park
-1,Champions League First Group Phase,01/10/2008,3,11,PSV Eindhoven,Anfield
-2,Premier League,05/10/2008,3,12,Manchester City,City of Manchester Stadium 
-2,Premier League,18/10/2008,3,13,Wigan Athletic,Anfield
-1,Champions League First Group Phase,22/10/2008,1,14,Atletico Madrid,Estadio Vicente Calderon
-0,Premier League,26/10/2008,1,15,Chelsea,Stamford Bridge
-0,Premier League,29/10/2008,1,16,Portsmouth,Anfield
-2,Premier League,01/11/2008,1,17,Tottenham Hotspur,White Hart Lane
-1,Champions League First Group Phase,04/11/2008,1,18,Atletico Madrid,Anfield
-0,Premier League,08/11/2008,3,19,West Bromwich Albion,Anfield
-4,League Cup 4th round,12/11/2008,2,20,Tottenham Hotspur,White Hart Lane
-0,Premier League,15/11/2008,2,21,Bolton Wanderers,Reebok Stadium
-0,Premier League,22/11/2008,0,22,Fulham,Anfield
-0,Champions League First Group Phase,26/11/2008,1,23,Marseille,Anfield
-0,Premier League,01/12/2008,0,24,West Ham United,Anfield
-1,Premier League,06/12/2008,3,25,Blackburn Rovers,Ewood Park
-1,Champions League First Group Phase,09/12/2008,3,26,PSV Eindhoven,Philips Stadion
-2,Premier League,13/12/2008,2,27,Hull City,Anfield
-1,Premier League,21/12/2008,1,28,Arsenal,Emirates Stadium
-0,Premier League,26/12/2008,3,29,Bolton Wanderers,Anfield
-1,Premier League,28/12/2008,5,30,Newcastle United,St James' Park
-0,FA Cup 3rd round,03/01/2009,2,31,Preston North End,Deepdale
-0,Premier League,10/01/2009,0,32,Stoke City,Britannia Stadium
-1,Premier League,19/01/2009,1,33,Everton,Anfield
-1,FA Cup 4th round,25/01/2009,1,34,Everton,Anfield
-1,Premier League,28/01/2009,1,35,Wigan Athletic,JJB Stadium
-0,Premier League,01/02/2009,2,36,Chelsea,Anfield
-1,FA Cup 4th round replay,04/02/2009,0,37,Everton,Goodison Park
-2,Premier League,07/02/2009,3,38,Portsmouth,Fratton Park
-1,Premier League,22/02/2009,1,39,Manchester City,Anfield
-0,Champions League  1st knockout r. 1st leg,25/02/2009,1,40,Real Madrid,Bernabeu Stadium
-2,Premier League,28/02/2009,0,41,Middlesbrough,Riverside
-0,Premier League,03/03/2009,2,42,Sunderland,Anfield
-0,Champions League 1st knockout r. 2nd leg ,10/03/2009,4,43,Real Madrid,Anfield
-1,Premier League,14/03/2009,4,44,Manchester United,Old Trafford
-0,Premier League,22/03/2009,5,45,Aston Villa,Anfield
-0,Premier League,04/04/2009,1,46,Fulham,Craven Cottage
-3,Champions League Quarter-final 1st leg,08/04/2009,1,47,Chelsea,Anfield
-0,Premier League,11/04/2009,4,48,Blackburn Rovers,Anfield
-4,Champions League Quarter-final 2nd leg,14/04/2009,4,49,Chelsea,Stamford Bridge
-4,Premier League,21/04/2009,4,50,Arsenal,Anfield
-1,Premier League,25/04/2009,3,51,Hull City,Kingston Communications Stadium
-0,Premier League,03/05/2009,3,52,Newcastle United,Anfield
-0,Premier League,09/05/2009,3,53,West Ham United,Upton Park
-0,Premier League,17/05/2009,2,54,West Bromwich Albion,The Hawthorns
-1,Premier League,24/05/2009,3,55,Tottenham Hotspur,Anfield
-1,Premier League,11/08/2007,2,1,Aston Villa,Villa Park
-0,Champions League 3rd Qualifying round 1st leg,15/08/2007,1,2,Toulouse,Stadium Municipal
-1,Premier League,19/08/2007,1,3,Chelsea,Anfield
-0,Premier League,25/08/2007,2,4,Sunderland,Stadium of Light
-0,Champions League 3rd Qualifying round 2nd leg,28/08/2007,4,5,Toulouse,Anfield
-0,Premier League,01/09/2007,6,6,Derby County,Anfield
-0,Premier League,15/09/2007,0,7,Portsmouth,Fratton Park
-1,Champions League First Group Phase,18/09/2007,1,8,Porto,Estadio da Dragao
-0,Premier League,22/09/2007,0,9,Birmingham City,Anfield
-2,League Cup 3rd round,25/09/2007,4,10,Reading,Madejski Stadium
-0,Premier League,29/09/2007,1,11,Wigan Athletic,JJB Stadium
-1,Champions League First Group Phase,03/10/2007,0,12,Marseille,Anfield
-2,Premier League,07/10/2007,2,13,Tottenham Hotspur,Anfield
-1,Premier League,20/10/2007,2,14,Everton,Goodison Park
-2,Champions League First Group Phase,24/10/2007,1,15,Besiktas,Inonu Stadium
-1,Premier League,28/10/2007,1,16,Arsenal,Anfield
-1,League Cup 4th round,31/10/2007,2,17,Cardiff City,Anfield
-0,Premier League,03/11/2007,0,18,Blackburn Rovers,Ewood Park
-0,Champions League First Group Phase,06/11/2007,8,19,Besiktas,Anfield
-0,Premier League,10/11/2007,2,20,Fulham,Anfield
-0,Premier League,24/11/2007,3,21,Newcastle United,St James' Park
-1,Champions League First Group Phase,28/11/2007,4,22,Porto,Anfield
-0,Premier League,02/12/2007,4,23,Bolton Wanderers,Anfield
-3,Premier League,08/12/2007,1,24,Reading,Madejski Stadium
-0,Champions League First Group Phase,11/12/2007,4,25,Marseille,Velodrome
-1,Premier League,16/12/2007,0,26,Manchester United,Anfield
-2,League Cup 5th round ,19/12/2007,0,27,Chelsea,Stamford Bridge
-1,Premier League,22/12/2007,4,28,Portsmouth,Anfield
-1,Premier League,26/12/2007,2,29,Derby County,Pride Park
-0,Premier League,30/12/2007,0,30,Manchester City,City of Manchester Stadium 
-1,Premier League,02/01/2008,1,31,Wigan Athletic,Anfield
-1,FA Cup 3rd round,06/01/2008,1,32,Luton Town,Kenilworth Road
-1,Premier League,12/01/2008,1,33,Middlesbrough,Riverside
-0,FA Cup 3rd round replay,15/01/2008,5,34,Luton Town,Anfield
-2,Premier League,21/01/2008,2,35,Aston Villa,Anfield
-2,FA Cup 4th round,26/01/2008,5,36,Havant & Waterlooville,Anfield
-1,Premier League,30/01/2008,0,37,West Ham United,Upton Park
-0,Premier League,02/02/2008,3,38,Sunderland,Anfield
-0,Premier League,10/02/2008,0,39,Chelsea,Stamford Bridge
-2,FA Cup 5th round,16/02/2008,1,40,Barnsley,Anfield
-0,Champions League  1st knockout r. 1st leg,19/02/2008,2,41,Inter Milan,Anfield
-2,Premier League,23/02/2008,3,42,Middlesbrough,Anfield
-1,Premier League,02/03/2008,3,43,Bolton Wanderers,Reebok Stadium
-0,Premier League,05/03/2008,4,44,West Ham United,Anfield
-0,Premier League,08/03/2008,3,45,Newcastle United,Anfield
-0,Champions League 1st knockout r. 2nd leg ,11/03/2008,1,46,Inter Milan,San Siro
-1,Premier League,15/03/2008,2,47,Reading,Anfield
-3,Premier League,23/03/2008,0,48,Manchester United,Old Trafford
-0,Premier League,30/03/2008,1,49,Everton,Anfield
-1,Champions League Quarter-final 1st leg,02/04/2008,1,50,Arsenal,Emirates Stadium
-1,Premier League,05/04/2008,1,51,Arsenal,Emirates Stadium
-2,Champions League Quarter-final 2nd leg,08/04/2008,4,52,Arsenal,Anfield
-1,Premier League,13/04/2008,3,53,Blackburn Rovers,Anfield
-0,Premier League,19/04/2008,2,54,Fulham,Craven Cottage
-1,Champions League Semi-final 1st leg,22/04/2008,1,55,Chelsea,Anfield
-2,Premier League,26/04/2008,2,56,Birmingham City,St Andrews
-3,Champions League Semi-final 2nd leg,30/04/2008,2,57,Chelsea,Stamford Bridge
-0,Premier League,04/05/2008,1,58,Manchester City,Anfield
-0,Premier League,11/05/2008,2,59,Tottenham Hotspur,White Hart Lane
-1,Champions League 3rd Qualifying round 1st leg,09/08/2006,2,1,Maccabi Haifa,Anfield
-1,Community Shield,13/08/2006,2,2,Chelsea,Millennium Stadium
-1,Premier League,19/08/2006,1,3,Sheffield United,Bramall Lane
-1,Champions League 3rd Qualifying round 2nd leg,22/08/2006,1,4,Maccabi Haifa,Valery Lobanovskiy Stadium
-1,Premier League,26/08/2006,2,5,West Ham United,Anfield
-3,Premier League,09/09/2006,0,6,Everton,Goodison Park
-0,Champions League First Group Phase,12/09/2006,0,7,PSV Eindhoven,Philips Stadion
-1,Premier League,17/09/2006,0,8,Chelsea,Stamford Bridge
-0,Premier League,20/09/2006,2,9,Newcastle United,Anfield
-0,Premier League,23/09/2006,3,10,Tottenham Hotspur,Anfield
-2,Champions League First Group Phase,27/09/2006,3,11,Galatasaray,Anfield
-2,Premier League,30/09/2006,0,12,Bolton Wanderers,Reebok Stadium
-1,Premier League,14/10/2006,1,13,Blackburn Rovers,Anfield
-0,Champions League First Group Phase,18/10/2006,1,14,Bordeaux,Jacques-Chaban Delmas Stadium
-2,Premier League,22/10/2006,0,15,Manchester United,Old Trafford
-3,League Cup 3rd round,25/10/2006,4,16,Reading,Anfield
-1,Premier League,28/10/2006,3,17,Aston Villa,Anfield
-0,Champions League First Group Phase,31/10/2006,3,18,Bordeaux,Anfield
-0,Premier League,04/11/2006,2,19,Reading,Anfield
-0,League Cup 4th round,08/11/2006,1,20,Birmingham City,St Andrews
-3,Premier League,12/11/2006,0,21,Arsenal,Emirates Stadium
-0,Premier League,18/11/2006,0,22,Middlesbrough,Riverside
-0,Champions League First Group Phase,22/11/2006,2,23,PSV Eindhoven,Anfield
-0,Premier League,25/11/2006,1,24,Manchester City,Anfield
-0,Premier League,29/11/2006,0,25,Portsmouth,Anfield
-0,Premier League,02/12/2006,4,26,Wigan Athletic,JJB Stadium
-3,Champions League First Group Phase,05/12/2006,2,27,Galatasaray,Ataturk Stadium
-0,Premier League,09/12/2006,4,28,Fulham,Anfield
-0,Premier League,16/12/2006,3,29,Charlton Athletic,The Valley
-0,Premier League,23/12/2006,2,30,Watford,Anfield
-1,Premier League,26/12/2006,0,31,Blackburn Rovers,Ewood Park
-0,Premier League,30/12/2006,1,32,Tottenham Hotspur,White Hart Lane
-0,Premier League,01/01/2007,3,33,Bolton Wanderers,Anfield
-3,FA Cup 3rd round,06/01/2007,1,34,Arsenal,Anfield
-6,League Cup 5th round ,09/01/2007,3,35,Arsenal,Anfield
-0,Premier League,13/01/2007,3,36,Watford,Vicarage Road
-0,Premier League,20/01/2007,2,37,Chelsea,Anfield
-1,Premier League,30/01/2007,2,38,West Ham United,Upton Park
-0,Premier League,03/02/2007,0,39,Everton,Anfield
-2,Premier League,10/02/2007,1,40,Newcastle United,St James' Park
-1,Champions League  1st knockout r. 1st leg,21/02/2007,2,41,Barcelona,Nou Camp
-0,Premier League,24/02/2007,4,42,Sheffield United,Anfield
-1,Premier League,03/03/2007,0,43,Manchester United,Anfield
-1,Champions League 1st knockout r. 2nd leg ,06/03/2007,0,44,Barcelona,Anfield
-0,Premier League,18/03/2007,0,45,Aston Villa,Villa Park
-1,Premier League,31/03/2007,4,46,Arsenal,Anfield
-0,Champions League Quarter-final 1st leg,03/04/2007,3,47,PSV Eindhoven,Philips Stadion
-1,Premier League,07/04/2007,2,48,Reading,Madejski Stadium
-0,Champions League Quarter-final 2nd leg,11/04/2007,1,49,PSV Eindhoven,Anfield
-0,Premier League,14/04/2007,0,50,Manchester City,City of Manchester Stadium 
-0,Premier League,18/04/2007,2,51,Middlesbrough,Anfield
-0,Premier League,21/04/2007,2,52,Wigan Athletic,Anfield
-1,Champions League Semi-final 1st leg,25/04/2007,0,53,Chelsea,Stamford Bridge
-2,Premier League,28/04/2007,1,54,Portsmouth,Fratton Park
-0,Champions League Semi-final 2nd leg,01/05/2007,1,55,Chelsea,Anfield
-1,Premier League,05/05/2007,0,56,Fulham,Craven Cottage
-2,Premier League,13/05/2007,2,57,Charlton Athletic,Anfield
-2,Champions League Final,23/05/2007,1,58,AC Milan,Athens Olympic Stadium
-0,Champions League 1st Qualifying round 1st leg,13/07/2005,3,1,Total Network Solutions,Anfield
-0,Champions League 1st Qualifying round 2nd leg,19/07/2005,3,2,Total Network Solutions,Racecourse Ground
-1,Champions League 2nd Qualifying round 1st leg,26/07/2005,3,3,FBK Kaunas,S Darius & S Girenas Stadium
-0,Champions League 2nd Qualifying round 2nd leg,02/08/2005,2,4,FBK Kaunas,Anfield
-1,Champions League 3rd Qualifying round 1st leg,10/08/2005,3,5,CSKA Sofia,Vassil Levski
-0,Premier League,13/08/2005,0,6,Middlesbrough,Riverside
-0,Premier League,20/08/2005,1,7,Sunderland,Anfield
-1,Champions League 3rd Qualifying round 2nd leg,23/08/2005,0,8,CSKA Sofia,Anfield
-1,European Super Cup,26/08/2005,3,9,CSKA Moscow,Stade Louis II
-0,Premier League,10/09/2005,0,10,Tottenham Hotspur,White Hart Lane
-1,Champions League First Group Phase,13/09/2005,2,11,Real Betis,Manuel Ruiz de Lopera
-0,Premier League,18/09/2005,0,12,Manchester United,Anfield
-2,Premier League,24/09/2005,2,13,Birmingham City,St Andrews
-0,Champions League First Group Phase,28/09/2005,0,14,Chelsea,Anfield
-4,Premier League,02/10/2005,1,15,Chelsea,Anfield
-0,Premier League,15/10/2005,1,16,Blackburn Rovers,Anfield
-0,Champions League First Group Phase,19/10/2005,1,17,Anderlecht,Constant Vanden Stock Stadium
-2,Premier League,22/10/2005,0,18,Fulham,Craven Cottage
-2,League Cup 3rd round,25/10/2005,1,19,Crystal Palace,Selhurst Park
-0,Premier League,29/10/2005,2,20,West Ham United,Anfield
-0,Champions League First Group Phase,01/11/2005,3,21,Anderlecht,Anfield
-0,Premier League,05/11/2005,2,22,Aston Villa,Villa Park
-0,Premier League,19/11/2005,3,23,Portsmouth,Anfield
-0,Champions League First Group Phase,23/11/2005,0,24,Real Betis,Anfield
-0,Premier League,26/11/2005,1,25,Manchester City,City of Manchester Stadium 
-0,Premier League,30/11/2005,2,26,Sunderland,Stadium of Light
-0,Premier League,03/12/2005,3,27,Wigan Athletic,Anfield
-0,Champions League First Group Phase,06/12/2005,0,28,Chelsea,Stamford Bridge
-0,Premier League,10/12/2005,2,29,Middlesbrough,Anfield
-0,World Club Championship Semi-final,15/12/2005,3,30,Deportivo Saprissa,Yokohama International Stadium
-1,World Club Championship,18/12/2005,0,31,Sao Paolo,Yokohama International Stadium
-0,Premier League,26/12/2005,2,32,Newcastle United,Anfield
-1,Premier League,28/12/2005,3,33,Everton,Goodison Park
-0,Premier League,31/12/2005,1,34,West Bromwich Albion,Anfield
-2,Premier League,02/01/2006,2,35,Bolton Wanderers,Reebok Stadium
-3,FA Cup 3rd round,07/01/2006,5,36,Luton Town,Kenilworth Road
-0,Premier League,14/01/2006,1,37,Tottenham Hotspur,Anfield
-1,Premier League,22/01/2006,0,38,Manchester United,Old Trafford
-1,FA Cup 4th round,29/01/2006,2,39,Portsmouth,Fratton Park
-1,Premier League,01/02/2006,1,40,Birmingham City,Anfield
-2,Premier League,05/02/2006,0,41,Chelsea,Stamford Bridge
-2,Premier League,08/02/2006,0,42,Charlton Athletic,The Valley
-0,Premier League,11/02/2006,1,43,Wigan Athletic,JJB Stadium
-0,Premier League,14/02/2006,1,44,Arsenal,Anfield
-0,FA Cup 5th round,18/02/2006,1,45,Manchester United,Anfield
-1,Champions League  1st knockout r. 1st leg,21/02/2006,0,46,Benfica,Estadio da Luz
-0,Premier League,26/02/2006,1,47,Manchester City,Anfield
-0,Premier League,04/03/2006,0,48,Charlton Athletic,Anfield
-2,Champions League 1st knockout r. 2nd leg ,08/03/2006,0,49,Benfica,Anfield
-2,Premier League,12/03/2006,1,50,Arsenal,Highbury
-1,Premier League,15/03/2006,5,51,Fulham,Anfield
-1,Premier League,19/03/2006,3,52,Newcastle United,St James' Park
-0,FA Cup 6th round,21/03/2006,7,53,Birmingham City,St Andrews
-1,Premier League,25/03/2006,3,54,Everton,Anfield
-0,Premier League,01/04/2006,2,55,West Bromwich Albion,The Hawthorns
-0,Premier League,09/04/2006,1,56,Bolton Wanderers,Anfield
-0,Premier League,16/04/2006,1,57,Blackburn Rovers,Ewood Park
-1,FA Cup Semi-final,22/04/2006,2,58,Chelsea,Old Trafford
-1,Premier League,26/04/2006,2,59,West Ham United,Upton Park
-1,Premier League,29/04/2006,3,60,Aston Villa,Anfield
-1,Premier League,07/05/2006,3,61,Portsmouth,Fratton Park
-3,FA Cup Final,13/05/2006,3,62,West Ham United,Millennium Stadium
-0,Champions League 3rd Qualifying round 1st leg,10/08/2004,2,1,Grazer AK,Arnold Schwarzenegger Stadion
-1,Premier League,14/08/2004,1,2,Tottenham Hotspur,White Hart Lane
-1,Premier League,21/08/2004,2,3,Manchester City,Anfield
-1,Champions League 3rd Qualifying round 2nd leg,24/08/2004,0,4,Grazer AK,Anfield
-1,Premier League,29/08/2004,0,5,Bolton Wanderers,Reebok Stadium
-0,Premier League,11/09/2004,3,6,West Bromwich Albion,Anfield
-0,Champions League First Group Phase,15/09/2004,2,7,AS Monaco,Anfield
-2,Premier League,20/09/2004,1,8,Manchester United,Old Trafford
-0,Premier League,25/09/2004,3,9,Norwich City,Anfield
-1,Champions League First Group Phase,28/09/2004,0,10,Olympiacos,Yorgos Karaiskakis Stadium
-1,Premier League,03/10/2004,0,11,Chelsea,Stamford Bridge
-2,Premier League,16/10/2004,4,12,Fulham,Craven Cottage
-0,Champions League First Group Phase,19/10/2004,0,13,Deportivo La Coruna,Anfield
-0,Premier League,23/10/2004,2,14,Charlton Athletic,Anfield
-0,League Cup 3rd round,26/10/2004,3,15,Millwall,The New Den
-2,Premier League,30/10/2004,2,16,Blackburn Rovers,Ewood Park
-0,Champions League First Group Phase,03/11/2004,1,17,Deportivo La Coruna,Estadio Municipal De Riazor
-1,Premier League,06/11/2004,0,18,Birmingham City,Anfield
-0,League Cup 4th round,10/11/2004,2,19,Middlesbrough,Anfield
-2,Premier League,13/11/2004,3,20,Crystal Palace,Anfield
-2,Premier League,20/11/2004,0,21,Middlesbrough,Riverside
-1,Champions League First Group Phase,23/11/2004,0,22,AS Monaco,Stade Louis II
-1,Premier League,28/11/2004,2,23,Arsenal,Anfield
-1,League Cup 5th round ,01/12/2004,1,24,Tottenham Hotspur,White Hart Lane
-1,Premier League,04/12/2004,1,25,Aston Villa,Villa Park
-1,Champions League First Group Phase,08/12/2004,3,26,Olympiacos,Anfield
-1,Premier League,11/12/2004,0,27,Everton,Goodison Park
-1,Premier League,14/12/2004,1,28,Portsmouth,Anfield
-1,Premier League,19/12/2004,3,29,Newcastle United,Anfield
-0,Premier League,26/12/2004,5,30,West Bromwich Albion,The Hawthorns
-0,Premier League,28/12/2004,1,31,Southampton,Anfield
-1,Premier League,01/01/2005,0,32,Chelsea,Anfield
-1,Premier League,03/01/2005,2,33,Norwich City,Carrow Road
-0,League Cup Semi-final 1st leg,11/01/2005,1,34,Watford,Anfield
-1,Premier League,15/01/2005,0,35,Manchester United,Anfield
-1,FA Cup 3rd round,18/01/2005,0,36,Burnley,Turf Moor
-2,Premier League,22/01/2005,0,37,Southampton,St Mary's
-0,League Cup Semi-final 2nd leg,25/01/2005,1,38,Watford,Vicarage Road
-1,Premier League,01/02/2005,2,39,Charlton Athletic,The Valley
-1,Premier League,05/02/2005,3,40,Fulham,Anfield
-2,Premier League,12/02/2005,0,41,Birmingham City,St Andrews
-1,Champions League  1st knockout r. 1st leg,22/02/2005,3,42,Bayer Leverkusen,Anfield
-3,League Cup Final ,27/02/2005,2,43,Chelsea,Millennium Stadium
-1,Premier League,05/03/2005,0,44,Newcastle United,St James' Park
-1,Champions League 1st knockout r. 2nd leg ,09/03/2005,3,45,Bayer Leverkusen,Bay Arena
-0,Premier League,16/03/2005,0,46,Blackburn Rovers,Anfield
-1,Premier League,20/03/2005,2,47,Everton,Anfield
-0,Premier League,02/04/2005,1,48,Bolton Wanderers,Anfield
-1,Champions League Quarter-final 1st leg,05/04/2005,2,49,Juventus,Anfield
-1,Premier League,09/04/2005,0,50,Manchester City,City of Manchester Stadium 
-0,Champions League Quarter-final 2nd leg,13/04/2005,0,51,Juventus,Stadio Dell'Alpi
-2,Premier League,16/04/2005,2,52,Tottenham Hotspur,Anfield
-1,Premier League,20/04/2005,2,53,Portsmouth,Fratton Park
-1,Premier League,23/04/2005,0,54,Crystal Palace,Selhurst Park
-0,Champions League Semi-final 1st leg,27/04/2005,0,55,Chelsea,Stamford Bridge
-1,Premier League,30/04/2005,1,56,Middlesbrough,Anfield
-0,Champions League Semi-final 2nd leg,03/05/2005,1,57,Chelsea,Anfield
-3,Premier League,08/05/2005,1,58,Arsenal,Highbury
-1,Premier League,15/05/2005,2,59,Aston Villa,Anfield
-3,Champions League Final,25/05/2005,3,60,AC Milan,Ataturk Stadium
+competition,date,liverpool_score,nth_game_this_season,opposition,opposition_score,venue
+1st Division,1991-08-17,2,1,Oldham Athletic,1,Anfield
+1st Division,1991-08-21,1,2,Manchester City,2,Maine Road
+1st Division,1991-08-24,0,3,Luton Town,0,Kenilworth Road
+1st Division,1991-08-27,1,4,Queens Park Rangers,0,Anfield
+1st Division,1991-08-31,3,5,Everton,1,Anfield
+1st Division,1991-09-07,2,6,Notts County,1,Meadow Lane
+1st Division,1991-09-14,1,7,Aston Villa,1,Anfield
+UEFA Cup 1st round 1st leg,1991-09-18,6,8,Kuusysi Lahti,1,Anfield
+1st Division,1991-09-21,0,9,Leeds United,1,Elland Road
+League Cup 2nd round 1st leg,1991-09-25,2,10,Stoke City,2,Anfield
+1st Division,1991-09-28,1,11,Sheffield Wednesday,1,Anfield
+UEFA Cup 1st round 2nd leg,1991-10-02,0,12,Kuusysi Lahti,1,Lahden Stadion
+1st Division,1991-10-06,0,13,Manchester United,0,Old Trafford
+League Cup 2nd round 2nd leg,1991-10-09,3,14,Stoke City,2,Victoria Ground
+1st Division,1991-10-19,2,15,Chelsea,2,Stamford Bridge
+UEFA Cup 2nd round 1st leg,1991-10-23,0,16,Auxerre,2,Stade de l'Abbé Deschamps
+1st Division,1991-10-26,1,17,Coventry City,0,Anfield
+League Cup 3rd round,1991-10-29,2,18,Port Vale,2,Anfield
+1st Division,1991-11-02,1,19,Crystal Palace,2,Anfield
+UEFA Cup 2nd round 2nd leg,1991-11-06,3,20,Auxerre,0,Anfield
+1st Division,1991-11-17,0,21,West Ham United,0,Upton Park
+League Cup 3rd round replay,1991-11-20,4,22,Port Vale,1,Vale Park
+1st Division,1991-11-23,0,23,Wimbledon,0,Selhurst Park
+UEFA Cup 3rd round 1st leg,1991-11-27,2,24,Swarowski Tirol,0,Tivoli
+1st Division,1991-11-30,2,25,Norwich City,1,Anfield
+League Cup 4th round,1991-12-03,0,26,Peterborough United,1,London Road
+1st Division,1991-12-07,1,27,Southampton,1,The Dell
+UEFA Cup 3rd round 2nd leg,1991-12-11,4,28,Swarowski Tirol,0,Anfield
+1st Division,1991-12-14,2,29,Nottingham Forest,0,Anfield
+1st Division,1991-12-18,2,30,Tottenham Hotspur,1,White Hart Lane
+1st Division,1991-12-21,2,31,Manchester City,2,Anfield
+1st Division,1991-12-26,0,32,Queens Park Rangers,0,Loftus Road
+1st Division,1991-12-28,1,33,Everton,1,Goodison Park
+1st Division,1992-01-01,2,34,Sheffield United,1,Anfield
+FA Cup 3rd round,1992-01-06,4,35,Crewe Alexandra,0,Gresty Road
+1st Division,1992-01-11,2,36,Luton Town,1,Anfield
+1st Division,1992-01-18,3,37,Oldham Athletic,2,Boundary Park
+1st Division,1992-01-29,2,38,Arsenal,0,Anfield
+1st Division,1992-02-01,1,39,Chelsea,2,Anfield
+FA Cup 4th round,1992-02-05,1,40,Bristol Rovers,1,Twerton Park
+1st Division,1992-02-08,0,41,Coventry City,0,Highfield Road
+FA Cup 4th round replay,1992-02-11,2,42,Bristol Rovers,1,Anfield
+FA Cup 5th round,1992-02-16,0,43,Ipswich Town,0,Portman Road
+1st Division,1992-02-22,0,44,Norwich City,3,Carrow Road
+FA Cup 5th round replay,1992-02-26,3,45,Ipswich Town,2,Anfield
+1st Division,1992-02-29,0,46,Southampton,0,Anfield
+UEFA Cup 4th round 1st leg,1992-03-04,0,47,Genoa,2,Stadio Luigi Ferraris
+FA Cup 6th round,1992-03-08,1,48,Aston Villa,0,Anfield
+1st Division,1992-03-11,1,49,West Ham United,0,Anfield
+1st Division,1992-03-14,0,50,Crystal Palace,1,Selhurst Park
+UEFA Cup 4th round 2nd leg,1992-03-18,1,51,Genoa,2,Anfield
+1st Division,1992-03-21,2,52,Tottenham Hotspur,1,Anfield
+1st Division,1992-03-28,0,53,Sheffield United,2,Bramall Lane
+1st Division,1992-03-31,4,54,Notts County,0,Anfield
+FA Cup Semi-final,1992-04-05,1,55,Portsmouth,1,Highbury
+1st Division,1992-04-08,2,56,Wimbledon,3,Anfield
+1st Division,1992-04-11,0,57,Aston Villa,1,Villa Park
+FA Cup Semi-final replay,1992-04-13,0,58,Portsmouth,0,Villa Park
+1st Division,1992-04-18,0,59,Leeds United,0,Anfield
+1st Division,1992-04-20,0,60,Arsenal,4,Highbury
+1st Division,1992-04-22,1,61,Nottingham Forest,1,City Ground
+1st Division,1992-04-26,2,62,Manchester United,0,Anfield
+1st Division,1992-05-02,0,63,Sheffield Wednesday,0,Hillsborough
+FA Cup Final,1992-05-09,2,64,Sunderland,0,Wembley
+Premier League,1993-08-14,2,1,Sheffield Wednesday,0,Anfield
+Premier League,1993-08-18,3,2,Queens Park Rangers,1,Loftus Road
+Premier League,1993-08-22,5,3,Swindon Town,0,County Ground
+Premier League,1993-08-25,1,4,Tottenham Hotspur,2,Anfield
+Premier League,1993-08-28,2,5,Leeds United,0,Anfield
+Premier League,1993-09-01,0,6,Coventry City,1,Highfield Road
+Premier League,1993-09-12,0,7,Blackburn Rovers,1,Anfield
+Premier League,1993-09-18,0,8,Everton,2,Goodison Park
+League Cup 2nd round 1st leg,1993-09-22,3,9,Fulham,1,Craven Cottage
+Premier League,1993-09-25,0,10,Chelsea,1,Stamford Bridge
+Premier League,1993-10-02,0,11,Arsenal,0,Anfield
+League Cup 2nd round 2nd leg,1993-10-05,5,12,Fulham,0,Anfield
+Premier League,1993-10-16,2,13,Oldham Athletic,1,Anfield
+Premier League,1993-10-23,1,14,Manchester City,1,Maine Road
+League Cup 3rd round,1993-10-27,3,15,Ipswich Town,2,Anfield
+Premier League,1993-10-30,4,16,Southampton,2,Anfield
+Premier League,1993-11-06,2,17,West Ham United,0,Anfield
+Premier League,1993-11-21,0,18,Newcastle United,3,St James' Park
+Premier League,1993-11-28,2,19,Aston Villa,1,Anfield
+League Cup 4th round,1993-12-01,1,20,Wimbledon,1,Anfield
+Premier League,1993-12-04,1,21,Sheffield Wednesday,3,Hillsborough
+Premier League,1993-12-08,3,22,Queens Park Rangers,2,Anfield
+Premier League,1993-12-11,2,23,Swindon Town,2,Anfield
+League Cup 4th round replay,1993-12-14,2,24,Wimbledon,2,Selhurst Park
+Premier League,1993-12-18,3,25,Tottenham Hotspur,3,White Hart Lane
+Premier League,1993-12-26,0,26,Sheffield United,0,Bramall Lane
+Premier League,1993-12-28,1,27,Wimbledon,1,Anfield
+Premier League,1994-01-01,2,28,Ipswich Town,1,Portman Road
+Premier League,1994-01-04,3,29,Manchester United,3,Anfield
+Premier League,1994-01-15,3,30,Oldham Athletic,0,Boundary Park
+FA Cup 3rd round,1994-01-19,1,31,Bristol City,1,Ashton Gate
+Premier League,1994-01-22,2,32,Manchester City,1,Anfield
+FA Cup 3rd round replay,1994-01-25,0,33,Bristol City,1,Anfield
+Premier League,1994-02-05,2,34,Norwich City,2,Carrow Road
+Premier League,1994-02-14,2,35,Southampton,4,The Dell
+Premier League,1994-02-19,0,36,Leeds United,2,Elland Road
+Premier League,1994-02-26,1,37,Coventry City,0,Anfield
+Premier League,1994-03-05,0,38,Blackburn Rovers,2,Ewood Park
+Premier League,1994-03-13,2,39,Everton,1,Anfield
+Premier League,1994-03-19,2,40,Chelsea,1,Anfield
+Premier League,1994-03-26,0,41,Arsenal,1,Highbury
+Premier League,1994-03-30,0,42,Manchester United,1,Old Trafford
+Premier League,1994-04-02,1,43,Sheffield United,2,Anfield
+Premier League,1994-04-04,1,44,Wimbledon,1,Selhurst Park
+Premier League,1994-04-09,1,45,Ipswich Town,0,Anfield
+Premier League,1994-04-16,0,46,Newcastle United,2,Anfield
+Premier League,1994-04-23,2,47,West Ham United,1,Upton Park
+Premier League,1994-04-30,0,48,Norwich City,1,Anfield
+Premier League,1994-05-07,1,49,Aston Villa,2,Villa Park
+Premier League,1994-08-20,6,1,Crystal Palace,1,Selhurst Park
+Premier League,1994-08-28,3,2,Arsenal,0,Anfield
+Premier League,1994-08-31,2,3,Southampton,0,The Dell
+Premier League,1994-09-10,0,4,West Ham United,0,Anfield
+Premier League,1994-09-17,0,5,Manchester United,2,Old Trafford
+League Cup 2nd round 1st leg,1994-09-21,2,6,Burnley,0,Anfield
+Premier League,1994-09-24,1,7,Newcastle United,1,St James' Park
+Premier League,1994-10-01,4,8,Sheffield Wednesday,1,Anfield
+League Cup 2nd round 2nd leg,1994-10-05,4,9,Burnley,1,Turf Moor
+Premier League,1994-10-08,3,10,Aston Villa,2,Anfield
+Premier League,1994-10-15,2,11,Blackburn Rovers,3,Ewood Park
+Premier League,1994-10-22,3,12,Wimbledon,0,Anfield
+League Cup 3rd round,1994-10-25,2,13,Stoke City,1,Anfield
+Premier League,1994-10-29,3,14,Ipswich Town,1,Portman Road
+Premier League,1994-10-31,1,15,Queens Park Rangers,2,Loftus Road
+Premier League,1994-11-05,1,16,Nottingham Forest,0,Anfield
+Premier League,1994-11-09,3,17,Chelsea,1,Anfield
+Premier League,1994-11-21,0,18,Everton,2,Goodison Park
+Premier League,1994-11-26,1,19,Tottenham Hotspur,1,Anfield
+League Cup 4th round,1994-11-30,3,20,Blackburn Rovers,1,Ewood Park
+Premier League,1994-12-03,1,21,Coventry City,1,Highfield Road
+Premier League,1994-12-11,0,22,Crystal Palace,0,Anfield
+Premier League,1994-12-18,0,23,Chelsea,0,Stamford Bridge
+Premier League,1994-12-26,2,24,Leicester City,1,Filbert Street
+Premier League,1994-12-28,2,25,Manchester City,0,Anfield
+Premier League,1994-12-31,2,26,Leeds United,0,Elland Road
+Premier League,1995-01-02,4,27,Norwich City,0,Anfield
+FA Cup 3rd round,1995-01-07,0,28,Birmingham City,0,St Andrews
+League Cup 5th round ,1995-01-11,1,29,Arsenal,0,Anfield
+Premier League,1995-01-14,0,30,Ipswich Town,1,Anfield
+FA Cup 3rd round replay,1995-01-18,1,31,Birmingham City,1,Anfield
+Premier League,1995-01-24,0,32,Everton,0,Anfield
+FA Cup 4th round,1995-01-28,0,33,Burnley,0,Turf Moor
+Premier League,1995-02-04,1,34,Nottingham Forest,1,City Ground
+FA Cup 4th round replay,1995-02-07,1,35,Burnley,0,Anfield
+Premier League,1995-02-11,1,36,Queens Park Rangers,1,Anfield
+League Cup Semi-final 1st leg,1995-02-15,1,37,Crystal Palace,0,Anfield
+FA Cup 5th round,1995-02-19,1,38,Wimbledon,1,Anfield
+Premier League,1995-02-25,2,39,Sheffield Wednesday,1,Hillsborough
+FA Cup 5th round replay,1995-02-28,2,40,Wimbledon,0,Selhurst Park
+Premier League,1995-03-04,2,41,Newcastle United,0,Anfield
+League Cup Semi-final 2nd leg,1995-03-08,1,42,Crystal Palace,0,Selhurst Park
+FA Cup 6th round,1995-03-11,1,43,Tottenham Hotspur,2,Anfield
+Premier League,1995-03-14,2,44,Coventry City,3,Anfield
+Premier League,1995-03-19,2,45,Manchester United,0,Anfield
+Premier League,1995-03-22,0,46,Tottenham Hotspur,0,White Hart Lane
+League Cup Final ,1995-04-02,2,47,Bolton Wanderers,1,Wembley
+Premier League,1995-04-05,3,48,Southampton,1,Anfield
+Premier League,1995-04-09,0,49,Leeds United,1,Anfield
+Premier League,1995-04-12,1,50,Arsenal,0,Highbury
+Premier League,1995-04-14,1,51,Manchester City,2,Maine Road
+Premier League,1995-04-17,2,52,Leicester City,0,Anfield
+Premier League,1995-04-29,2,53,Norwich City,1,Carrow Road
+Premier League,1995-05-02,0,54,Wimbledon,0,Selhurst Park
+Premier League,1995-05-06,0,55,Aston Villa,2,Villa Park
+Premier League,1995-05-10,0,56,West Ham United,3,Upton Park
+Premier League,1995-05-14,2,57,Blackburn Rovers,1,Anfield
+Premier League,1995-08-19,1,1,Sheffield Wednesday,0,Anfield
+Premier League,1995-08-21,0,2,Leeds United,1,Elland Road
+Premier League,1995-08-26,3,3,Tottenham Hotspur,1,White Hart Lane
+Premier League,1995-08-30,1,4,Queens Park Rangers,0,Anfield
+Premier League,1995-09-09,0,5,Wimbledon,1,Selhurst Park
+UEFA Cup 1st round 1st leg,1995-09-12,2,6,Spartak Vladikavkaz,1,Spartak Stadium
+Premier League,1995-09-16,3,7,Blackburn Rovers,0,Anfield
+League Cup 2nd round 1st leg,1995-09-20,2,8,Sunderland,0,Anfield
+Premier League,1995-09-23,5,9,Bolton Wanderers,2,Anfield
+UEFA Cup 1st round 2nd leg,1995-09-26,0,10,Spartak Vladikavkaz,0,Anfield
+Premier League,1995-10-01,2,11,Manchester United,2,Old Trafford
+League Cup 2nd round 2nd leg,1995-10-04,1,12,Sunderland,0,Roker Park
+Premier League,1995-10-14,0,13,Coventry City,0,Anfield
+UEFA Cup 2nd round 1st leg,1995-10-17,0,14,Brøndby,0,Parken
+Premier League,1995-10-22,3,15,Southampton,1,The Dell
+League Cup 3rd round,1995-10-25,4,16,Manchester City,0,Anfield
+Premier League,1995-10-28,6,17,Manchester City,0,Anfield
+UEFA Cup 2nd round 2nd leg,1995-10-31,0,18,Brøndby,1,Anfield
+Premier League,1995-11-04,1,19,Newcastle United,2,St James' Park
+Premier League,1995-11-18,1,20,Everton,2,Anfield
+Premier League,1995-11-22,0,21,West Ham United,0,Upton Park
+Premier League,1995-11-25,1,22,Middlesbrough,2,Riverside
+League Cup 4th round,1995-11-29,0,23,Newcastle United,1,Anfield
+Premier League,1995-12-02,1,24,Southampton,1,Anfield
+Premier League,1995-12-09,1,25,Bolton Wanderers,0,Burnden Park
+Premier League,1995-12-17,2,26,Manchester United,0,Anfield
+Premier League,1995-12-23,3,27,Arsenal,1,Anfield
+Premier League,1995-12-30,2,28,Chelsea,2,Stamford Bridge
+Premier League,1996-01-01,4,29,Nottingham Forest,2,Anfield
+FA Cup 3rd round,1996-01-06,7,30,Rochdale,0,Anfield
+Premier League,1996-01-13,1,31,Sheffield Wednesday,1,Hillsborough
+Premier League,1996-01-20,5,32,Leeds United,0,Anfield
+Premier League,1996-01-31,2,33,Aston Villa,0,Villa Park
+Premier League,1996-02-03,0,34,Tottenham Hotspur,0,Anfield
+Premier League,1996-02-11,2,35,Queens Park Rangers,1,Loftus Road
+FA Cup 4th round,1996-02-18,4,36,Shrewsbury Town,0,Gay Meadow
+Premier League,1996-02-24,3,37,Blackburn Rovers,2,Ewood Park
+FA Cup 5th round,1996-02-28,2,38,Charlton Athletic,1,Anfield
+Premier League,1996-03-03,3,39,Aston Villa,0,Anfield
+FA Cup 6th round,1996-03-10,0,40,Leeds United,0,Elland Road
+Premier League,1996-03-13,2,41,Wimbledon,2,Anfield
+Premier League,1996-03-16,2,42,Chelsea,0,Anfield
+FA Cup 6th round replay,1996-03-20,3,43,Leeds United,0,Anfield
+Premier League,1996-03-23,0,44,Nottingham Forest,1,City Ground
+FA Cup Semi-final,1996-03-31,3,45,Aston Villa,0,Old Trafford
+Premier League,1996-04-03,4,46,Newcastle United,3,Anfield
+Premier League,1996-04-06,0,47,Coventry City,1,Highfield Road
+Premier League,1996-04-08,2,48,West Ham United,0,Anfield
+Premier League,1996-04-16,1,49,Everton,1,Goodison Park
+Premier League,1996-04-27,1,50,Middlesbrough,0,Anfield
+Premier League,1996-05-01,0,51,Arsenal,0,Highbury
+Premier League,1996-05-05,2,52,Manchester City,2,Maine Road
+FA Cup Final,1996-05-11,0,53,Manchester United,1,Wembley
+Premier League,1996-08-17,3,1,Middlesbrough,3,Riverside
+Premier League,1996-08-19,2,2,Arsenal,0,Anfield
+Premier League,1996-08-24,0,3,Sunderland,0,Anfield
+Premier League,1996-09-04,1,4,Coventry City,0,Highfield Road
+Premier League,1996-09-07,2,5,Southampton,1,Anfield
+European Cup Winners' Cup 1st round 1st leg,1996-09-12,1,6,Mypa 47,0,Saviniemi
+Premier League,1996-09-15,3,7,Leicester City,0,Filbert Street
+Premier League,1996-09-21,5,8,Chelsea,1,Anfield
+European Cup Winners' Cup 1st round 2nd leg,1996-09-26,3,9,Mypa 47,1,Anfield
+Premier League,1996-09-29,2,10,West Ham United,1,Upton Park
+Premier League,1996-10-12,0,11,Manchester United,1,Old Trafford
+European Cup Winners' Cup 2nd round 1st leg,1996-10-17,2,12,Sion,1,Stade de Tourbillon 
+League Cup 3rd round,1996-10-23,1,13,Charlton Athletic,1,The Valley
+Premier League,1996-10-27,2,14,Derby County,1,Anfield
+European Cup Winners' Cup 2nd round 2nd leg,1996-10-31,6,15,Sion,3,Anfield
+Premier League,1996-11-03,0,16,Blackburn Rovers,3,Ewood Park
+League Cup 3rd round replay,1996-11-13,4,17,Charlton Athletic,1,Anfield
+Premier League,1996-11-16,2,18,Leeds United,0,Elland Road
+Premier League,1996-11-20,1,19,Everton,1,Anfield
+Premier League,1996-11-23,1,20,Wimbledon,1,Anfield
+League Cup 4th round,1996-11-27,4,21,Arsenal,2,Anfield
+Premier League,1996-12-02,2,22,Tottenham Hotspur,0,White Hart Lane
+Premier League,1996-12-07,0,23,Sheffield Wednesday,1,Anfield
+Premier League,1996-12-14,5,24,Middlesbrough,1,Anfield
+Premier League,1996-12-17,4,25,Nottingham Forest,2,Anfield
+Premier League,1996-12-23,1,26,Newcastle United,1,St James' Park
+Premier League,1996-12-26,1,27,Leicester City,1,Anfield
+Premier League,1996-12-29,1,28,Southampton,0,The Dell
+Premier League,1997-01-01,0,29,Chelsea,1,Stamford Bridge
+FA Cup 3rd round,1997-01-04,1,30,Burnley,0,Anfield
+League Cup 5th round ,1997-01-08,1,31,Middlesbrough,2,Riverside
+Premier League,1997-01-11,0,32,West Ham United,0,Anfield
+Premier League,1997-01-18,3,33,Aston Villa,0,Anfield
+FA Cup 4th round,1997-01-26,2,34,Chelsea,4,Stamford Bridge
+Premier League,1997-02-01,1,35,Derby County,0,Baseball Ground
+Premier League,1997-02-19,4,36,Leeds United,0,Anfield
+Premier League,1997-02-22,0,37,Blackburn Rovers,0,Anfield
+Premier League,1997-03-02,0,38,Aston Villa,1,Villa Park
+European Cup Winners Cup 3rd round 1st leg,1997-03-06,1,39,Brann,1,Brann Stadion
+Premier League,1997-03-10,4,40,Newcastle United,3,Anfield
+Premier League,1997-03-15,1,41,Nottingham Forest,1,City Ground
+European Cup Winners Cup 3rd round 2nd leg,1997-03-20,3,42,Brann,0,Anfield
+Premier League,1997-03-24,2,43,Arsenal,1,Highbury
+Premier League,1997-04-06,1,44,Coventry City,2,Anfield
+European Cup Winners' Cup Semi-Final 1st leg,1997-04-10,0,45,Paris St Germain,3,Parc des Princes
+Premier League,1997-04-13,2,46,Sunderland,1,Roker Park
+Premier League,1997-04-16,1,47,Everton,1,Goodison Park
+Premier League,1997-04-19,1,48,Manchester United,3,Anfield
+European Cup Winners' Cup Semi-Final 2nd leg,1997-04-24,2,49,Paris St Germain,0,Anfield
+Premier League,1997-05-03,2,50,Tottenham Hotspur,1,Anfield
+Premier League,1997-05-06,1,51,Wimbledon,2,Selhurst Park
+Premier League,1997-05-11,1,52,Sheffield Wednesday,1,Hillsborough
+Premier League,1997-08-09,1,1,Wimbledon,1,Selhurst Park
+Premier League,1997-08-13,1,2,Leicester City,2,Anfield
+Premier League,1997-08-23,1,3,Blackburn Rovers,1,Ewood Park
+Premier League,1997-08-26,2,4,Leeds United,0,Elland Road
+Premier League,1997-09-13,2,5,Sheffield Wednesday,1,Anfield
+UEFA Cup 1st round 1st leg,1997-09-16,2,6,Celtic,2,Celtic Park
+Premier League,1997-09-20,1,7,Southampton,1,The Dell
+Premier League,1997-09-22,3,8,Aston Villa,0,Anfield
+Premier League,1997-09-27,1,9,West Ham United,2,Upton Park
+UEFA Cup 1st round 2nd leg,1997-09-30,0,10,Celtic,0,Anfield
+Premier League,1997-10-05,4,11,Chelsea,2,Anfield
+League Cup 3rd round,1997-10-15,2,12,West Bromwich Albion,0,The Hawthorns
+Premier League,1997-10-18,0,13,Everton,2,Goodison Park
+UEFA Cup 2nd round 1st leg,1997-10-21,0,14,Strasbourg,3,Stade de la Meinau
+Premier League,1997-10-25,4,15,Derby County,0,Anfield
+Premier League,1997-11-01,1,16,Bolton Wanderers,1,Reebok Stadium
+UEFA Cup 2nd round 2nd leg,1997-11-04,2,17,Strasbourg,0,Anfield
+Premier League,1997-11-08,4,18,Tottenham Hotspur,0,Anfield
+League Cup 4th round,1997-11-18,3,19,Grimsby Town,0,Anfield
+Premier League,1997-11-22,0,20,Barnsley,1,Anfield
+Premier League,1997-11-30,1,21,Arsenal,0,Highbury
+Premier League,1997-12-06,1,22,Manchester United,3,Anfield
+Premier League,1997-12-13,3,23,Crystal Palace,0,Selhurst Park
+Premier League,1997-12-20,1,24,Coventry City,0,Anfield
+Premier League,1997-12-26,3,25,Leeds United,1,Anfield
+Premier League,1997-12-28,2,26,Newcastle United,1,St James' Park
+FA Cup 3rd round,1998-01-03,1,27,Coventry City,3,Anfield
+League Cup 5th round ,1998-01-07,2,28,Newcastle United,0,St James' Park
+Premier League,1998-01-10,2,29,Wimbledon,0,Anfield
+Premier League,1998-01-17,0,30,Leicester City,0,Filbert Street
+Premier League,1998-01-20,1,31,Newcastle United,0,Anfield
+League Cup Semi-final 1st leg,1998-01-27,2,32,Middlesbrough,1,Anfield
+Premier League,1998-01-31,0,33,Blackburn Rovers,0,Anfield
+Premier League,1998-02-07,2,34,Southampton,3,Anfield
+Premier League,1998-02-14,3,35,Sheffield Wednesday,3,Hillsborough
+League Cup Semi-final 2nd leg,1998-02-18,0,36,Middlesbrough,2,Riverside
+Premier League,1998-02-23,1,37,Everton,1,Anfield
+Premier League,1998-02-28,1,38,Aston Villa,2,Villa Park
+Premier League,1998-03-07,2,39,Bolton Wanderers,1,Anfield
+Premier League,1998-03-14,3,40,Tottenham Hotspur,3,White Hart Lane
+Premier League,1998-03-28,3,41,Barnsley,2,Oakwell
+Premier League,1998-04-10,1,42,Manchester United,1,Old Trafford
+Premier League,1998-04-13,2,43,Crystal Palace,1,Anfield
+Premier League,1998-04-19,1,44,Coventry City,1,Highfield Road
+Premier League,1998-04-25,1,45,Chelsea,4,Stamford Bridge
+Premier League,1998-05-02,5,46,West Ham United,0,Anfield
+Premier League,1998-05-06,4,47,Arsenal,0,Anfield
+Premier League,1998-05-10,0,48,Derby County,1,Pride Park
+Premier League,1998-08-16,2,1,Southampton,1,The Dell
+Premier League,1998-08-22,0,2,Arsenal,0,Anfield
+Premier League,1998-08-30,4,3,Newcastle United,1,St James' Park
+Premier League,1998-09-09,2,4,Coventry City,0,Anfield
+Premier League,1998-09-12,1,5,West Ham United,2,Upton Park
+UEFA Cup 1st round 1st leg,1998-09-15,3,6,Kosice,0,Lokomotiva Stadium
+Premier League,1998-09-19,3,7,Charlton Athletic,3,Anfield
+Premier League,1998-09-24,0,8,Manchester United,2,Old Trafford
+UEFA Cup 1st round 2nd leg,1998-09-29,5,9,Kosice,0,Anfield
+Premier League,1998-10-04,1,10,Chelsea,1,Anfield
+Premier League,1998-10-17,0,11,Everton,0,Goodison Park
+UEFA Cup 2nd round 1st leg,1998-10-20,0,12,Valencia,0,Anfield
+Premier League,1998-10-24,5,13,Nottingham Forest,1,Anfield
+League Cup 3rd round,1998-10-27,3,14,Fulham,1,Anfield
+Premier League,1998-10-31,0,15,Leicester City,1,Filbert Street
+UEFA Cup 2nd round 2nd leg,1998-11-03,2,16,Valencia,2,Mestalla
+Premier League,1998-11-07,1,17,Derby County,2,Anfield
+League Cup 4th round,1998-11-10,1,18,Tottenham Hotspur,3,Anfield
+Premier League,1998-11-14,1,19,Leeds United,3,Anfield
+Premier League,1998-11-21,4,20,Aston Villa,2,Villa Park
+UEFA Cup 3rd round 1st leg,1998-11-24,1,21,Celta Vigo,3,Estadio Balaidos 
+Premier League,1998-11-29,2,22,Blackburn Rovers,0,Anfield
+Premier League,1998-12-05,1,23,Tottenham Hotspur,2,White Hart Lane
+UEFA Cup 3rd round 2nd leg,1998-12-08,0,24,Celta Vigo,1,Anfield
+Premier League,1998-12-13,0,25,Wimbledon,1,Selhurst Park
+Premier League,1998-12-19,2,26,Sheffield Wednesday,0,Anfield
+Premier League,1998-12-26,3,27,Middlesbrough,1,Riverside
+Premier League,1998-12-28,4,28,Newcastle United,2,Anfield
+FA Cup 3rd round,1999-01-03,3,29,Port Vale,0,Vale Park
+Premier League,1999-01-09,0,30,Arsenal,0,Highbury
+Premier League,1999-01-16,7,31,Southampton,1,Anfield
+FA Cup 4th round,1999-01-24,1,32,Manchester United,2,Old Trafford
+Premier League,1999-01-30,1,33,Coventry City,2,Highfield Road
+Premier League,1999-02-06,3,34,Middlesbrough,1,Anfield
+Premier League,1999-02-13,0,35,Charlton Athletic,1,The Valley
+Premier League,1999-02-20,2,36,West Ham United,2,Anfield
+Premier League,1999-02-27,1,37,Chelsea,2,Stamford Bridge
+Premier League,1999-03-13,2,38,Derby County,3,Pride Park
+Premier League,1999-04-03,3,39,Everton,2,Anfield
+Premier League,1999-04-05,2,40,Nottingham Forest,2,City Ground
+Premier League,1999-04-12,0,41,Leeds United,0,Elland Road
+Premier League,1999-04-17,0,42,Aston Villa,1,Anfield
+Premier League,1999-04-21,0,43,Leicester City,1,Anfield
+Premier League,1999-04-24,3,44,Blackburn Rovers,1,Ewood Park
+Premier League,1999-05-01,3,45,Tottenham Hotspur,2,Anfield
+Premier League,1999-05-05,2,46,Manchester United,2,Anfield
+Premier League,1999-05-08,0,47,Sheffield Wednesday,1,Hillsborough
+Premier League,1999-05-16,3,48,Wimbledon,0,Anfield
+Premier League,2000-08-19,1,1,Bradford City,0,Anfield
+Premier League,2000-08-21,0,2,Arsenal,2,Highbury
+Premier League,2000-08-26,3,3,Southampton,3,The Dell
+Premier League,2000-09-06,3,4,Aston Villa,1,Anfield
+Premier League,2000-09-09,3,5,Manchester City,2,Anfield
+UEFA Cup 1st round 1st leg,2000-09-14,1,6,Rapid Bucharest,0,Stadionul Giulesti
+Premier League,2000-09-17,1,7,West Ham United,1,Upton Park
+Premier League,2000-09-23,1,8,Sunderland,1,Anfield
+UEFA Cup 1st round 2nd leg,2000-09-28,0,9,Rapid Bucharest,0,Anfield
+Premier League,2000-10-01,0,10,Chelsea,3,Stamford Bridge
+Premier League,2000-10-15,4,11,Derby County,0,Pride Park
+Premier League,2000-10-21,1,12,Leicester City,0,Anfield
+UEFA Cup 2nd round 1st leg,2000-10-26,1,13,Slovan Liberec,0,Anfield
+Premier League,2000-10-29,3,14,Everton,1,Anfield
+League Cup 3rd round,2000-11-01,2,15,Chelsea,1,Anfield
+Premier League,2000-11-04,3,16,Leeds United,4,Elland Road
+UEFA Cup 2nd round 2nd leg,2000-11-09,3,17,Slovan Liberec,2,U Nisy Stadium
+Premier League,2000-11-12,4,18,Coventry City,1,Anfield
+Premier League,2000-11-19,1,19,Tottenham Hotspur,2,White Hart Lane
+UEFA Cup 3rd round 1st leg,2000-11-23,2,20,Olympiacos,2,Olympiako Stadio Athinas
+Premier League,2000-11-26,1,21,Newcastle United,2,St James' Park
+League Cup 4th round,2000-11-29,8,22,Stoke City,0,Britannia Stadium
+Premier League,2000-12-02,3,23,Charlton Athletic,0,Anfield
+UEFA Cup 3rd round 2nd leg,2000-12-07,2,24,Olympiacos,0,Anfield
+Premier League,2000-12-10,0,25,Ipswich Town,1,Anfield
+League Cup 5th round ,2000-12-13,3,26,Fulham,0,Anfield
+Premier League,2000-12-17,1,27,Manchester United,0,Old Trafford
+Premier League,2000-12-23,4,28,Arsenal,0,Anfield
+Premier League,2000-12-26,0,29,Middlesbrough,1,Riverside
+Premier League,2001-01-01,2,30,Southampton,1,Anfield
+FA Cup 3rd round,2001-01-06,3,31,Rotherham United,0,Anfield
+League Cup Semi-final 1st leg,2001-01-10,1,32,Crystal Palace,2,Selhurst Park
+Premier League,2001-01-13,3,33,Aston Villa,0,Villa Park
+Premier League,2001-01-20,0,34,Middlesbrough,0,Anfield
+League Cup Semi-final 2nd leg,2001-01-24,5,35,Crystal Palace,0,Anfield
+FA Cup 4th round,2001-01-27,2,36,Leeds United,0,Elland Road
+Premier League,2001-01-31,1,37,Manchester City,1,Maine Road
+Premier League,2001-02-03,3,38,West Ham United,0,Anfield
+Premier League,2001-02-10,1,39,Sunderland,1,Stadium of Light
+UEFA Cup 4th round 1st leg,2001-02-15,2,40,Roma,0,Stadio Olimpico
+FA Cup 5th round,2001-02-18,4,41,Manchester City,2,Anfield
+UEFA Cup 4th round 2nd leg,2001-02-22,0,42,Roma,1,Anfield
+League Cup Final ,2001-02-25,1,43,Birmingham City,1,Millennium Stadium
+Premier League,2001-03-03,0,44,Leicester City,2,Filbert Street
+UEFA Cup 5th round 1st leg,2001-03-08,0,45,Porto,0,Estadio Das Antas
+FA Cup 6th round,2001-03-11,4,46,Tranmere Rovers,2,Prenton Park
+UEFA Cup 5th round 2nd leg,2001-03-15,2,47,Porto,0,Anfield
+Premier League,2001-03-18,1,48,Derby County,1,Anfield
+Premier League,2001-03-31,2,49,Manchester United,0,Anfield
+UEFA Cup Semi-final 1st leg,2001-04-05,0,50,Barcelona,0,Nou Camp
+FA Cup Semi-final,2001-04-08,2,51,Wycombe Wanderers,1,Villa Park
+Premier League,2001-04-10,1,52,Ipswich Town,1,Portman Road
+Premier League,2001-04-13,1,53,Leeds United,2,Anfield
+Premier League,2001-04-16,3,54,Everton,2,Goodison Park
+UEFA Cup Semi-final 2nd leg,2001-04-19,1,55,Barcelona,0,Anfield
+Premier League,2001-04-22,3,56,Tottenham Hotspur,1,Anfield
+Premier League,2001-04-28,2,57,Coventry City,0,Highfield Road
+Premier League,2001-05-01,2,58,Bradford City,0,Valley Parade
+Premier League,2001-05-05,3,59,Newcastle United,0,Anfield
+Premier League,2001-05-08,2,60,Chelsea,2,Anfield
+FA Cup Final,2001-05-12,2,61,Arsenal,1,Millennium Stadium
+UEFA Cup Final,2001-05-16,5,62,Alaves,4,Westfalen Stadion
+Premier League,2001-05-19,4,63,Charlton Athletic,0,The Valley
+Premier League,1999-08-07,2,1,Sheffield Wednesday,1,Hillsborough
+Premier League,1999-08-14,0,2,Watford,1,Anfield
+Premier League,1999-08-21,0,3,Middlesbrough,1,Riverside
+Premier League,1999-08-23,2,4,Leeds United,1,Elland Road
+Premier League,1999-08-28,2,5,Arsenal,0,Anfield
+Premier League,1999-09-11,2,6,Manchester United,3,Anfield
+League Cup 2nd round 1st leg,1999-09-14,5,7,Hull City,1,Boothferry Park
+Premier League,1999-09-18,2,8,Leicester City,2,Filbert Street
+League Cup 2nd round 2nd leg,1999-09-21,4,9,Hull City,2,Anfield
+Premier League,1999-09-27,0,10,Everton,1,Anfield
+Premier League,1999-10-02,0,11,Aston Villa,0,Villa Park
+League Cup 3rd round,1999-10-13,1,12,Southampton,2,The Dell
+Premier League,1999-10-16,1,13,Chelsea,0,Anfield
+Premier League,1999-10-23,1,14,Southampton,1,The Dell
+Premier League,1999-10-27,1,15,West Ham United,0,Anfield
+Premier League,1999-11-01,3,16,Bradford City,1,Anfield
+Premier League,1999-11-06,2,17,Derby County,0,Anfield
+Premier League,1999-11-20,2,18,Sunderland,0,Stadium of Light
+Premier League,1999-11-27,0,19,West Ham United,1,Upton Park
+Premier League,1999-12-05,4,20,Sheffield Wednesday,1,Anfield
+FA Cup 3rd round,1999-12-12,2,21,Huddersfield Town,0,Kirklees Stadium
+Premier League,1999-12-18,2,22,Coventry City,0,Anfield
+Premier League,1999-12-26,2,23,Newcastle United,2,St James' Park
+Premier League,1999-12-28,3,24,Wimbledon,1,Anfield
+Premier League,2000-01-03,0,25,Tottenham Hotspur,1,White Hart Lane
+FA Cup 4th round,2000-01-10,0,26,Blackburn Rovers,1,Anfield
+Premier League,2000-01-15,3,27,Watford,2,Vicarage Road
+Premier League,2000-01-22,0,28,Middlesbrough,0,Anfield
+Premier League,2000-02-05,3,29,Leeds United,1,Anfield
+Premier League,2000-02-13,1,30,Arsenal,0,Highbury
+Premier League,2000-03-04,1,31,Manchester United,1,Old Trafford
+Premier League,2000-03-11,1,32,Sunderland,1,Anfield
+Premier League,2000-03-15,0,33,Aston Villa,0,Anfield
+Premier League,2000-03-18,2,34,Derby County,0,Pride Park
+Premier League,2000-03-25,2,35,Newcastle United,1,Anfield
+Premier League,2000-04-01,3,36,Coventry City,0,Highfield Road
+Premier League,2000-04-09,2,37,Tottenham Hotspur,0,Anfield
+Premier League,2000-04-16,2,38,Wimbledon,1,Selhurst Park
+Premier League,2000-04-21,0,39,Everton,0,Goodison Park
+Premier League,2000-04-29,0,40,Chelsea,2,Stamford Bridge
+Premier League,2000-05-03,0,41,Leicester City,2,Anfield
+Premier League,2000-05-07,0,42,Southampton,0,Anfield
+Premier League,2000-05-14,0,43,Bradford City,1,Valley Parade
+Champions League Qualifier 1st leg,2001-08-08,5,1,Haka,0,Olympia Stadion
+Charity Shield,2001-08-12,2,2,Manchester United,1,Millennium Stadium
+Premier League,2001-08-18,2,3,West Ham United,1,Anfield
+Champions League Qualifier 2nd leg,2001-08-21,4,4,Haka,1,Anfield
+European Super Cup,2001-08-24,3,5,Bayern Munich,2,Stade Louis II
+Premier League,2001-08-27,1,6,Bolton Wanderers,2,Reebok Stadium
+Premier League,2001-09-08,1,7,Aston Villa,3,Anfield
+Champions League First Group Phase,2001-09-11,1,8,Boavista,1,Anfield
+Premier League,2001-09-15,3,9,Everton,1,Goodison Park
+Champions League First Group Phase,2001-09-19,0,10,Borussia Dortmund,0,Westfalen Stadion
+Premier League,2001-09-22,1,11,Tottenham Hotspur,0,Anfield
+Champions League First Group Phase,2001-09-26,1,12,Dynamo Kiev,0,Anfield
+Premier League,2001-09-30,2,13,Newcastle United,0,St James' Park
+League Cup 3rd round,2001-10-09,1,14,Grimsby Town,2,Anfield
+Premier League,2001-10-13,1,15,Leeds United,1,Anfield
+Champions League First Group Phase,2001-10-16,2,16,Dynamo Kiev,1,Olympiysky Stadium
+Premier League,2001-10-20,4,17,Leicester City,1,Filbert Street
+Champions League First Group Phase,2001-10-24,1,18,Boavista,1,Estadio de Bessa
+Premier League,2001-10-27,2,19,Charlton Athletic,0,The Valley
+Champions League First Group Phase,2001-10-30,2,20,Borussia Dortmund,0,Anfield
+Premier League,2001-11-04,3,21,Manchester United,1,Anfield
+Premier League,2001-11-17,1,22,Blackburn Rovers,1,Ewood Park
+Champions League Second Group Phase,2001-11-20,1,23,Barcelona,3,Anfield
+Premier League,2001-11-25,1,24,Sunderland,0,Anfield
+Premier League,2001-12-01,1,25,Derby County,0,Pride Park
+Champions League Second Group Phase,2001-12-05,0,26,Roma,0,Stadio Olimpico
+Premier League,2001-12-08,2,27,Middlesbrough,0,Anfield
+Premier League,2001-12-12,0,28,Fulham,0,Anfield
+Premier League,2001-12-16,0,29,Chelsea,4,Stamford Bridge
+Premier League,2001-12-23,1,30,Arsenal,2,Anfield
+Premier League,2001-12-26,2,31,Aston Villa,1,Villa Park
+Premier League,2001-12-29,1,32,West Ham United,1,Upton Park
+Premier League,2002-01-01,1,33,Bolton Wanderers,1,Anfield
+FA Cup 3rd round,2002-01-05,3,34,Birmingham City,0,Anfield
+Premier League,2002-01-09,0,35,Southampton,2,St Mary's
+Premier League,2002-01-13,1,36,Arsenal,1,Highbury
+Premier League,2002-01-19,1,37,Southampton,1,Anfield
+Premier League,2002-01-22,1,38,Manchester United,0,Old Trafford
+FA Cup 4th round,2002-01-27,0,39,Arsenal,1,Highbury
+Premier League,2002-01-30,1,40,Leicester City,0,Anfield
+Premier League,2002-02-03,4,41,Leeds United,0,Elland Road
+Premier League,2002-02-09,6,42,Ipswich Town,0,Portman Road
+Champions League Second Group Phase,2002-02-20,0,43,Galatasaray,0,Anfield
+Premier League,2002-02-23,1,44,Everton,1,Anfield
+Champions League Second Group Phase,2002-02-26,1,45,Galatasaray,1,Ali Sami Yen
+Premier League,2002-03-02,2,46,Fulham,0,Craven Cottage
+Premier League,2002-03-06,3,47,Newcastle United,0,Anfield
+Champions League Second Group Phase,2002-03-13,0,48,Barcelona,0,Nou Camp
+Premier League,2002-03-16,2,49,Middlesbrough,1,Riverside
+Champions League Second Group Phase,2002-03-19,2,50,Roma,0,Anfield
+Premier League,2002-03-24,1,51,Chelsea,0,Anfield
+Premier League,2002-03-30,2,52,Charlton Athletic,0,Anfield
+Champions League Quarter-final 1st leg,2002-04-03,1,53,Bayer Leverkusen,0,Anfield
+Champions League Quarter-final 2nd leg,2002-04-09,2,54,Bayer Leverkusen,4,Bay Arena
+Premier League,2002-04-13,1,55,Sunderland,0,Stadium of Light
+Premier League,2002-04-20,2,56,Derby County,0,Anfield
+Premier League,2002-04-27,0,57,Tottenham Hotspur,1,White Hart Lane
+Premier League,2002-05-08,4,58,Blackburn Rovers,3,Anfield
+Premier League,2002-05-11,5,59,Ipswich Town,0,Anfield
+Community Shield,2002-08-11,0,1,Arsenal,1,Millennium Stadium
+Premier League,2002-08-18,1,2,Aston Villa,0,Villa Park
+Premier League,2002-08-24,3,3,Southampton,0,Anfield
+Premier League,2002-08-28,2,4,Blackburn Rovers,2,Ewood Park
+Premier League,2002-09-02,2,5,Newcastle United,2,Anfield
+Premier League,2002-09-11,2,6,Birmingham City,2,Anfield
+Premier League,2002-09-14,3,7,Bolton Wanderers,2,Reebok Stadium
+Champions League First Group Phase,2002-09-17,0,8,Valencia,2,Mestalla
+Premier League,2002-09-21,2,9,West Bromwich Albion,0,Anfield
+Champions League First Group Phase,2002-09-25,1,10,Basel,1,Anfield
+Premier League,2002-09-28,3,11,Manchester City,0,Maine Road
+Champions League First Group Phase,2002-10-02,5,12,Spartak Moscow,0,Anfield
+Premier League,2002-10-06,1,13,Chelsea,0,Anfield
+Premier League,2002-10-19,1,14,Leeds United,0,Elland Road
+Champions League First Group Phase,2002-10-22,3,15,Spartak Moscow,1,Dinamo Stadium
+Premier League,2002-10-26,2,16,Tottenham Hotspur,1,Anfield
+Champions League First Group Phase,2002-10-30,0,17,Valencia,1,Anfield
+Premier League,2002-11-02,2,18,West Ham United,0,Anfield
+League Cup 3rd round,2002-11-06,3,19,Southampton,1,Anfield
+Premier League,2002-11-09,0,20,Middlesbrough,1,Riverside
+Champions League First Group Phase,2002-11-12,3,21,Basel,3,Saint Jakob Stadium
+Premier League,2002-11-17,0,22,Sunderland,0,Anfield
+Premier League,2002-11-23,2,23,Fulham,3,Loftus Road
+UEFA Cup 3rd round 1st leg,2002-11-28,1,24,Vitesse Arnhem,0,Gelredome
+Premier League,2002-12-01,1,25,Manchester United,2,Anfield
+League Cup 4th round,2002-12-04,1,26,Ipswich Town,1,Anfield
+Premier League,2002-12-07,0,27,Charlton Athletic,2,The Valley
+UEFA Cup 3rd round 2nd leg,2002-12-12,1,28,Vitesse Arnhem,0,Anfield
+Premier League,2002-12-15,1,29,Sunderland,2,Stadium of Light
+League Cup 5th round ,2002-12-18,4,30,Aston Villa,3,Villa Park
+Premier League,2002-12-22,0,31,Everton,0,Anfield
+Premier League,2002-12-26,1,32,Blackburn Rovers,1,Anfield
+Premier League,2002-12-29,1,33,Arsenal,1,Highbury
+Premier League,2003-01-01,0,34,Newcastle United,1,St James' Park
+FA Cup 3rd round,2003-01-05,1,35,Manchester City,0,Maine Road
+League Cup Semi-final 1st leg,2003-01-08,1,36,Sheffield United,2,Bramall Lane
+Premier League,2003-01-11,1,37,Aston Villa,1,Anfield
+Premier League,2003-01-18,1,38,Southampton,0,St Mary's
+League Cup Semi-final 2nd leg,2003-01-21,2,39,Sheffield United,0,Anfield
+FA Cup 4th round,2003-01-26,0,40,Crystal Palace,0,Selhurst Park
+Premier League,2003-01-29,2,41,Arsenal,2,Anfield
+Premier League,2003-02-02,3,42,West Ham United,0,Upton Park
+FA Cup 4th round replay,2003-02-05,0,43,Crystal Palace,2,Anfield
+Premier League,2003-02-08,1,44,Middlesbrough,1,Anfield
+UEFA Cup 4th round 1st leg,2003-02-20,1,45,Auxerre,0,Stade de l'Abbé Deschamps
+Premier League,2003-02-23,1,46,Birmingham City,2,St Andrews
+UEFA Cup 4th round 2nd leg,2003-02-27,2,47,Auxerre,0,Anfield
+League Cup Final ,2003-03-02,2,48,Manchester United,0,Millennium Stadium
+Premier League,2003-03-08,2,49,Bolton Wanderers,0,Anfield
+UEFA Cup 5th round 1st leg,2003-03-13,1,50,Celtic,1,Celtic Park
+Premier League,2003-03-16,3,51,Tottenham Hotspur,2,White Hart Lane
+UEFA Cup 5th round 2nd leg,2003-03-20,0,52,Celtic,2,Anfield
+Premier League,2003-03-23,3,53,Leeds United,1,Anfield
+Premier League,2003-04-05,0,54,Manchester United,4,Old Trafford
+Premier League,2003-04-12,2,55,Fulham,0,Anfield
+Premier League,2003-04-19,2,56,Everton,1,Goodison Park
+Premier League,2003-04-21,2,57,Charlton Athletic,1,Anfield
+Premier League,2003-04-26,6,58,West Bromwich Albion,0,The Hawthorns
+Premier League,2003-05-03,1,59,Manchester City,2,Anfield
+Premier League,2003-05-11,1,60,Chelsea,2,Stamford Bridge
+Premier League,2017-08-12,3,1,Watford,3,Vicarage Road
+Champions League Qualifier 1st leg,2017-08-15,2,2,TSG 1899 Hoffenheim,1,Rhein-Neckar-Arena
+Premier League,2017-08-19,1,3,Crystal Palace,0,Anfield
+Champions League Qualifier 2nd leg,2017-08-23,4,4,TSG 1899 Hoffenheim,2,Anfield
+Premier League,2017-08-27,4,5,Arsenal,0,Anfield
+Premier League,2017-09-09,0,6,Manchester City,5,Etihad Stadium
+Champions League First Group Phase,2017-09-13,2,7,Sevilla,2,Anfield
+Premier League,2017-09-16,1,8,Burnley,1,Anfield
+League Cup 3rd round,2017-09-19,0,9,Leicester City,2,The Walkers Stadium
+Premier League,2017-09-23,3,10,Leicester City,2,The Walkers Stadium
+Champions League First Group Phase,2017-09-26,1,11,Spartak Moscow,1,Otkrytiye Arena
+Premier League,2017-10-01,1,12,Newcastle United,1,St James' Park
+Premier League,2017-10-14,0,13,Manchester United,0,Anfield
+Champions League First Group Phase,2017-10-17,7,14,NK Maribor,0,Ljudski vrt
+Premier League,2017-10-22,1,15,Tottenham Hotspur,4,Wembley
+Premier League,2017-10-28,3,16,Huddersfield Town,0,Anfield
+Champions League First Group Phase,2017-11-01,3,17,NK Maribor,0,Anfield
+Premier League,2017-11-04,4,18,West Ham United,1, London Stadium
+Premier League,2017-11-18,3,19,Southampton,0,Anfield
+Champions League First Group Phase,2017-11-21,3,20,Sevilla,3,Ramón Sánchez Pizjuán Stadium
+Premier League,2017-11-25,1,21,Chelsea,1,Anfield
+Premier League,2017-11-29,3,22,Stoke City,0,Britannia Stadium
+Premier League,2017-12-02,5,23,Brighton & Hove Albion,1,American Express Community Stadium
+Champions League First Group Phase,2017-12-06,7,24,Spartak Moscow,0,Anfield
+Premier League,2017-12-10,1,25,Everton,1,Anfield
+Premier League,2017-12-13,0,26,West Bromwich Albion,0,Anfield
+Premier League,2017-12-17,4,27,Bournemouth,0,Dean Court
+Premier League,2017-12-22,3,28,Arsenal,3,Emirates Stadium
+Premier League,2017-12-26,5,29,Swansea City,0,Anfield
+Premier League,2017-12-30,2,30,Leicester City,1,Anfield
+Premier League,2018-01-01,2,31,Burnley,1,Turf Moor
+FA Cup 3rd round,2018-01-05,2,32,Everton,1,Anfield
+Premier League,2018-01-14,4,33,Manchester City,3,Anfield
+Premier League,2018-01-22,0,34,Swansea City,1,Liberty Stadium
+FA Cup 4th round,2018-01-27,2,35,West Bromwich Albion,3,Anfield
+Premier League,2018-01-30,3,36,Huddersfield Town,0,Kirklees Stadium
+Premier League,2018-02-04,2,37,Tottenham Hotspur,2,Anfield
+Premier League,2018-02-11,2,38,Southampton,0,St Mary's
+Premier League,2016-08-14,4,1,Arsenal,3,Emirates Stadium
+Premier League,2016-08-20,0,2,Burnley,2,Turf Moor
+League Cup 2nd round,2016-08-23,5,3,Burton Albion,0,Pirelli Stadium
+Premier League,2016-08-27,1,4,Tottenham Hotspur,1,White Hart Lane
+Premier League,2016-09-10,4,5,Leicester City,1,Anfield
+Premier League,2016-09-16,2,6,Chelsea,1,Stamford Bridge
+League Cup 3rd round,2016-09-20,3,7,Derby County,0,Pride Park
+Premier League,2016-09-24,5,8,Hull City,1,Anfield
+Premier League,2016-10-01,2,9,Swansea City,1,Liberty Stadium
+Premier League,2016-10-17,0,10,Manchester United,0,Anfield
+Premier League,2016-10-22,2,11,West Bromwich Albion,1,Anfield
+League Cup 4th round,2016-10-25,2,12,Tottenham Hotspur,1,Anfield
+Premier League,2016-10-29,4,13,Crystal Palace,2,Selhurst Park
+Premier League,2016-11-06,6,14,Watford,1,Anfield
+Premier League,2016-11-19,0,15,Southampton,0,St Mary's
+Premier League,2016-11-26,2,16,Sunderland,0,Anfield
+League Cup 5th round ,2016-11-29,2,17,Leeds United,0,Anfield
+Premier League,2016-12-04,3,18,Bournemouth,4,Dean Court
+Premier League,2016-12-11,2,19,West Ham United,2,Anfield
+Premier League,2016-12-14,3,20,Middlesbrough,0,Riverside
+Premier League,2016-12-19,1,21,Everton,0,Goodison Park
+Premier League,2016-12-27,4,22,Stoke City,1,Anfield
+Premier League,2016-12-31,1,23,Manchester City,0,Anfield
+Premier League,2017-01-02,2,24,Sunderland,2,Stadium of Light
+FA Cup 3rd round,2017-01-08,0,25,Plymouth Argyle,0,Anfield
+League Cup Semi-final 1st leg,2017-01-11,0,26,Southampton,1,St Mary's
+Premier League,2017-01-15,1,27,Manchester United,1,Old Trafford
+FA Cup 3rd round replay,2017-01-18,1,28,Plymouth Argyle,0,Home Park
+Premier League,2017-01-21,2,29,Swansea City,3,Anfield
+League Cup Semi-final 2nd leg,2017-01-25,0,30,Southampton,1,Anfield
+FA Cup 4th round,2017-01-28,1,31,Wolves,2,Anfield
+Premier League,2017-01-31,1,32,Chelsea,1,Anfield
+Premier League,2017-02-04,0,33,Hull City,2,Kingston Communications Stadium
+Premier League,2017-02-11,2,34,Tottenham Hotspur,0,Anfield
+Premier League,2017-02-27,1,35,Leicester City,3,The Walkers Stadium
+Premier League,2017-03-04,3,36,Arsenal,1,Anfield
+Premier League,2017-03-12,2,37,Burnley,1,Anfield
+Premier League,2017-03-19,1,38,Manchester City,1,Etihad Stadium
+Premier League,2017-04-01,3,39,Everton,1,Anfield
+Premier League,2017-04-05,2,40,Bournemouth,2,Anfield
+Premier League,2017-04-08,2,41,Stoke City,1,Britannia Stadium
+Premier League,2017-04-16,1,42,West Bromwich Albion,0,The Hawthorns
+Premier League,2017-04-23,1,43,Crystal Palace,2,Anfield
+Premier League,2017-05-01,1,44,Watford,0,Vicarage Road
+Premier League,2017-05-07,0,45,Southampton,0,Anfield
+Premier League,2017-05-14,4,46,West Ham United,0, London Stadium
+Premier League,2017-05-21,3,47,Middlesbrough,0,Anfield
+Premier League,2015-08-09,1,1,Stoke City,0,Britannia Stadium
+Premier League,2015-08-17,1,2,Bournemouth,0,Anfield
+Premier League,2015-08-24,0,3,Arsenal,0,Emirates Stadium
+Premier League,2015-08-29,0,4,West Ham United,3,Anfield
+Premier League,2015-09-12,1,5,Manchester United,3,Old Trafford
+Europa League Group Stage,2015-09-17,1,6,Bordeaux,1,Stade Atlantique
+Premier League,2015-09-20,1,7,Norwich City,1,Anfield
+League Cup 3rd round,2015-09-23,1,8,Carlisle United,1,Anfield
+Premier League,2015-09-26,3,9,Aston Villa,2,Anfield
+Europa League Group Stage,2015-10-01,1,10,Sion,1,Anfield
+Premier League,2015-10-04,1,11,Everton,1,Goodison Park
+Premier League,2015-10-17,0,12,Tottenham Hotspur,0,White Hart Lane
+Europa League Group Stage,2015-10-22,1,13,Rubin Kazan,1,Anfield
+Premier League,2015-10-25,1,14,Southampton,1,Anfield
+League Cup 4th round,2015-10-28,1,15,Bournemouth,0,Anfield
+Premier League,2015-10-31,3,16,Chelsea,1,Stamford Bridge
+Europa League Group Stage,2015-11-05,1,17,Rubin Kazan,0,Kazan Arena
+Premier League,2015-11-08,1,18,Crystal Palace,2,Anfield
+Premier League,2015-11-21,4,19,Manchester City,1,Etihad Stadium
+Europa League Group Stage,2015-11-26,2,20,Bordeaux,1,Anfield
+Premier League,2015-11-29,1,21,Swansea City,0,Anfield
+League Cup 5th round ,2015-12-02,6,22,Southampton,1,St Mary's
+Premier League,2015-12-06,0,23,Newcastle United,2,St James' Park
+Europa League Group Stage,2015-12-10,0,24,Sion,0,Stade de Tourbillon 
+Premier League,2015-12-13,2,25,West Bromwich Albion,2,Anfield
+Premier League,2015-12-20,0,26,Watford,3,Vicarage Road
+Premier League,2015-12-26,1,27,Leicester City,0,Anfield
+Premier League,2015-12-30,1,28,Sunderland,0,Stadium of Light
+Premier League,2016-01-02,0,29,West Ham United,2,Upton Park
+League Cup Semi-final 1st leg,2016-01-05,1,30,Stoke City,0,Britannia Stadium
+FA Cup 3rd round,2016-01-08,2,31,Exeter City,2,"St James Park, Exeter"
+Premier League,2016-01-13,3,32,Arsenal,3,Anfield
+Premier League,2016-01-17,0,33,Manchester United,1,Anfield
+FA Cup 3rd round replay,2016-01-20,3,34,Exeter City,0,Anfield
+Premier League,2016-01-23,5,35,Norwich City,4,Carrow Road
+League Cup Semi-final 2nd leg,2016-01-26,0,36,Stoke City,1,Anfield
+FA Cup 4th round,2016-01-30,0,37,West Ham United,0,Anfield
+Premier League,2016-02-02,0,38,Leicester City,2,The Walkers Stadium
+Premier League,2016-02-06,2,39,Sunderland,2,Anfield
+FA Cup 4th round replay,2016-02-09,1,40,West Ham United,2,Upton Park
+Premier League,2016-02-14,6,41,Aston Villa,0,Villa Park
+Europa League Round of 32,2016-02-18,0,42,Augsburg,0,WWK Arena
+Europa League Round of 32,2016-02-25,1,43,Augsburg,0,Anfield
+League Cup Final ,2016-02-28,1,44,Manchester City,1,Wembley
+Premier League,2016-03-02,3,45,Manchester City,0,Anfield
+Premier League,2016-03-06,2,46,Crystal Palace,1,Selhurst Park
+Europa League Round of 16,2016-03-10,2,47,Manchester United,0,Anfield
+Europa League Round of 16,2016-03-17,1,48,Manchester United,1,Old Trafford
+Premier League,2016-03-20,2,49,Southampton,3,St Mary's
+Premier League,2016-04-02,1,50,Tottenham Hotspur,1,Anfield
+Europa League Quarter Finals,2016-04-07,1,51,Borussia Dortmund,1,Westfalen Stadion
+Premier League,2016-04-10,4,52,Stoke City,1,Anfield
+Europa League Quarter Finals,2016-04-14,4,53,Borussia Dortmund,3,Anfield
+Premier League,2016-04-17,2,54,Bournemouth,1,Dean Court
+Premier League,2016-04-20,4,55,Everton,0,Anfield
+Premier League,2016-04-23,2,56,Newcastle United,2,Anfield
+Europa League Semi Finals,2016-04-28,0,57,Villarreal,1,Estadio El Madrigal
+Premier League,2016-05-01,1,58,Swansea City,3,Liberty Stadium
+Europa League Semi Finals,2016-05-05,3,59,Villarreal,0,Anfield
+Premier League,2016-05-08,2,60,Watford,0,Anfield
+Premier League,2016-05-11,1,61,Chelsea,1,Anfield
+Premier League,2016-05-15,1,62,West Bromwich Albion,1,The Hawthorns
+Europa League Final,2016-05-18,1,63,Sevilla,3,Saint Jakob Stadium
+Premier League,2014-08-17,2,1,Southampton,1,Anfield
+Premier League,2014-08-25,1,2,Manchester City,3,Etihad Stadium
+Premier League,2014-08-31,3,3,Tottenham Hotspur,0,White Hart Lane
+Premier League,2014-09-13,0,4,Aston Villa,1,Anfield
+Champions League First Group Phase,2014-09-16,2,5,Ludogorets Razgrad,1,Anfield
+Premier League,2014-09-20,1,6,West Ham United,3,Upton Park
+League Cup 3rd round,2014-09-23,2,7,Middlesbrough,2,Anfield
+Premier League,2014-09-27,1,8,Everton,1,Anfield
+Champions League First Group Phase,2014-10-01,0,9,Basel,1,Saint Jakob Stadium
+Premier League,2014-10-04,2,10,West Bromwich Albion,1,Anfield
+Premier League,2014-10-19,3,11,Queens Park Rangers,2,Loftus Road
+Champions League First Group Phase,2014-10-22,0,12,Real Madrid,3,Anfield
+Premier League,2014-10-25,0,13,Hull City,0,Anfield
+League Cup 4th round,2014-10-28,2,14,Swansea City,1,Anfield
+Premier League,2014-11-01,0,15,Newcastle United,1,St James' Park
+Champions League First Group Phase,2014-11-04,0,16,Real Madrid,1,Bernabeu Stadium
+Premier League,2014-11-08,1,17,Chelsea,2,Anfield
+Premier League,2014-11-23,1,18,Crystal Palace,3,Selhurst Park
+Champions League First Group Phase,2014-11-26,2,19,Ludogorets Razgrad,2,Vassil Levski
+Premier League,2014-11-29,1,20,Stoke City,0,Anfield
+Premier League,2014-12-02,3,21,Leicester City,1,The Walkers Stadium
+Premier League,2014-12-06,0,22,Sunderland,0,Anfield
+Champions League First Group Phase,2014-12-09,1,23,Basel,1,Anfield
+Premier League,2014-12-14,0,24,Manchester United,3,Old Trafford
+League Cup 5th round ,2014-12-17,3,25,Bournemouth,1,Dean Court
+Premier League,2014-12-21,2,26,Arsenal,2,Anfield
+Premier League,2014-12-26,1,27,Burnley,0,Turf Moor
+Premier League,2014-12-29,4,28,Swansea City,1,Anfield
+Premier League,2015-01-01,2,29,Leicester City,2,Anfield
+FA Cup 3rd round,2015-01-05,2,30,AFC Wimbledon,1,Kingsmeadow
+Premier League,2015-01-10,1,31,Sunderland,0,Stadium of Light
+Premier League,2015-01-17,2,32,Aston Villa,0,Villa Park
+League Cup Semi-final 1st leg,2015-01-20,1,33,Chelsea,1,Anfield
+FA Cup 4th round,2015-01-24,0,34,Bolton Wanderers,0,Anfield
+League Cup Semi-final 2nd leg,2015-01-27,0,35,Chelsea,1,Stamford Bridge
+Premier League,2015-01-31,2,36,West Ham United,0,Anfield
+FA Cup 4th round replay,2015-02-04,2,37,Bolton Wanderers,1,Reebok Stadium
+Premier League,2015-02-07,0,38,Everton,0,Goodison Park
+Premier League,2015-02-10,3,39,Tottenham Hotspur,2,Anfield
+FA Cup 5th round,2015-02-14,2,40,Crystal Palace,1,Selhurst Park
+Europa League Round of 32,2015-02-19,1,41,Besiktas,0,Anfield
+Premier League,2015-02-22,2,42,Southampton,0,St Mary's
+Europa League Round of 32,2015-02-26,0,43,Besiktas,1,Ataturk Stadium
+Premier League,2015-03-01,2,44,Manchester City,1,Anfield
+Premier League,2015-03-04,2,45,Burnley,0,Anfield
+FA Cup 6th round,2015-03-08,0,46,Blackburn Rovers,0,Anfield
+Premier League,2015-03-16,1,47,Swansea City,0,Liberty Stadium
+Premier League,2015-03-22,1,48,Manchester United,2,Anfield
+Premier League,2015-04-04,1,49,Arsenal,4,Emirates Stadium
+FA Cup 6th round replay,2015-04-08,1,50,Blackburn Rovers,0,Ewood Park
+Premier League,2015-04-13,2,51,Newcastle United,0,Anfield
+FA Cup Semi-final,2015-04-19,1,52,Aston Villa,2,Wembley
+Premier League,2015-04-25,0,53,West Bromwich Albion,0,The Hawthorns
+Premier League,2015-04-28,0,54,Hull City,1,Kingston Communications Stadium
+Premier League,2015-05-02,2,55,Queens Park Rangers,1,Anfield
+Premier League,2015-05-10,1,56,Chelsea,1,Stamford Bridge
+Premier League,2015-05-16,1,57,Crystal Palace,3,Anfield
+Premier League,2015-05-24,1,58,Stoke City,6,Britannia Stadium
+Premier League,2013-08-17,1,1,Stoke City,0,Anfield
+Premier League,2013-08-24,1,2,Aston Villa,0,Villa Park
+League Cup 2nd round,2013-08-27,4,3,Notts County,2,Anfield
+Premier League,2013-09-01,1,4,Manchester United,0,Anfield
+Premier League,2013-09-16,2,5,Swansea City,2,Liberty Stadium
+Premier League,2013-09-21,0,6,Southampton,1,Anfield
+League Cup 3rd round,2013-09-25,0,7,Manchester United,1,Old Trafford
+Premier League,2013-09-29,3,8,Sunderland,1,Stadium of Light
+Premier League,2013-10-05,3,9,Crystal Palace,1,Anfield
+Premier League,2013-10-19,2,10,Newcastle United,2,St James' Park
+Premier League,2013-10-26,4,11,West Bromwich Albion,1,Anfield
+Premier League,2013-11-02,0,12,Arsenal,2,Emirates Stadium
+Premier League,2013-11-09,4,13,Fulham,0,Anfield
+Premier League,2013-11-23,3,14,Everton,3,Goodison Park
+Premier League,2013-12-01,1,15,Hull City,3,Kingston Communications Stadium
+Premier League,2013-12-04,5,16,Norwich City,1,Anfield
+Premier League,2013-12-07,4,17,West Ham United,1,Anfield
+Premier League,2013-12-15,5,18,Tottenham Hotspur,0,White Hart Lane
+Premier League,2013-12-21,3,19,Cardiff City,1,Anfield
+Premier League,2013-12-26,1,20,Manchester City,2,Etihad Stadium
+Premier League,2013-12-29,1,21,Chelsea,2,Stamford Bridge
+Premier League,2014-01-01,2,22,Hull City,0,Anfield
+FA Cup 3rd round,2014-01-05,2,23,Oldham Athletic,0,Anfield
+Premier League,2014-01-12,5,24,Stoke City,3,Britannia Stadium
+Premier League,2014-01-18,2,25,Aston Villa,2,Anfield
+FA Cup 4th round,2014-01-25,2,26,Bournemouth,0,Dean Court
+Premier League,2014-01-28,4,27,Everton,0,Anfield
+Premier League,2014-02-02,1,28,West Bromwich Albion,1,The Hawthorns
+Premier League,2014-02-08,5,29,Arsenal,1,Anfield
+Premier League,2014-02-12,3,30,Fulham,2,Craven Cottage
+FA Cup 5th round,2014-02-16,1,31,Arsenal,2,Emirates Stadium
+Premier League,2014-02-23,4,32,Swansea City,3,Anfield
+Premier League,2014-03-01,3,33,Southampton,0,St Mary's
+Premier League,2014-03-16,3,34,Manchester United,0,Old Trafford
+Premier League,2014-03-22,6,35,Cardiff City,3,Cardiff City Stadium
+Premier League,2014-03-26,2,36,Sunderland,1,Anfield
+Premier League,2014-03-30,4,37,Tottenham Hotspur,0,Anfield
+Premier League,2014-04-06,2,38,West Ham United,1,Upton Park
+Premier League,2014-04-13,3,39,Manchester City,2,Anfield
+Premier League,2014-04-20,3,40,Norwich City,2,Carrow Road
+Premier League,2014-04-27,0,41,Chelsea,2,Anfield
+Premier League,2014-05-05,3,42,Crystal Palace,3,Selhurst Park
+Premier League,2014-05-11,2,43,Newcastle United,1,Anfield
+Europa League 3rd Qualifying Round 1st Leg,2012-08-02,1,1,Gomel,0,Central Stadion
+Europa League 3rd Qualifying Round 2nd Leg,2012-08-09,3,2,Gomel,0,Anfield
+Premier League,2012-08-18,0,3,West Bromwich Albion,3,The Hawthorns
+Europa League Play-off 1st Leg,2012-08-23,1,4,Heart Of Midlothian,0,Tynecastle Stadium
+Premier League,2012-08-26,2,5,Manchester City,2,Anfield
+Europa League Play-off 2nd Leg,2012-08-30,1,6,Heart Of Midlothian,1,Anfield
+Premier League,2012-09-02,0,7,Arsenal,2,Anfield
+Premier League,2012-09-15,1,8,Sunderland,1,Stadium of Light
+Europa League Group Stage,2012-09-20,5,9,Young Boys,3,Stade de Suisse
+Premier League,2012-09-23,1,10,Manchester United,2,Anfield
+League Cup 3rd round,2012-09-26,2,11,West Bromwich Albion,1,The Hawthorns
+Premier League,2012-09-29,5,12,Norwich City,2,Carrow Road
+Europa League Group Stage,2012-10-04,2,13,Udinese,3,Anfield
+Premier League,2012-10-07,0,14,Stoke City,0,Anfield
+Premier League,2012-10-20,1,15,Reading,0,Anfield
+Europa League Group Stage,2012-10-25,1,16,Anzhi Makhachkala,0,Anfield
+Premier League,2012-10-28,2,17,Everton,2,Goodison Park
+League Cup 4th round,2012-10-31,1,18,Swansea City,3,Anfield
+Premier League,2012-11-04,1,19,Newcastle United,1,Anfield
+Europa League Group Stage,2012-11-08,0,20,Anzhi Makhachkala,1,Lokomotiv Stadium
+Premier League,2012-11-11,1,21,Chelsea,1,Stamford Bridge
+Premier League,2012-11-17,3,22,Wigan Athletic,0,Anfield
+Europa League Group Stage,2012-11-22,2,23,Young Boys,2,Anfield
+Premier League,2012-11-25,0,24,Swansea City,0,Liberty Stadium
+Premier League,2012-11-28,1,25,Tottenham Hotspur,2,White Hart Lane
+Premier League,2012-12-01,1,26,Southampton,0,Anfield
+Europa League Group Stage,2012-12-06,1,27,Udinese,0,Stadio Friuli
+Premier League,2012-12-09,3,28,West Ham United,2,Upton Park
+Premier League,2012-12-15,1,29,Aston Villa,3,Anfield
+Premier League,2012-12-22,4,30,Fulham,0,Anfield
+Premier League,2012-12-26,1,31,Stoke City,3,Britannia Stadium
+Premier League,2012-12-30,3,32,Queens Park Rangers,0,Loftus Road
+Premier League,2013-01-02,3,33,Sunderland,0,Anfield
+FA Cup 3rd round,2013-01-06,2,34,Mansfield Town,1,Field Mill
+Premier League,2013-01-13,1,35,Manchester United,2,Old Trafford
+Premier League,2013-01-19,5,36,Norwich City,0,Anfield
+FA Cup 4th round,2013-01-27,2,37,Oldham Athletic,3,Boundary Park
+Premier League,2013-01-30,2,38,Arsenal,2,Emirates Stadium
+Premier League,2013-02-03,2,39,Manchester City,2,Etihad Stadium
+Premier League,2013-02-11,0,40,West Bromwich Albion,2,Anfield
+Europa League Round of 32,2013-02-14,0,41,Zenit Saint Petersburg,2,Petrovsky Stadium
+Premier League,2013-02-17,5,42,Swansea City,0,Anfield
+Europa League Round of 32,2013-02-21,3,43,Zenit Saint Petersburg,1,Anfield
+Premier League,2013-03-02,4,44,Wigan Athletic,0,DW Stadium
+Premier League,2013-03-10,3,45,Tottenham Hotspur,2,Anfield
+Premier League,2013-03-16,1,46,Southampton,3,St Mary's
+Premier League,2013-03-31,2,47,Aston Villa,1,Villa Park
+Premier League,2013-04-07,0,48,West Ham United,0,Anfield
+Premier League,2013-04-13,0,49,Reading,0,Madejski Stadium
+Premier League,2013-04-21,2,50,Chelsea,2,Anfield
+Premier League,2013-04-27,6,51,Newcastle United,0,St James' Park
+Premier League,2013-05-05,0,52,Everton,0,Anfield
+Premier League,2013-05-12,3,53,Fulham,1,Craven Cottage
+Premier League,2013-05-19,1,54,Queens Park Rangers,0,Anfield
+Premier League,2011-08-13,1,1,Sunderland,1,Anfield
+Premier League,2011-08-20,2,2,Arsenal,0,Emirates Stadium
+League Cup 2nd round,2011-08-24,3,3,Exeter City,1,"St James Park, Exeter"
+Premier League,2011-08-27,3,4,Bolton Wanderers,1,Anfield
+Premier League,2011-09-10,0,5,Stoke City,1,Britannia Stadium
+Premier League,2011-09-18,0,6,Tottenham Hotspur,4,White Hart Lane
+League Cup 3rd round,2011-09-21,2,7,Brighton & Hove Albion,1,American Express Community Stadium
+Premier League,2011-09-24,2,8,Wolves,1,Anfield
+Premier League,2011-10-01,2,9,Everton,0,Goodison Park
+Premier League,2011-10-15,1,10,Manchester United,1,Anfield
+Premier League,2011-10-22,1,11,Norwich City,1,Anfield
+League Cup 4th round,2011-10-26,2,12,Stoke City,1,Britannia Stadium
+Premier League,2011-10-29,2,13,West Bromwich Albion,0,The Hawthorns
+Premier League,2011-11-05,0,14,Swansea City,0,Anfield
+Premier League,2011-11-20,2,15,Chelsea,1,Stamford Bridge
+Premier League,2011-11-27,1,16,Manchester City,1,Anfield
+League Cup 5th round ,2011-11-29,2,17,Chelsea,0,Stamford Bridge
+Premier League,2011-12-05,0,18,Fulham,1,Craven Cottage
+Premier League,2011-12-10,1,19,Queens Park Rangers,0,Anfield
+Premier League,2011-12-18,2,20,Aston Villa,0,Villa Park
+Premier League,2011-12-21,0,21,Wigan Athletic,0,DW Stadium
+Premier League,2011-12-26,1,22,Blackburn Rovers,1,Anfield
+Premier League,2011-12-30,3,23,Newcastle United,1,Anfield
+Premier League,2012-01-03,0,24,Manchester City,3,Etihad Stadium
+FA Cup 3rd round,2012-01-06,5,25,Oldham Athletic,1,Anfield
+League Cup Semi-final 1st leg,2012-01-11,1,26,Manchester City,0,Etihad Stadium
+Premier League,2012-01-14,0,27,Stoke City,0,Anfield
+Premier League,2012-01-21,1,28,Bolton Wanderers,3,Reebok Stadium
+League Cup Semi-final 2nd leg,2012-01-25,2,29,Manchester City,2,Anfield
+FA Cup 4th round,2012-01-28,2,30,Manchester United,1,Anfield
+Premier League,2012-01-31,3,31,Wolves,0,Molineux
+Premier League,2012-02-06,0,32,Tottenham Hotspur,0,Anfield
+Premier League,2012-02-11,1,33,Manchester United,2,Old Trafford
+FA Cup 5th round,2012-02-19,6,34,Brighton & Hove Albion,1,Anfield
+League Cup Final ,2012-02-26,2,35,Cardiff City,2,Wembley
+Premier League,2012-03-03,1,36,Arsenal,2,Anfield
+Premier League,2012-03-10,0,37,Sunderland,1,Stadium of Light
+Premier League,2012-03-13,3,38,Everton,0,Anfield
+FA Cup 6th round,2012-03-18,2,39,Stoke City,1,Anfield
+Premier League,2012-03-21,2,40,Queens Park Rangers,3,Loftus Road
+Premier League,2012-03-24,1,41,Wigan Athletic,2,Anfield
+Premier League,2012-04-01,0,42,Newcastle United,2,St James' Park
+Premier League,2012-04-07,1,43,Aston Villa,1,Anfield
+Premier League,2012-04-10,3,44,Blackburn Rovers,2,Ewood Park
+FA Cup Semi-final,2012-04-14,2,45,Everton,1,Wembley
+Premier League,2012-04-22,0,46,West Bromwich Albion,1,Anfield
+Premier League,2012-04-28,3,47,Norwich City,0,Carrow Road
+Premier League,2012-05-01,0,48,Fulham,1,Anfield
+FA Cup Final,2012-05-05,1,49,Chelsea,2,Wembley
+Premier League,2012-05-08,4,50,Chelsea,1,Anfield
+Premier League,2012-05-13,0,51,Swansea City,1,Liberty Stadium
+Europa League 3rd Qualifying Round 1st Leg,2010-07-29,2,1,Rabotnicki,0,Philip II Arena
+Europa League 3rd Qualifying Round 2nd Leg,2010-08-05,2,2,Rabotnicki,0,Anfield
+Premier League,2010-08-15,1,3,Arsenal,1,Anfield
+Europa League Play-off 1st Leg,2010-08-19,1,4,Trabzonspor,0,Anfield
+Premier League,2010-08-23,0,5,Manchester City,3,City of Manchester Stadium 
+Europa League Play-off 2nd Leg,2010-08-26,2,6,Trabzonspor,1,Hüseyin Avni Aker Stadium
+Premier League,2010-08-29,1,7,West Bromwich Albion,0,Anfield
+Premier League,2010-09-12,0,8,Birmingham City,0,St Andrews
+Europa League Group Stage,2010-09-16,4,9,Steaua  Bucharest,1,Anfield
+Premier League,2010-09-19,2,10,Manchester United,3,Old Trafford
+League Cup 3rd round,2010-09-22,2,11,Northampton Town,2,Anfield
+Premier League,2010-09-25,2,12,Sunderland,2,Anfield
+Europa League Group Stage,2010-09-30,0,13,Utrecht,0,Stadion Galgenwaard
+Premier League,2010-10-03,1,14,Blackpool,2,Anfield
+Premier League,2010-10-17,0,15,Everton,2,Goodison Park
+Europa League Group Stage,2010-10-21,0,16,Napoli,0,Stadio San Paolo
+Premier League,2010-10-24,2,17,Blackburn Rovers,1,Anfield
+Premier League,2010-10-31,1,18,Bolton Wanderers,0,Reebok Stadium
+Europa League Group Stage,2010-11-04,3,19,Napoli,1,Anfield
+Premier League,2010-11-07,2,20,Chelsea,0,Anfield
+Premier League,2010-11-10,1,21,Wigan Athletic,1,DW Stadium
+Premier League,2010-11-13,0,22,Stoke City,2,Britannia Stadium
+Premier League,2010-11-20,3,23,West Ham United,0,Anfield
+Premier League,2010-11-28,1,24,Tottenham Hotspur,2,White Hart Lane
+Europa League Group Stage,2010-12-02,1,25,Steaua  Bucharest,1,Ghencea Stadium
+Premier League,2010-12-06,3,26,Aston Villa,0,Anfield
+Premier League,2010-12-11,1,27,Newcastle United,3,St James' Park
+Europa League Group Stage,2010-12-15,0,28,Utrecht,0,Anfield
+Premier League,2010-12-29,0,29,Wolves,1,Anfield
+Premier League,2011-01-01,2,30,Bolton Wanderers,1,Anfield
+Premier League,2011-01-05,1,31,Blackburn Rovers,3,Ewood Park
+FA Cup 3rd round,2011-01-09,0,32,Manchester United,1,Old Trafford
+Premier League,2011-01-12,1,33,Blackpool,2,Bloomfield Road
+Premier League,2011-01-16,2,34,Everton,2,Anfield
+Premier League,2011-01-22,3,35,Wolves,0,Molineux
+Premier League,2011-01-26,1,36,Fulham,0,Anfield
+Premier League,2011-02-02,2,37,Stoke City,0,Anfield
+Premier League,2011-02-06,1,38,Chelsea,0,Stamford Bridge
+Premier League,2011-02-12,1,39,Wigan Athletic,1,Anfield
+Europa League Round of 32,2011-02-17,0,40,Sparta Prague,0,Generali Arena
+Europa League Round of 32,2011-02-24,1,41,Sparta Prague,0,Anfield
+Premier League,2011-02-27,1,42,West Ham United,3,Upton Park
+Premier League,2011-03-06,3,43,Manchester United,1,Anfield
+Europa League Round of 16,2011-03-10,0,44,Braga,1,Estádio Municipal de Braga
+Europa League Round of 16,2011-03-17,0,45,Braga,0,Anfield
+Premier League,2011-03-20,2,46,Sunderland,0,Stadium of Light
+Premier League,2011-04-02,1,47,West Bromwich Albion,2,The Hawthorns
+Premier League,2011-04-11,3,48,Manchester City,0,Anfield
+Premier League,2011-04-17,1,49,Arsenal,1,Emirates Stadium
+Premier League,2011-04-23,5,50,Birmingham City,0,Anfield
+Premier League,2011-05-01,3,51,Newcastle United,0,Anfield
+Premier League,2011-05-09,5,52,Fulham,2,Craven Cottage
+Premier League,2011-05-15,0,53,Tottenham Hotspur,2,Anfield
+Premier League,2011-05-22,0,54,Aston Villa,1,Villa Park
+Premier League,2009-08-16,1,1,Tottenham Hotspur,2,White Hart Lane
+Premier League,2009-08-19,4,2,Stoke City,0,Anfield
+Premier League,2009-08-24,1,3,Aston Villa,3,Anfield
+Premier League,2009-08-29,3,4,Bolton Wanderers,2,Reebok Stadium
+Premier League,2009-09-12,4,5,Burnley,0,Anfield
+Champions League First Group Phase,2009-09-16,1,6,Debrecen VSC,0,Anfield
+Premier League,2009-09-19,3,7,West Ham United,2,Upton Park
+League Cup 3rd round,2009-09-22,1,8,Leeds United,0,Elland Road
+Premier League,2009-09-26,6,9,Hull City,1,Anfield
+Champions League First Group Phase,2009-09-29,0,10,Fiorentina,2,Stadio Artemio Franchi
+Premier League,2009-10-04,0,11,Chelsea,2,Stamford Bridge
+Premier League,2009-10-17,0,12,Sunderland,1,Stadium of Light
+Champions League First Group Phase,2009-10-20,1,13,Olympique Lyonnais,2,Anfield
+Premier League,2009-10-25,2,14,Manchester United,0,Anfield
+League Cup 4th round,2009-10-28,1,15,Arsenal,2,Emirates Stadium
+Premier League,2009-10-31,1,16,Fulham,3,Craven Cottage
+Champions League First Group Phase,2009-11-04,1,17,Olympique Lyonnais,1,Stade Gerland
+Premier League,2009-11-09,2,18,Birmingham City,2,Anfield
+Premier League,2009-11-21,2,19,Manchester City,2,Anfield
+Champions League First Group Phase,2009-11-24,1,20,Debrecen VSC,0,Ferenc Puskás
+Premier League,2009-11-29,2,21,Everton,0,Goodison Park
+Premier League,2009-12-05,0,22,Blackburn Rovers,0,Ewood Park
+Champions League First Group Phase,2009-12-09,1,23,Fiorentina,2,Anfield
+Premier League,2009-12-13,1,24,Arsenal,2,Anfield
+Premier League,2009-12-16,2,25,Wigan Athletic,1,Anfield
+Premier League,2009-12-19,0,26,Portsmouth,2,Fratton Park
+Premier League,2009-12-26,2,27,Wolves,0,Anfield
+Premier League,2009-12-29,1,28,Aston Villa,0,Villa Park
+FA Cup 3rd round,2010-01-02,1,29,Reading,1,Madejski Stadium
+FA Cup 3rd round replay,2010-01-13,1,30,Reading,2,Anfield
+Premier League,2010-01-16,1,31,Stoke City,1,Britannia Stadium
+Premier League,2010-01-20,2,32,Tottenham Hotspur,0,Anfield
+Premier League,2010-01-26,0,33,Wolves,0,Molineux
+Premier League,2010-01-30,2,34,Bolton Wanderers,0,Anfield
+Premier League,2010-02-06,1,35,Everton,0,Anfield
+Premier League,2010-02-10,0,36,Arsenal,1,Emirates Stadium
+Europa League Round of 32,2010-02-18,1,37,Unirea Urziceni,0,Anfield
+Premier League,2010-02-21,0,38,Manchester City,0,City of Manchester Stadium 
+Europa League Round of 32,2010-02-25,3,39,Unirea Urziceni,1,Ghencea Stadium
+Premier League,2010-02-28,2,40,Blackburn Rovers,1,Anfield
+Premier League,2010-03-08,0,41,Wigan Athletic,1,DW Stadium
+Europa League Round of 16,2010-03-11,0,42,Lille,1,Stadium Lille Métropole
+Premier League,2010-03-15,4,43,Portsmouth,1,Anfield
+Europa League Round of 16,2010-03-18,3,44,Lille,0,Anfield
+Premier League,2010-03-21,1,45,Manchester United,2,Old Trafford
+Premier League,2010-03-28,3,46,Sunderland,0,Anfield
+Europa League Quarter Finals,2010-04-01,1,47,Benfica,2,Estadio da Luz
+Premier League,2010-04-04,1,48,Birmingham City,1,St Andrews
+Europa League Quarter Finals,2010-04-08,4,49,Benfica,1,Anfield
+Premier League,2010-04-11,0,50,Fulham,0,Anfield
+Premier League,2010-04-19,3,51,West Ham United,0,Anfield
+Europa League Semi Finals,2010-04-22,0,52,Atletico Madrid,1,Estadio Vicente Calderon
+Premier League,2010-04-25,4,53,Burnley,0,Turf Moor
+Europa League Semi Finals,2010-04-29,2,54,Atletico Madrid,1,Anfield
+Premier League,2010-05-02,0,55,Chelsea,2,Anfield
+Premier League,2010-05-09,0,56,Hull City,0,Kingston Communications Stadium
+Champions League 3rd Qualifying round 1st leg,2008-08-13,0,1,Standard Liege,0,Stade de Sclessin
+Premier League,2008-08-16,1,2,Sunderland,0,Stadium of Light
+Premier League,2008-08-23,2,3,Middlesbrough,1,Anfield
+Champions League 3rd Qualifying round 2nd leg,2008-08-27,1,4,Standard Liege,0,Anfield
+Premier League,2008-08-31,0,5,Aston Villa,0,Villa Park
+Premier League,2008-09-13,2,6,Manchester United,1,Anfield
+Champions League First Group Phase,2008-09-16,2,7,Marseille,1,Velodrome
+Premier League,2008-09-20,0,8,Stoke City,0,Anfield
+League Cup 3rd round,2008-09-23,2,9,Crewe Alexandra,1,Anfield
+Premier League,2008-09-27,2,10,Everton,0,Goodison Park
+Champions League First Group Phase,2008-10-01,3,11,PSV Eindhoven,1,Anfield
+Premier League,2008-10-05,3,12,Manchester City,2,City of Manchester Stadium 
+Premier League,2008-10-18,3,13,Wigan Athletic,2,Anfield
+Champions League First Group Phase,2008-10-22,1,14,Atletico Madrid,1,Estadio Vicente Calderon
+Premier League,2008-10-26,1,15,Chelsea,0,Stamford Bridge
+Premier League,2008-10-29,1,16,Portsmouth,0,Anfield
+Premier League,2008-11-01,1,17,Tottenham Hotspur,2,White Hart Lane
+Champions League First Group Phase,2008-11-04,1,18,Atletico Madrid,1,Anfield
+Premier League,2008-11-08,3,19,West Bromwich Albion,0,Anfield
+League Cup 4th round,2008-11-12,2,20,Tottenham Hotspur,4,White Hart Lane
+Premier League,2008-11-15,2,21,Bolton Wanderers,0,Reebok Stadium
+Premier League,2008-11-22,0,22,Fulham,0,Anfield
+Champions League First Group Phase,2008-11-26,1,23,Marseille,0,Anfield
+Premier League,2008-12-01,0,24,West Ham United,0,Anfield
+Premier League,2008-12-06,3,25,Blackburn Rovers,1,Ewood Park
+Champions League First Group Phase,2008-12-09,3,26,PSV Eindhoven,1,Philips Stadion
+Premier League,2008-12-13,2,27,Hull City,2,Anfield
+Premier League,2008-12-21,1,28,Arsenal,1,Emirates Stadium
+Premier League,2008-12-26,3,29,Bolton Wanderers,0,Anfield
+Premier League,2008-12-28,5,30,Newcastle United,1,St James' Park
+FA Cup 3rd round,2009-01-03,2,31,Preston North End,0,Deepdale
+Premier League,2009-01-10,0,32,Stoke City,0,Britannia Stadium
+Premier League,2009-01-19,1,33,Everton,1,Anfield
+FA Cup 4th round,2009-01-25,1,34,Everton,1,Anfield
+Premier League,2009-01-28,1,35,Wigan Athletic,1,JJB Stadium
+Premier League,2009-02-01,2,36,Chelsea,0,Anfield
+FA Cup 4th round replay,2009-02-04,0,37,Everton,1,Goodison Park
+Premier League,2009-02-07,3,38,Portsmouth,2,Fratton Park
+Premier League,2009-02-22,1,39,Manchester City,1,Anfield
+Champions League  1st knockout r. 1st leg,2009-02-25,1,40,Real Madrid,0,Bernabeu Stadium
+Premier League,2009-02-28,0,41,Middlesbrough,2,Riverside
+Premier League,2009-03-03,2,42,Sunderland,0,Anfield
+Champions League 1st knockout r. 2nd leg ,2009-03-10,4,43,Real Madrid,0,Anfield
+Premier League,2009-03-14,4,44,Manchester United,1,Old Trafford
+Premier League,2009-03-22,5,45,Aston Villa,0,Anfield
+Premier League,2009-04-04,1,46,Fulham,0,Craven Cottage
+Champions League Quarter-final 1st leg,2009-04-08,1,47,Chelsea,3,Anfield
+Premier League,2009-04-11,4,48,Blackburn Rovers,0,Anfield
+Champions League Quarter-final 2nd leg,2009-04-14,4,49,Chelsea,4,Stamford Bridge
+Premier League,2009-04-21,4,50,Arsenal,4,Anfield
+Premier League,2009-04-25,3,51,Hull City,1,Kingston Communications Stadium
+Premier League,2009-05-03,3,52,Newcastle United,0,Anfield
+Premier League,2009-05-09,3,53,West Ham United,0,Upton Park
+Premier League,2009-05-17,2,54,West Bromwich Albion,0,The Hawthorns
+Premier League,2009-05-24,3,55,Tottenham Hotspur,1,Anfield
+Premier League,2007-08-11,2,1,Aston Villa,1,Villa Park
+Champions League 3rd Qualifying round 1st leg,2007-08-15,1,2,Toulouse,0,Stadium Municipal
+Premier League,2007-08-19,1,3,Chelsea,1,Anfield
+Premier League,2007-08-25,2,4,Sunderland,0,Stadium of Light
+Champions League 3rd Qualifying round 2nd leg,2007-08-28,4,5,Toulouse,0,Anfield
+Premier League,2007-09-01,6,6,Derby County,0,Anfield
+Premier League,2007-09-15,0,7,Portsmouth,0,Fratton Park
+Champions League First Group Phase,2007-09-18,1,8,Porto,1,Estadio da Dragao
+Premier League,2007-09-22,0,9,Birmingham City,0,Anfield
+League Cup 3rd round,2007-09-25,4,10,Reading,2,Madejski Stadium
+Premier League,2007-09-29,1,11,Wigan Athletic,0,JJB Stadium
+Champions League First Group Phase,2007-10-03,0,12,Marseille,1,Anfield
+Premier League,2007-10-07,2,13,Tottenham Hotspur,2,Anfield
+Premier League,2007-10-20,2,14,Everton,1,Goodison Park
+Champions League First Group Phase,2007-10-24,1,15,Besiktas,2,Inonu Stadium
+Premier League,2007-10-28,1,16,Arsenal,1,Anfield
+League Cup 4th round,2007-10-31,2,17,Cardiff City,1,Anfield
+Premier League,2007-11-03,0,18,Blackburn Rovers,0,Ewood Park
+Champions League First Group Phase,2007-11-06,8,19,Besiktas,0,Anfield
+Premier League,2007-11-10,2,20,Fulham,0,Anfield
+Premier League,2007-11-24,3,21,Newcastle United,0,St James' Park
+Champions League First Group Phase,2007-11-28,4,22,Porto,1,Anfield
+Premier League,2007-12-02,4,23,Bolton Wanderers,0,Anfield
+Premier League,2007-12-08,1,24,Reading,3,Madejski Stadium
+Champions League First Group Phase,2007-12-11,4,25,Marseille,0,Velodrome
+Premier League,2007-12-16,0,26,Manchester United,1,Anfield
+League Cup 5th round ,2007-12-19,0,27,Chelsea,2,Stamford Bridge
+Premier League,2007-12-22,4,28,Portsmouth,1,Anfield
+Premier League,2007-12-26,2,29,Derby County,1,Pride Park
+Premier League,2007-12-30,0,30,Manchester City,0,City of Manchester Stadium 
+Premier League,2008-01-02,1,31,Wigan Athletic,1,Anfield
+FA Cup 3rd round,2008-01-06,1,32,Luton Town,1,Kenilworth Road
+Premier League,2008-01-12,1,33,Middlesbrough,1,Riverside
+FA Cup 3rd round replay,2008-01-15,5,34,Luton Town,0,Anfield
+Premier League,2008-01-21,2,35,Aston Villa,2,Anfield
+FA Cup 4th round,2008-01-26,5,36,Havant & Waterlooville,2,Anfield
+Premier League,2008-01-30,0,37,West Ham United,1,Upton Park
+Premier League,2008-02-02,3,38,Sunderland,0,Anfield
+Premier League,2008-02-10,0,39,Chelsea,0,Stamford Bridge
+FA Cup 5th round,2008-02-16,1,40,Barnsley,2,Anfield
+Champions League  1st knockout r. 1st leg,2008-02-19,2,41,Inter Milan,0,Anfield
+Premier League,2008-02-23,3,42,Middlesbrough,2,Anfield
+Premier League,2008-03-02,3,43,Bolton Wanderers,1,Reebok Stadium
+Premier League,2008-03-05,4,44,West Ham United,0,Anfield
+Premier League,2008-03-08,3,45,Newcastle United,0,Anfield
+Champions League 1st knockout r. 2nd leg ,2008-03-11,1,46,Inter Milan,0,San Siro
+Premier League,2008-03-15,2,47,Reading,1,Anfield
+Premier League,2008-03-23,0,48,Manchester United,3,Old Trafford
+Premier League,2008-03-30,1,49,Everton,0,Anfield
+Champions League Quarter-final 1st leg,2008-04-02,1,50,Arsenal,1,Emirates Stadium
+Premier League,2008-04-05,1,51,Arsenal,1,Emirates Stadium
+Champions League Quarter-final 2nd leg,2008-04-08,4,52,Arsenal,2,Anfield
+Premier League,2008-04-13,3,53,Blackburn Rovers,1,Anfield
+Premier League,2008-04-19,2,54,Fulham,0,Craven Cottage
+Champions League Semi-final 1st leg,2008-04-22,1,55,Chelsea,1,Anfield
+Premier League,2008-04-26,2,56,Birmingham City,2,St Andrews
+Champions League Semi-final 2nd leg,2008-04-30,2,57,Chelsea,3,Stamford Bridge
+Premier League,2008-05-04,1,58,Manchester City,0,Anfield
+Premier League,2008-05-11,2,59,Tottenham Hotspur,0,White Hart Lane
+Champions League 3rd Qualifying round 1st leg,2006-08-09,2,1,Maccabi Haifa,1,Anfield
+Community Shield,2006-08-13,2,2,Chelsea,1,Millennium Stadium
+Premier League,2006-08-19,1,3,Sheffield United,1,Bramall Lane
+Champions League 3rd Qualifying round 2nd leg,2006-08-22,1,4,Maccabi Haifa,1,Valery Lobanovskiy Stadium
+Premier League,2006-08-26,2,5,West Ham United,1,Anfield
+Premier League,2006-09-09,0,6,Everton,3,Goodison Park
+Champions League First Group Phase,2006-09-12,0,7,PSV Eindhoven,0,Philips Stadion
+Premier League,2006-09-17,0,8,Chelsea,1,Stamford Bridge
+Premier League,2006-09-20,2,9,Newcastle United,0,Anfield
+Premier League,2006-09-23,3,10,Tottenham Hotspur,0,Anfield
+Champions League First Group Phase,2006-09-27,3,11,Galatasaray,2,Anfield
+Premier League,2006-09-30,0,12,Bolton Wanderers,2,Reebok Stadium
+Premier League,2006-10-14,1,13,Blackburn Rovers,1,Anfield
+Champions League First Group Phase,2006-10-18,1,14,Bordeaux,0,Jacques-Chaban Delmas Stadium
+Premier League,2006-10-22,0,15,Manchester United,2,Old Trafford
+League Cup 3rd round,2006-10-25,4,16,Reading,3,Anfield
+Premier League,2006-10-28,3,17,Aston Villa,1,Anfield
+Champions League First Group Phase,2006-10-31,3,18,Bordeaux,0,Anfield
+Premier League,2006-11-04,2,19,Reading,0,Anfield
+League Cup 4th round,2006-11-08,1,20,Birmingham City,0,St Andrews
+Premier League,2006-11-12,0,21,Arsenal,3,Emirates Stadium
+Premier League,2006-11-18,0,22,Middlesbrough,0,Riverside
+Champions League First Group Phase,2006-11-22,2,23,PSV Eindhoven,0,Anfield
+Premier League,2006-11-25,1,24,Manchester City,0,Anfield
+Premier League,2006-11-29,0,25,Portsmouth,0,Anfield
+Premier League,2006-12-02,4,26,Wigan Athletic,0,JJB Stadium
+Champions League First Group Phase,2006-12-05,2,27,Galatasaray,3,Ataturk Stadium
+Premier League,2006-12-09,4,28,Fulham,0,Anfield
+Premier League,2006-12-16,3,29,Charlton Athletic,0,The Valley
+Premier League,2006-12-23,2,30,Watford,0,Anfield
+Premier League,2006-12-26,0,31,Blackburn Rovers,1,Ewood Park
+Premier League,2006-12-30,1,32,Tottenham Hotspur,0,White Hart Lane
+Premier League,2007-01-01,3,33,Bolton Wanderers,0,Anfield
+FA Cup 3rd round,2007-01-06,1,34,Arsenal,3,Anfield
+League Cup 5th round ,2007-01-09,3,35,Arsenal,6,Anfield
+Premier League,2007-01-13,3,36,Watford,0,Vicarage Road
+Premier League,2007-01-20,2,37,Chelsea,0,Anfield
+Premier League,2007-01-30,2,38,West Ham United,1,Upton Park
+Premier League,2007-02-03,0,39,Everton,0,Anfield
+Premier League,2007-02-10,1,40,Newcastle United,2,St James' Park
+Champions League  1st knockout r. 1st leg,2007-02-21,2,41,Barcelona,1,Nou Camp
+Premier League,2007-02-24,4,42,Sheffield United,0,Anfield
+Premier League,2007-03-03,0,43,Manchester United,1,Anfield
+Champions League 1st knockout r. 2nd leg ,2007-03-06,0,44,Barcelona,1,Anfield
+Premier League,2007-03-18,0,45,Aston Villa,0,Villa Park
+Premier League,2007-03-31,4,46,Arsenal,1,Anfield
+Champions League Quarter-final 1st leg,2007-04-03,3,47,PSV Eindhoven,0,Philips Stadion
+Premier League,2007-04-07,2,48,Reading,1,Madejski Stadium
+Champions League Quarter-final 2nd leg,2007-04-11,1,49,PSV Eindhoven,0,Anfield
+Premier League,2007-04-14,0,50,Manchester City,0,City of Manchester Stadium 
+Premier League,2007-04-18,2,51,Middlesbrough,0,Anfield
+Premier League,2007-04-21,2,52,Wigan Athletic,0,Anfield
+Champions League Semi-final 1st leg,2007-04-25,0,53,Chelsea,1,Stamford Bridge
+Premier League,2007-04-28,1,54,Portsmouth,2,Fratton Park
+Champions League Semi-final 2nd leg,2007-05-01,1,55,Chelsea,0,Anfield
+Premier League,2007-05-05,0,56,Fulham,1,Craven Cottage
+Premier League,2007-05-13,2,57,Charlton Athletic,2,Anfield
+Champions League Final,2007-05-23,1,58,AC Milan,2,Athens Olympic Stadium
+Champions League 1st Qualifying round 1st leg,2005-07-13,3,1,Total Network Solutions,0,Anfield
+Champions League 1st Qualifying round 2nd leg,2005-07-19,3,2,Total Network Solutions,0,Racecourse Ground
+Champions League 2nd Qualifying round 1st leg,2005-07-26,3,3,FBK Kaunas,1,S Darius & S Girenas Stadium
+Champions League 2nd Qualifying round 2nd leg,2005-08-02,2,4,FBK Kaunas,0,Anfield
+Champions League 3rd Qualifying round 1st leg,2005-08-10,3,5,CSKA Sofia,1,Vassil Levski
+Premier League,2005-08-13,0,6,Middlesbrough,0,Riverside
+Premier League,2005-08-20,1,7,Sunderland,0,Anfield
+Champions League 3rd Qualifying round 2nd leg,2005-08-23,0,8,CSKA Sofia,1,Anfield
+European Super Cup,2005-08-26,3,9,CSKA Moscow,1,Stade Louis II
+Premier League,2005-09-10,0,10,Tottenham Hotspur,0,White Hart Lane
+Champions League First Group Phase,2005-09-13,2,11,Real Betis,1,Manuel Ruiz de Lopera
+Premier League,2005-09-18,0,12,Manchester United,0,Anfield
+Premier League,2005-09-24,2,13,Birmingham City,2,St Andrews
+Champions League First Group Phase,2005-09-28,0,14,Chelsea,0,Anfield
+Premier League,2005-10-02,1,15,Chelsea,4,Anfield
+Premier League,2005-10-15,1,16,Blackburn Rovers,0,Anfield
+Champions League First Group Phase,2005-10-19,1,17,Anderlecht,0,Constant Vanden Stock Stadium
+Premier League,2005-10-22,0,18,Fulham,2,Craven Cottage
+League Cup 3rd round,2005-10-25,1,19,Crystal Palace,2,Selhurst Park
+Premier League,2005-10-29,2,20,West Ham United,0,Anfield
+Champions League First Group Phase,2005-11-01,3,21,Anderlecht,0,Anfield
+Premier League,2005-11-05,2,22,Aston Villa,0,Villa Park
+Premier League,2005-11-19,3,23,Portsmouth,0,Anfield
+Champions League First Group Phase,2005-11-23,0,24,Real Betis,0,Anfield
+Premier League,2005-11-26,1,25,Manchester City,0,City of Manchester Stadium 
+Premier League,2005-11-30,2,26,Sunderland,0,Stadium of Light
+Premier League,2005-12-03,3,27,Wigan Athletic,0,Anfield
+Champions League First Group Phase,2005-12-06,0,28,Chelsea,0,Stamford Bridge
+Premier League,2005-12-10,2,29,Middlesbrough,0,Anfield
+World Club Championship Semi-final,2005-12-15,3,30,Deportivo Saprissa,0,Yokohama International Stadium
+World Club Championship,2005-12-18,0,31,Sao Paolo,1,Yokohama International Stadium
+Premier League,2005-12-26,2,32,Newcastle United,0,Anfield
+Premier League,2005-12-28,3,33,Everton,1,Goodison Park
+Premier League,2005-12-31,1,34,West Bromwich Albion,0,Anfield
+Premier League,2006-01-02,2,35,Bolton Wanderers,2,Reebok Stadium
+FA Cup 3rd round,2006-01-07,5,36,Luton Town,3,Kenilworth Road
+Premier League,2006-01-14,1,37,Tottenham Hotspur,0,Anfield
+Premier League,2006-01-22,0,38,Manchester United,1,Old Trafford
+FA Cup 4th round,2006-01-29,2,39,Portsmouth,1,Fratton Park
+Premier League,2006-02-01,1,40,Birmingham City,1,Anfield
+Premier League,2006-02-05,0,41,Chelsea,2,Stamford Bridge
+Premier League,2006-02-08,0,42,Charlton Athletic,2,The Valley
+Premier League,2006-02-11,1,43,Wigan Athletic,0,JJB Stadium
+Premier League,2006-02-14,1,44,Arsenal,0,Anfield
+FA Cup 5th round,2006-02-18,1,45,Manchester United,0,Anfield
+Champions League  1st knockout r. 1st leg,2006-02-21,0,46,Benfica,1,Estadio da Luz
+Premier League,2006-02-26,1,47,Manchester City,0,Anfield
+Premier League,2006-03-04,0,48,Charlton Athletic,0,Anfield
+Champions League 1st knockout r. 2nd leg ,2006-03-08,0,49,Benfica,2,Anfield
+Premier League,2006-03-12,1,50,Arsenal,2,Highbury
+Premier League,2006-03-15,5,51,Fulham,1,Anfield
+Premier League,2006-03-19,3,52,Newcastle United,1,St James' Park
+FA Cup 6th round,2006-03-21,7,53,Birmingham City,0,St Andrews
+Premier League,2006-03-25,3,54,Everton,1,Anfield
+Premier League,2006-04-01,2,55,West Bromwich Albion,0,The Hawthorns
+Premier League,2006-04-09,1,56,Bolton Wanderers,0,Anfield
+Premier League,2006-04-16,1,57,Blackburn Rovers,0,Ewood Park
+FA Cup Semi-final,2006-04-22,2,58,Chelsea,1,Old Trafford
+Premier League,2006-04-26,2,59,West Ham United,1,Upton Park
+Premier League,2006-04-29,3,60,Aston Villa,1,Anfield
+Premier League,2006-05-07,3,61,Portsmouth,1,Fratton Park
+FA Cup Final,2006-05-13,3,62,West Ham United,3,Millennium Stadium
+Champions League 3rd Qualifying round 1st leg,2004-08-10,2,1,Grazer AK,0,Arnold Schwarzenegger Stadion
+Premier League,2004-08-14,1,2,Tottenham Hotspur,1,White Hart Lane
+Premier League,2004-08-21,2,3,Manchester City,1,Anfield
+Champions League 3rd Qualifying round 2nd leg,2004-08-24,0,4,Grazer AK,1,Anfield
+Premier League,2004-08-29,0,5,Bolton Wanderers,1,Reebok Stadium
+Premier League,2004-09-11,3,6,West Bromwich Albion,0,Anfield
+Champions League First Group Phase,2004-09-15,2,7,AS Monaco,0,Anfield
+Premier League,2004-09-20,1,8,Manchester United,2,Old Trafford
+Premier League,2004-09-25,3,9,Norwich City,0,Anfield
+Champions League First Group Phase,2004-09-28,0,10,Olympiacos,1,Yorgos Karaiskakis Stadium
+Premier League,2004-10-03,0,11,Chelsea,1,Stamford Bridge
+Premier League,2004-10-16,4,12,Fulham,2,Craven Cottage
+Champions League First Group Phase,2004-10-19,0,13,Deportivo La Coruna,0,Anfield
+Premier League,2004-10-23,2,14,Charlton Athletic,0,Anfield
+League Cup 3rd round,2004-10-26,3,15,Millwall,0,The New Den
+Premier League,2004-10-30,2,16,Blackburn Rovers,2,Ewood Park
+Champions League First Group Phase,2004-11-03,1,17,Deportivo La Coruna,0,Estadio Municipal De Riazor
+Premier League,2004-11-06,0,18,Birmingham City,1,Anfield
+League Cup 4th round,2004-11-10,2,19,Middlesbrough,0,Anfield
+Premier League,2004-11-13,3,20,Crystal Palace,2,Anfield
+Premier League,2004-11-20,0,21,Middlesbrough,2,Riverside
+Champions League First Group Phase,2004-11-23,0,22,AS Monaco,1,Stade Louis II
+Premier League,2004-11-28,2,23,Arsenal,1,Anfield
+League Cup 5th round ,2004-12-01,1,24,Tottenham Hotspur,1,White Hart Lane
+Premier League,2004-12-04,1,25,Aston Villa,1,Villa Park
+Champions League First Group Phase,2004-12-08,3,26,Olympiacos,1,Anfield
+Premier League,2004-12-11,0,27,Everton,1,Goodison Park
+Premier League,2004-12-14,1,28,Portsmouth,1,Anfield
+Premier League,2004-12-19,3,29,Newcastle United,1,Anfield
+Premier League,2004-12-26,5,30,West Bromwich Albion,0,The Hawthorns
+Premier League,2004-12-28,1,31,Southampton,0,Anfield
+Premier League,2005-01-01,0,32,Chelsea,1,Anfield
+Premier League,2005-01-03,2,33,Norwich City,1,Carrow Road
+League Cup Semi-final 1st leg,2005-01-11,1,34,Watford,0,Anfield
+Premier League,2005-01-15,0,35,Manchester United,1,Anfield
+FA Cup 3rd round,2005-01-18,0,36,Burnley,1,Turf Moor
+Premier League,2005-01-22,0,37,Southampton,2,St Mary's
+League Cup Semi-final 2nd leg,2005-01-25,1,38,Watford,0,Vicarage Road
+Premier League,2005-02-01,2,39,Charlton Athletic,1,The Valley
+Premier League,2005-02-05,3,40,Fulham,1,Anfield
+Premier League,2005-02-12,0,41,Birmingham City,2,St Andrews
+Champions League  1st knockout r. 1st leg,2005-02-22,3,42,Bayer Leverkusen,1,Anfield
+League Cup Final ,2005-02-27,2,43,Chelsea,3,Millennium Stadium
+Premier League,2005-03-05,0,44,Newcastle United,1,St James' Park
+Champions League 1st knockout r. 2nd leg ,2005-03-09,3,45,Bayer Leverkusen,1,Bay Arena
+Premier League,2005-03-16,0,46,Blackburn Rovers,0,Anfield
+Premier League,2005-03-20,2,47,Everton,1,Anfield
+Premier League,2005-04-02,1,48,Bolton Wanderers,0,Anfield
+Champions League Quarter-final 1st leg,2005-04-05,2,49,Juventus,1,Anfield
+Premier League,2005-04-09,0,50,Manchester City,1,City of Manchester Stadium 
+Champions League Quarter-final 2nd leg,2005-04-13,0,51,Juventus,0,Stadio Dell'Alpi
+Premier League,2005-04-16,2,52,Tottenham Hotspur,2,Anfield
+Premier League,2005-04-20,2,53,Portsmouth,1,Fratton Park
+Premier League,2005-04-23,0,54,Crystal Palace,1,Selhurst Park
+Champions League Semi-final 1st leg,2005-04-27,0,55,Chelsea,0,Stamford Bridge
+Premier League,2005-04-30,1,56,Middlesbrough,1,Anfield
+Champions League Semi-final 2nd leg,2005-05-03,1,57,Chelsea,0,Anfield
+Premier League,2005-05-08,1,58,Arsenal,3,Highbury
+Premier League,2005-05-15,2,59,Aston Villa,1,Anfield
+Champions League Final,2005-05-25,3,60,AC Milan,3,Ataturk Stadium

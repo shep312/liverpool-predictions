@@ -39,7 +39,7 @@ class ProcessInput:
         df = self.define_results(df)
 
         # Convert the date to datetime
-        df['date'] = pd.to_datetime(df['date'], format='%d/%m/%Y')
+        df['date'] = pd.to_datetime(df['date'], format='%Y-%m-%d')
 
         # Get some opposition metrics
         df = self.get_beatability_index(df)
@@ -81,27 +81,18 @@ class ProcessInput:
 
         df['result'] = 0
 
-        # Convert home score and away score into liverpool/opposition goals
-        df.loc[df['liverpool_at_home'], 'liverpool_goals_scored'] = df.loc[df['liverpool_at_home'], 'home_score']
-        df.loc[df['liverpool_at_home'], 'opposition_goals_scored'] = df.loc[df['liverpool_at_home'], 'away_score']
-
-        df.loc[~df['liverpool_at_home'], 'opposition_goals_scored'] = df.loc[~df['liverpool_at_home'], 'home_score']
-        df.loc[~df['liverpool_at_home'], 'liverpool_goals_scored'] = df.loc[~df['liverpool_at_home'], 'away_score']
-
         # Win
-        df.loc[df['liverpool_goals_scored'] > df['opposition_goals_scored'], 'result'] = 1
+        df.loc[df['liverpool_score'] > df['opposition_score'], 'result'] = 1
 
         # Draw
-        df.loc[df['liverpool_goals_scored'] == df['opposition_goals_scored'], 'result'] = 0
+        df.loc[df['liverpool_score'] == df['opposition_score'], 'result'] = 0
 
         # Loss
-        df.loc[df['liverpool_goals_scored'] < df['opposition_goals_scored'], 'result'] = 2
+        df.loc[df['liverpool_score'] < df['opposition_score'], 'result'] = 2
 
         # Win / Not win binary flag
         df['win_flag'] = df['result'] == 1
         df['loss_flag'] = df['result'] == 2
-
-        df.drop(['home_score', 'away_score'], axis=1, inplace=True)
 
         return df
 
@@ -264,8 +255,8 @@ class ProcessInput:
             prem_game_counter += 1
 
             # Record goal stats
-            goals_for_counter += prem_df.loc[i, 'liverpool_goals_scored']
-            goals_against_counter += prem_df.loc[i, 'opposition_goals_scored']
+            goals_for_counter += prem_df.loc[i, 'liverpool_score']
+            goals_against_counter += prem_df.loc[i, 'opposition_score']
 
             # Calculate points accrued at this stage and therefore points per game (PPG)
             if prem_df.loc[i, 'win_flag']:
@@ -303,7 +294,7 @@ class ProcessInput:
         """ Drop features that are either leaks of the label or aren't desired
         for training. Includes:
             - competition: No variation, only PL
-            - liverpool_goals_scored/opposition_goals_scored: Not known at
+            - liverpool_score/opposition_score: Not known at
               inference
             - season_number: Not thought to be useful
             - season_points: Not thought to be useful
@@ -311,8 +302,8 @@ class ProcessInput:
         """
 
         df.drop(['competition',
-                'liverpool_goals_scored',
-                'opposition_goals_scored',
+                'liverpool_score',
+                'opposition_score',
                 'season_number',
                 'season_points',
                 'win_flag',
