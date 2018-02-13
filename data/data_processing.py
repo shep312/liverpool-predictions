@@ -311,7 +311,7 @@ class ProcessInput:
 
         return df
 
-    def stratified_train_test(self, df, test_size=0.2):
+    def stratified_train_test(self, df, test_size=0.1):
         """ Split input data into train and test sets. Since the dataset is
         small, stratify by label to make sure there the sets are representative
         of each other at least in the label."""
