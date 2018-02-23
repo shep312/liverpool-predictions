@@ -1,120 +1,97 @@
-from lxml import etree
-import numpy as np
+import lxml.html as LH
 import pandas as pd
-from io import StringIO
+import datetime
 import urllib3
 import os
 
-def scrape_training_data():
+
+def scrape_training_data(start_year):
     """ Scrapes http://www.lfchistory.net/SeasonArchive/Games/ for historical
     PL fixture results for LFC """
 
-    # Unfortunately the website integers are in a strange order
-    first_set = np.arange(33,46)
-    second_set = np.array([127, 126, 125, 124, 123, 122, 121, 120, 119, 118,
-                           117, 116, 115, 104, 46])
-    page_indeces = np.concatenate([first_set, second_set])
+    # Teams to gather data for
+    teams = ['liverpool-fc']
 
-    # Loop through website reads and create a dataframe
-    for zz in range(len(page_indeces) - 1):
+    # Connection settings
+    # http = urllib3.PoolManager()
+    default_headers = urllib3.make_headers(proxy_basic_auth='shephej:Kjowwnim35')
+    http = urllib3.ProxyManager("https://10.132.100.135:8080/", headers=default_headers)  # 8080
 
-        # Print year
-        print('Season {} / {}'.format(zz, len(page_indeces) - 1))
+    season = start_year
+    season_number = 0
+    now = datetime.datetime.now()
+    for team in teams:
 
-        # Page to read
-        target_page = 'http://www.lfchistory.net/SeasonArchive/Games/{}'.format(str(page_indeces[zz]))
+        while season <= now.year:
 
-        # Read page and save as HTML
-        http = urllib3.PoolManager()
-        r = http.request('GET', target_page)
-        page = r.data.decode('utf-8')
+            # Page to read
+            target_page = 'https://www.worldfootball.net/teams/{}/{}/3/'.format(team, season)
 
-        # Parse the HTML string
-        parser = etree.HTMLParser()
-        tree = etree.parse(StringIO(page), parser)
-        root = tree.getroot()
+            # Read page to get HTML
+            r = http.request('GET', target_page)
+            page = r.data.decode('utf-8')
 
-        # Identify data objects I'm interested in
-        tds = root.xpath("//td/text()")
-        scores = root.xpath("//a/text()")
-        scores = scores[1:]
+            # Parse HTML
+            root = LH.fromstring(page)
+            table = root.xpath('//table')[0]
+            header = ['round', 'date', 'time', 'place', '', 'opponent', 'result', '']
+            data = [[text(td) for td in tr.xpath('td')]
+                    for tr in table.xpath('//tr')]
+            current_competition = None
+            table_data = []
+            for row in data:
 
-        # Initialise lists to fill
-        i = 0
-        index = []
-        date = []
-        opposition = []
-        venue = []
-        competition = []
+                if len(row) == 1:
+                    current_competition = row[0]
 
-        # Loop through html data and organise it
-        while i < len(tds):
+                if current_competition is not None and len(row) == len(header):
+                    row.append(current_competition)
+                    row.append('{} / {}'.format(season - 1, season))
+                    row.append(season_number)
+                    table_data.append(row)
 
-            # Stop when the index resets and brings in friendlies
-            if int(tds[i]) < i / 5:
-                break
+            header.append('competition')
+            header.append('season')
+            header.append('season_number')
 
-            index.append(tds[i])
-            date.append(tds[i+1])
-            opposition.append(tds[i+2])
-            venue.append(tds[i+3])
-            competition.append(tds[i+4])
+            # Create data frame
+            if 'df' in locals():
+                df = df.append(pd.DataFrame(table_data, columns=header), ignore_index=True)
+            else:
+                df = pd.DataFrame(table_data, columns=header)
 
-            i += 5
+            # Increment year
+            print('Data acquired for team {}, season {} / {}'.format(team, season - 1, season))
+            season += 1
+            season_number += 1
 
-        # Extract the scores. Weirdly, i think this website always puts
-        # Liverpools score first
-        liverpool_score = []
-        opposition_score = []
-        position = 0
+    # Drop empty columns resulting from the HTML parse
+    df.drop('', axis=1, inplace=True)
 
-        for score in scores:
-            liverpool_score.append(score[0])
-            opposition_score.append(score[4])
+    # Convert the date to a datetime and get a round number by comp
+    df['date'] = pd.to_datetime(df['date'], format='%d/%m/%Y')
+    df['date_as_int'] = pd.to_numeric(df['date'])
+    grouped = df.groupby('competition')
+    df['round_number'] = grouped['date_as_int'].rank(method='min')
+    df.drop('date_as_int', axis=1, inplace=True)
 
-            # If its not a number then the scores have finished
-            try:
-                x = int(score[0])
-            except ValueError:
-                break
+    # Extract the goals scored by each team
+    df['team_score'] = df['result'].str[0]
+    df['opposition_score'] = df['result'].str[2]
+    df['team_ht_score'] = df['result'].str[5]
+    df['opposition_ht_score'] = df['result'].str[7]
 
-            position += 1
-            if position >= len(index):
-                break
-
-        # Create a dataframe of the results
-        fixture_history = pd.DataFrame({
-            'nth_game_this_season': index,
-            'date': date,
-            'opposition': opposition,
-            'venue': venue,
-            'competition': competition,
-            'liverpool_score': liverpool_score,
-            'opposition_score': opposition_score
-        })
-
-        # Combine results
-        if zz == 0:
-            final_df = pd.DataFrame({
-                'nth_game_this_season': [],
-                'date': [],
-                'opposition': [],
-                'venue': [],
-                'competition': [],
-                'liverpool_score': [],
-                'opposition_score': []
-            })
-        else:
-            final_df = pd.concat([final_df, fixture_history])
-
-    # Convert date to a datetime
-    final_df['date'] = pd.to_datetime(final_df['date'], format='%d.%m.%Y')
-
-    # Scores as ints
-    final_df['opposition_score'] = final_df['opposition_score'].astype(np.int32)
-    final_df['liverpool_score'] = final_df['liverpool_score'].astype(np.int32)
+    # Results
+    df['team_win'] = df['team_score'] > df['opposition_score']
+    df['team_draw'] = df['team_score'] == df['opposition_score']
+    df['team_loss'] = df['team_score'] < df['opposition_score']
 
     out_path = os.path.join('data', 'training_data', 'liverpool_fixture_history.csv')
-    final_df.to_csv(out_path, index=False, encoding='utf-8')
+    df.to_csv(out_path, index=False, encoding='utf-8')
 
     return
+
+
+def text(elt):
+    """Process HTML objects to readable strings"""
+    return elt.text_content().replace(u'\xa0', u' ').replace(u'\t', u'').replace(u'\r', u'').replace(u'\n', u'')
