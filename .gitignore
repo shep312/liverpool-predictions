@@ -1,5 +1,6 @@
-*/pycache/*
-*/.ipynb_checkpoints/*
-
-# ignore data scraper
-notebooks/liverpool_web_scrape.ipynb
+__pycache__/*
+*/__pycache__/
+data/__pycache__/*
+train/__pycache__/*
+.ipynb_checkpoints/*
+notebooks/.ipynb_checkpoints/*
