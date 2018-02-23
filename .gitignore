@@ -3,4 +3,4 @@ __pycache__/*
 data/__pycache__/*
 train/__pycache__/*
 .ipynb_checkpoints/*
-*/.ipynb_checkpoints/*
+notebooks/.ipynb_checkpoints/*
