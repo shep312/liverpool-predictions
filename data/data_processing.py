@@ -1,8 +1,10 @@
 import numpy as np
+import os
 import pandas as pd
 import pickle
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 from sklearn.model_selection import StratifiedShuffleSplit
+
 
 class ProcessInput:
     """ A class that processes raw data for the liverpool model """
@@ -11,18 +13,17 @@ class ProcessInput:
         """ Constructor. Initialise some of the variable types and define
         those features that are categorical """
 
-        self.opposition_encoder = LabelEncoder()
-        self.opposition_count_dict = {}
+        self.opponent_encoder = LabelEncoder()
+        self.opponent_count_dict = {}
         self.beatability_df = pd.DataFrame()
-        self.categoricals = ['opposition', 'liverpool_at_home', 'day_of_week']
+        self.categoricals = ['opponent', 'place', 'day_of_week']
 
     def fit(self, df):
         """ Fits all the objects that require fitting """
 
-        # Fit and save opposition encoder
-        df['opposition'] = opposition_encoder.fit_transform(df['opposition'])
-        pickle.dump(opposition_encoder, open('models/opposition_encoder.p', 'wb'))
-
+        # Fit and save opponent encoder
+        df['opponent'] = self.opponent_encoder.fit_transform(df['opponent'])
+        pickle.dump(self.opponent_encoder, open('models/opponent_encoder.p', 'wb'))
 
     def transform(self, df):
         """ Transform the data once encoders fitted """
@@ -31,23 +32,19 @@ class ProcessInput:
 
         return df
 
-
     def fit_transform(self, df):
         """ Main transformation function """
-
-        # Extract results
-        df = self.define_results(df)
 
         # Convert the date to datetime
         df['date'] = pd.to_datetime(df['date'], format='%Y-%m-%d')
 
-        # Get some opposition metrics
+        # Get some opponent metrics
         df = self.get_beatability_index(df)
 
-        # Fit and save opposition encoder
-        self.opposition_encoder = LabelEncoder()
-        df['opposition'] = self.opposition_encoder.fit_transform(df['opposition'])
-        pickle.dump(self.opposition_encoder, open('models/opposition_encoder.p', 'wb'))
+        # Fit and save opponent encoder
+        self.opponent_encoder = LabelEncoder()
+        df['opponent'] = self.opponent_encoder.fit_transform(df['opponent'])
+        pickle.dump(self.opponent_encoder, open('opponent_encoder.p', 'wb'))
 
         # Extract extra info from the datetime
         df = self.process_date(df)
@@ -60,69 +57,36 @@ class ProcessInput:
 
         # Add the number of times the two teams have played each other in this
         # data set
-        self.opposition_count_dict = dict(df['opposition'].value_counts())
-        df['n_times_teams_played'] = df['opposition'].map(self.opposition_count_dict)
+        self.opponent_count_dict = dict(df['opponent'].value_counts())
+        df['n_times_teams_played'] = df['opponent'].map(self.opponent_count_dict)
 
         # Only interested in the Premier League for now
         df = df[df['competition'] == 'Premier League']
 
         return df
 
-
-    def define_results(self, df):
-        """ Takes the goals scored and the venue and converts to wins and
-        losses """
-
-        # Location. Extract whether it was a home game or not then lose the
-        # venue as its unlikely we can learn anything that we can't get from
-        # home/away and the opposition
-        df['liverpool_at_home'] = df['venue'] == 'Anfield'
-        df.drop('venue', axis=1, inplace=True)
-
-        df['result'] = 0
-
-        # Win
-        df.loc[df['liverpool_score'] > df['opposition_score'], 'result'] = 1
-
-        # Draw
-        df.loc[df['liverpool_score'] == df['opposition_score'], 'result'] = 0
-
-        # Loss
-        df.loc[df['liverpool_score'] < df['opposition_score'], 'result'] = 2
-
-        # Win / Not win binary flag
-        df['win_flag'] = df['result'] == 1
-        df['loss_flag'] = df['result'] == 2
-
-        return df
-
     def get_beatability_index(self, df):
-        """ Define a value between -1 and 1 that indicates how well liverpool
-        generally do against this team """
+        """ Define a value between -1 and 1 that indicates how well the team
+        generally do against this opposition """
 
         # Trim data to the last 5 years
         years_to_consider = 5
         time_cutoff = pd.to_datetime('today') - pd.Timedelta(weeks=52 * years_to_consider)
         temp_df = df[df['date'] > time_cutoff]
 
-        # Loop through each team and calculate general performance
-        unique_opponents = temp_df['opposition'].unique()
-        win_proportion, loss_proportion, times_played = [], [] ,[]
-
-        for team in unique_opponents:
-            win_proportion.append(temp_df.loc[temp_df['opposition'] == team, 'win_flag'].mean())
-            loss_proportion.append(temp_df.loc[temp_df['opposition'] == team, 'loss_flag'].mean())
-            times_played.append(sum(temp_df['opposition'] == team))
-
-        self.beatability_df = pd.DataFrame({'opposition': unique_opponents,
-                                            'win_proportion': win_proportion,
-                                            'loss_proportion': loss_proportion,
-                                            'times_played': times_played})
+        # Group by eacm combination of team/opponent
+        grouping_fun = {'team_win': ['mean'],
+                        'team_draw': ['mean'],
+                        'date': ['count']}
+        self.beatability_df = \
+            temp_df.groupby(['team', 'opponent'])['team_win', 'team_draw', 'date'].agg(grouping_fun)
+        self.beatability_df.reset_index(inplace=True)
+        self.beatability_df.columns = ['team', 'opponent', 'win_proportion', 'loss_proportion', 'times_played']
         self.beatability_df['beatability_index'] = self.beatability_df['win_proportion'] - \
                                                    self.beatability_df['loss_proportion']
 
         # Merge results back into original df
-        df = df.merge(self.beatability_df, left_on='opposition', right_on='opposition', how='left')
+        df = df.merge(self.beatability_df, left_on=['team', 'opponent'], right_on=['team', 'opponent'], how='left')
 
         # Any nulls make 0 (neutral)
         df['beatability_index'].fillna(0, inplace=True)
@@ -132,7 +96,6 @@ class ProcessInput:
 
         return df
 
-
     def process_date(self, df):
         """ Extracts information from the data such as the week day """
 
@@ -140,12 +103,24 @@ class ProcessInput:
         df['day_of_week'] = df['date'].dt.weekday.astype(int)  # Record day of week
 
         # Order by date and get days since last game
-        df.sort_values(by='date', ascending=False, inplace=True)
+        df.sort_values(by='date', ascending=True, inplace=True)
         df.reset_index(inplace=True, drop=True)
+        for team in df['team'].unique():
+            counter = 0
+            for i in range(len(df)):
+                if df.loc[i, 'team'] == team:
+                    if counter == 0:
+                        df.loc[i, 'days_since_last_game'] = pd.Timedelta('nan')
+                        prev_time = df.loc[i, 'date']
+                    else:
+                        curr_time = df.loc[i, 'date']
+                        df.loc[i, 'days_since_last_game'] = curr_time - prev_time
+                        prev_time = curr_time
+                    counter += 1
+        df.sort_values(by='date', ascending=False, inplace=True)
 
-        for i in range(len(df) - 1):
-            df.loc[i, 'days_since_last_game'] = df.loc[i, 'date'] - df.loc[i + 1, 'date']
-        df['days_since_last_game'].fillna(df['days_since_last_game'].median(), inplace=True)
+        df['days_since_last_game'] = pd.to_timedelta(df['days_since_last_game'])
+        df['days_since_last_game'].fillna(df['days_since_last_game'].max(), inplace=True)
         df['days_since_last_game'] = df['days_since_last_game'].dt.days.astype(int)
 
         # Cap days since last game to 10
@@ -155,14 +130,13 @@ class ProcessInput:
         df['date'] = pd.to_datetime('today') - df['date']  # Convert to difference from today
         df['date'] = df['date'].dt.days.astype(float)  # Convert to an integer
 
-        scaler = MinMaxScaler(feature_range=(0,1))
+        scaler = MinMaxScaler(feature_range=(0, 1))
         df['date'] = scaler.fit_transform(df['date'].values.reshape(-1, 1))
 
         # Invert so the older values get less weight
         df['date'] = 1 - df['date']
 
         return df
-
 
     def calculate_streaks(self, df):
         """ Use recent results to calculate the current win and undefeated
@@ -234,7 +208,7 @@ class ProcessInput:
             if i == 0:
                 season_end_flag = 1
 
-            elif i > 0 and prem_df.loc[i, 'nth_game_this_season'] < prem_df.loc[i-1, 'nth_game_this_season']:
+            elif i > 0 and prem_df.loc[i, 'nth_game_this_season'] < prem_df.loc[i - 1, 'nth_game_this_season']:
                 season_end_flag = 1
 
             else:
@@ -256,7 +230,7 @@ class ProcessInput:
 
             # Record goal stats
             goals_for_counter += prem_df.loc[i, 'liverpool_score']
-            goals_against_counter += prem_df.loc[i, 'opposition_score']
+            goals_against_counter += prem_df.loc[i, 'opponent_score']
 
             # Calculate points accrued at this stage and therefore points per game (PPG)
             if prem_df.loc[i, 'win_flag']:
@@ -273,7 +247,7 @@ class ProcessInput:
             # per game
             prem_df.loc[i + 1, 'GFPG'] = goals_for_counter / prem_df.loc[i, 'pl_gameweek']
             prem_df.loc[i + 1, 'GAPG'] = goals_against_counter / prem_df.loc[i, 'pl_gameweek']
-            prem_df.loc[i + 1, 'GDPG'] = prem_df.loc[i + 1 , 'GFPG'] - prem_df.loc[i + 1, 'GAPG']
+            prem_df.loc[i + 1, 'GDPG'] = prem_df.loc[i + 1, 'GFPG'] - prem_df.loc[i + 1, 'GAPG']
 
         # Final row is the most recent game. If the last game wasn't the final
         # one in a season then increment the gameweek
@@ -286,7 +260,7 @@ class ProcessInput:
                                'PPG', 'season_number',
                                'season_points', 'GFPG',
                                'GAPG', 'GDPG']],
-                               left_on='date', right_on='date', how='left')
+                      left_on='date', right_on='date', how='left')
 
         return df
 
@@ -294,7 +268,7 @@ class ProcessInput:
         """ Drop features that are either leaks of the label or aren't desired
         for training. Includes:
             - competition: No variation, only PL
-            - liverpool_score/opposition_score: Not known at
+            - liverpool_score/opponent_score: Not known at
               inference
             - season_number: Not thought to be useful
             - season_points: Not thought to be useful
@@ -302,12 +276,12 @@ class ProcessInput:
         """
 
         df.drop(['competition',
-                'liverpool_score',
-                'opposition_score',
-                'season_number',
-                'season_points',
-                'win_flag',
-                'loss_flag'], axis=1, inplace=True)
+                 'liverpool_score',
+                 'opponent_score',
+                 'season_number',
+                 'season_points',
+                 'win_flag',
+                 'loss_flag'], axis=1, inplace=True)
 
         return df
 
@@ -331,12 +305,12 @@ class ProcessInput:
         sample_comparison = pd.DataFrame({
             'overall': df['result'].value_counts().sort_index() / len(df),
             'stratified': test['result'].value_counts().sort_index() / len(test),
-            })
+        })
         sample_comparison['strat_perc_error'] = \
             100 * (sample_comparison['stratified'] - sample_comparison['overall']) \
             / sample_comparison['overall']
 
-        #TODO and print here
+        # TODO and print here
 
         # Separate the labels
         y_train = train.pop('result')
@@ -347,3 +321,16 @@ class ProcessInput:
         test.drop('date', axis=1, inplace=True)
 
         return train, test, y_train, y_test, train_weight
+
+
+def main():
+    file_path = os.path.join('training_data', 'world_football_fixture_history.csv')
+    df = pd.read_csv(file_path)
+    processor = ProcessInput()
+    df = processor.fit_transform(df)
+
+    return
+
+
+if __name__ == '__main__':
+    main()
