@@ -2,6 +2,7 @@ import numpy as np
 import os
 import pandas as pd
 import pickle
+from datetime import datetime
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 from sklearn.model_selection import StratifiedShuffleSplit
 
@@ -35,8 +36,11 @@ class ProcessInput:
     def fit_transform(self, df):
         """ Main transformation function """
 
-        # Convert the date to datetime
+        # Convert the date to datetime. Drop future games
         df['date'] = pd.to_datetime(df['date'], format='%Y-%m-%d')
+
+        # Process fixture result
+        df = self.process_result(df)
 
         # Get some opponent metrics
         df = self.get_beatability_index(df)
@@ -55,13 +59,26 @@ class ProcessInput:
         # Season data
         df = self.get_season_data(df)
 
-        # Add the number of times the two teams have played each other in this
-        # data set
-        self.opponent_count_dict = dict(df['opponent'].value_counts())
-        df['n_times_teams_played'] = df['opponent'].map(self.opponent_count_dict)
+        return df
 
-        # Only interested in the Premier League for now
-        df = df[df['competition'] == 'Premier League']
+    def process_result(self, df):
+        """
+        Process the result feature of the column into an integer. Integers are mapped as:
+            0: Draw
+            1: Win
+            2: Loss
+            3: Future fixture
+
+        :param df: Input dataframe of fixtures
+        :return: df: Processed output
+        """
+
+        now = datetime.now()
+        df.loc[df['team_win'], 'result'] = 0
+        df.loc[df['team_draw'], 'result'] = 1
+        df.loc[df['team_loss'], 'result'] = 2
+        df.loc[df['date'] >= now, 'result'] = 3
+        df['result'] = df['result'].astype(int)
 
         return df
 
@@ -81,7 +98,7 @@ class ProcessInput:
         self.beatability_df = \
             temp_df.groupby(['team', 'opponent'])['team_win', 'team_draw', 'date'].agg(grouping_fun)
         self.beatability_df.reset_index(inplace=True)
-        self.beatability_df.columns = ['team', 'opponent', 'win_proportion', 'loss_proportion', 'times_played']
+        self.beatability_df.columns = ['team', 'opponent', 'win_proportion', 'loss_proportion', 'n_times_teams_played']
         self.beatability_df['beatability_index'] = self.beatability_df['win_proportion'] - \
                                                    self.beatability_df['loss_proportion']
 
@@ -92,7 +109,7 @@ class ProcessInput:
         df['beatability_index'].fillna(0, inplace=True)
 
         # Drop columns used in metric calculation. Not crucial but want to keep in streamlined
-        df.drop(['times_played', 'win_proportion', 'loss_proportion'], axis=1, inplace=True)
+        df.drop(['win_proportion', 'loss_proportion'], axis=1, inplace=True)
 
         return df
 
@@ -105,26 +122,14 @@ class ProcessInput:
         # Order by date and get days since last game
         df.sort_values(by='date', ascending=True, inplace=True)
         df.reset_index(inplace=True, drop=True)
-        for team in df['team'].unique():
-            counter = 0
-            for i in range(len(df)):
-                if df.loc[i, 'team'] == team:
-                    if counter == 0:
-                        df.loc[i, 'days_since_last_game'] = pd.Timedelta('nan')
-                        prev_time = df.loc[i, 'date']
-                    else:
-                        curr_time = df.loc[i, 'date']
-                        df.loc[i, 'days_since_last_game'] = curr_time - prev_time
-                        prev_time = curr_time
-                    counter += 1
+        df['days_since_last_game'] = df.groupby(['team'])['date'].diff()
         df.sort_values(by='date', ascending=False, inplace=True)
 
-        df['days_since_last_game'] = pd.to_timedelta(df['days_since_last_game'])
-        df['days_since_last_game'].fillna(df['days_since_last_game'].max(), inplace=True)
+        df['days_since_last_game'].fillna(df['days_since_last_game'].median(), inplace=True)
         df['days_since_last_game'] = df['days_since_last_game'].dt.days.astype(int)
 
-        # Cap days since last game to 10
-        df.loc[df['days_since_last_game'] > 10, 'days_since_last_game'] = 10
+        # Cap days since last game to 14
+        df.loc[df['days_since_last_game'] > 14, 'days_since_last_game'] = 14
 
         # Convert date into a weighting for the training data
         df['date'] = pd.to_datetime('today') - df['date']  # Convert to difference from today
@@ -139,49 +144,41 @@ class ProcessInput:
         return df
 
     def calculate_streaks(self, df):
-        """ Use recent results to calculate the current win and undefeated
-        streaks"""
+        """
+        Use recent results to calculate the current win and undefeated
+        streaks
+        """
 
         # Reset the index so we can loop down in time
         df.reset_index(drop=True, inplace=True)
 
-        # Initialise a win streak feature
-        df['win_streak'] = 0
-        df['undefeated_streak'] = 0
+        def grouping_streak_fun(df):
+            """Function to groupby by with"""
 
-        for i in range(len(df) - 1):
+            # Win streaks
+            df['total_win_cumsum'] = (df['team_win'] == True).cumsum()
+            df['wins_up_to_nonwin'] = np.nan
+            df.loc[df['team_win'] == False, 'wins_up_to_nonwin'] = df['total_win_cumsum']
+            df['wins_up_to_nonwin'].fillna(method='ffill', inplace=True)
+            df['wins_up_to_nonwin'].fillna(0, inplace=True)
+            df['win_streak'] = df['total_win_cumsum'] - df['wins_up_to_nonwin']
 
-            # Initialise streak counters
-            win_streak = 0
-            undefeated_streak = 0
+            # Undefeated streaks
+            df['total_undef_cumsum'] = (df['team_loss'] == False).cumsum()
+            df['undef_up_to_loss'] = np.nan
+            df.loc[df['team_loss'] == True, 'undef_up_to_loss'] = df['total_undef_cumsum']
+            df['undef_up_to_loss'].fillna(method='ffill', inplace=True)
+            df['undef_up_to_loss'].fillna(0, inplace=True)
+            df['undefeated_streak'] = df['total_undef_cumsum'] - df['undef_up_to_loss']
 
-            # Was the most recent game a win?
-            won_last_game = bool(df.loc[i + 1, 'result'] == 1)
+            # Clean up temporary columns
+            df.drop(['total_win_cumsum', 'wins_up_to_nonwin', 'total_undef_cumsum', 'undef_up_to_loss'],
+                    axis=1, inplace=True)
 
-            # Not a loss?
-            undefeated_last_game = bool(df.loc[i + 1, 'result'] != 2)
+            return df
 
-            # Keep going back until we break the win streak
-            while won_last_game:
-                win_streak += 1
-                index = i + 1 + win_streak
-                if index < len(df):
-                    won_last_game = bool(df.loc[index, 'result'] == 1)
-                else:
-                    break
-
-            # Keep going back until we break the undefeated streak
-            while undefeated_last_game:
-                undefeated_streak += 1
-                index_undef = i + 1 + undefeated_streak
-                if index_undef < len(df):
-                    undefeated_last_game = bool(df.loc[index_undef, 'result'] != 2)
-                else:
-                    break
-
-            # Save the result
-            df.loc[i, 'win_streak'] = win_streak
-            df.loc[i, 'undefeated_streak'] = undefeated_streak
+        # Apply the function per team
+        df = df.groupby('team').apply(grouping_streak_fun)
 
         return df
 
@@ -189,78 +186,48 @@ class ProcessInput:
         """ Use the game number to calculate some information about the season
         so far """
 
+        # Clean up scores
+        df['team_score'] = df['team_score'].replace('-', '0').replace(' ', '0').astype(int)
+        df['opposition_score'] = df['opposition_score'].replace('-', '0')\
+            .replace(' ', '0').replace('e', '0').replace(':', '0') \
+            .replace('n', '0').astype(int)
+
         # Ensure that only league fixtures are dealt with
-        prem_df = df[df['competition'] == 'Premier League']
+        prem_df = df[df['competition'].str.contains('Premier League')]
 
         # Order in ascending order of time and resent index
         prem_df.sort_values(by='date', ascending=True, inplace=True)
         prem_df.reset_index(drop=True, inplace=True)
 
-        # Initialise features
-        prem_df['pl_gameweek'], prem_df['season_number'], prem_df['season_points'] = 0, 0, 0
+        # Build some season related features. Offset them by -1 to avoid leak of results
+        def shifted_cumsum(df):
+            """ Offset the cumulative sum by one back in time"""
+            df = df.cumsum()
+            df = df.shift(-1)
+            return df
 
-        # Count the season number
-        season_number = 0
+        prem_df.loc[:, 'season_league_wins'] = prem_df.groupby(['team', 'season'])['team_win'].apply(shifted_cumsum)
+        prem_df.loc[:, 'season_league_draws'] = prem_df.groupby(['team', 'season'])['team_draw'].apply(shifted_cumsum)
+        prem_df.loc[:, 'season_goals_for'] = prem_df.groupby(['team', 'season'])['team_score'].apply(shifted_cumsum)
+        prem_df.loc[:, 'season_goals_against'] = \
+            prem_df.groupby(['team', 'season'])['opposition_score'].apply(shifted_cumsum)
+        prem_df.loc[:, 'season_points'] = 3 * prem_df['season_league_wins'] + 1 * prem_df['season_league_draws']
 
-        for i in range(len(prem_df) - 1):
+        # Time dependent metrics: Points per game (PPG), goals-for per game (GFPG), goals-against per game (GAPG),
+        # goal difference per game (GDPG).
+        prem_df.loc[:, 'PPG'] = prem_df['season_points'] / prem_df['round_number']
+        prem_df.loc[:, 'GFPG'] = prem_df['season_goals_for'] / prem_df['round_number']
+        prem_df.loc[:, 'GAPG'] = prem_df['season_goals_against'] / prem_df['round_number']
+        prem_df.loc[:, 'GDPG'] = prem_df['GFPG'] - prem_df['GAPG']
 
-            # Check if its a season end
-            if i == 0:
-                season_end_flag = 1
-
-            elif i > 0 and prem_df.loc[i, 'nth_game_this_season'] < prem_df.loc[i - 1, 'nth_game_this_season']:
-                season_end_flag = 1
-
-            else:
-                season_end_flag = 0
-
-            # Set first value of the season to be 1
-            if season_end_flag:
-                prem_game_counter = 1
-                points_counter = 0
-                goals_for_counter = 0
-                goals_against_counter = 0
-                season_number += 1
-
-            prem_df.loc[i, 'pl_gameweek'] = prem_game_counter
-            prem_df.loc[i, 'season_number'] = season_number
-
-            # Increment premier league game
-            prem_game_counter += 1
-
-            # Record goal stats
-            goals_for_counter += prem_df.loc[i, 'liverpool_score']
-            goals_against_counter += prem_df.loc[i, 'opponent_score']
-
-            # Calculate points accrued at this stage and therefore points per game (PPG)
-            if prem_df.loc[i, 'win_flag']:
-                points_counter += 3
-            elif ~prem_df.loc[i, 'win_flag'] and ~prem_df.loc[i, 'loss_flag']:
-                points_counter += 1
-
-            # Variables must be stored in the next game, otherwise they
-            # are unknown at the time of prediction
-            prem_df.loc[i + 1, 'PPG'] = points_counter / prem_df.loc[i, 'pl_gameweek']
-            prem_df.loc[i + 1, 'season_points'] = points_counter
-
-            # Goals for per game, goals against per game and goal difference
-            # per game
-            prem_df.loc[i + 1, 'GFPG'] = goals_for_counter / prem_df.loc[i, 'pl_gameweek']
-            prem_df.loc[i + 1, 'GAPG'] = goals_against_counter / prem_df.loc[i, 'pl_gameweek']
-            prem_df.loc[i + 1, 'GDPG'] = prem_df.loc[i + 1, 'GFPG'] - prem_df.loc[i + 1, 'GAPG']
-
-        # Final row is the most recent game. If the last game wasn't the final
-        # one in a season then increment the gameweek
-        if prem_df.loc[i, 'pl_gameweek'] < 38:
-            prem_df.loc[i + 1, 'pl_gameweek'] = prem_df.loc[i, 'pl_gameweek'] + 1
-        else:
-            prem_df.loc[i + 1, 'pl_gameweek'] = 1
-
-        df = df.merge(prem_df[['date', 'pl_gameweek',
-                               'PPG', 'season_number',
+        # Merge the league data back into the overall set
+        df = df.merge(prem_df[['team', 'date', 'PPG',
                                'season_points', 'GFPG',
                                'GAPG', 'GDPG']],
-                      left_on='date', right_on='date', how='left')
+                      left_on=['team', 'date'], right_on=['team', 'date'], how='left')
+
+        # Drop unformated round number
+        df.drop('round', axis=1, inplace=True)
 
         return df
 
@@ -276,12 +243,16 @@ class ProcessInput:
         """
 
         df.drop(['competition',
-                 'liverpool_score',
-                 'opponent_score',
+                 'team_score',
+                 'opposition_score',
+                 'team_ht_score',
+                 'opposition_ht_score',
+                 'season',
                  'season_number',
                  'season_points',
-                 'win_flag',
-                 'loss_flag'], axis=1, inplace=True)
+                 'team_win',
+                 'team_draw',
+                 'team_loss'], axis=1, inplace=True)
 
         return df
 
@@ -324,10 +295,14 @@ class ProcessInput:
 
 
 def main():
+
     file_path = os.path.join('training_data', 'world_football_fixture_history.csv')
     df = pd.read_csv(file_path)
     processor = ProcessInput()
     df = processor.fit_transform(df)
+
+    out_path = os.path.join('training_data', 'processed_fixture_history.csv')
+    df.to_csv(out_path, index=False)
 
     return
 
