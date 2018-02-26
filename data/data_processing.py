@@ -74,8 +74,8 @@ class ProcessInput:
         """
 
         now = datetime.now()
-        df.loc[df['team_win'], 'result'] = 0
-        df.loc[df['team_draw'], 'result'] = 1
+        df.loc[df['team_draw'], 'result'] = 0
+        df.loc[df['team_win'], 'result'] = 1
         df.loc[df['team_loss'], 'result'] = 2
         df.loc[df['date'] >= now, 'result'] = 3
         df['result'] = df['result'].astype(int)
@@ -149,7 +149,8 @@ class ProcessInput:
         streaks
         """
 
-        # Reset the index so we can loop down in time
+        # Reset the index and make time ascending so we're summing backwards
+        df.sort_values(by='date', ascending=True, inplace=True)
         df.reset_index(drop=True, inplace=True)
 
         def grouping_streak_fun(df):
@@ -162,6 +163,7 @@ class ProcessInput:
             df['wins_up_to_nonwin'].fillna(method='ffill', inplace=True)
             df['wins_up_to_nonwin'].fillna(0, inplace=True)
             df['win_streak'] = df['total_win_cumsum'] - df['wins_up_to_nonwin']
+            df['win_streak'] = df['win_streak'].shift(1)
 
             # Undefeated streaks
             df['total_undef_cumsum'] = (df['team_loss'] == False).cumsum()
@@ -170,6 +172,7 @@ class ProcessInput:
             df['undef_up_to_loss'].fillna(method='ffill', inplace=True)
             df['undef_up_to_loss'].fillna(0, inplace=True)
             df['undefeated_streak'] = df['total_undef_cumsum'] - df['undef_up_to_loss']
+            df['undefeated_streak'] = df['undefeated_streak'].shift(1)
 
             # Clean up temporary columns
             df.drop(['total_win_cumsum', 'wins_up_to_nonwin', 'total_undef_cumsum', 'undef_up_to_loss'],
@@ -179,6 +182,10 @@ class ProcessInput:
 
         # Apply the function per team
         df = df.groupby('team').apply(grouping_streak_fun)
+
+        # Reorder back in terms of descending time
+        df.sort_values(by='date', ascending=False, inplace=True)
+        df.reset_index(drop=True, inplace=True)
 
         return df
 
@@ -203,7 +210,7 @@ class ProcessInput:
         def shifted_cumsum(df):
             """ Offset the cumulative sum by one back in time"""
             df = df.cumsum()
-            df = df.shift(-1)
+            df = df.shift(1)
             return df
 
         prem_df.loc[:, 'season_league_wins'] = prem_df.groupby(['team', 'season'])['team_win'].apply(shifted_cumsum)
