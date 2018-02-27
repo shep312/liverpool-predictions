@@ -51,7 +51,7 @@ class ProcessInput:
         # Fit and save opponent encoder
         self.opponent_encoder = LabelEncoder()
         df['opponent'] = self.opponent_encoder.fit_transform(df['opponent'])
-        pickle.dump(self.opponent_encoder, open('opponent_encoder.p', 'wb'))
+        pickle.dump(self.opponent_encoder, open(os.path.join('models', 'opponent_encoder.p'), 'wb'))
 
         # Extract extra info from the datetime
         df = self.process_date(df)
