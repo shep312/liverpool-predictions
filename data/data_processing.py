@@ -45,6 +45,9 @@ class ProcessInput:
         # Get some opponent metrics
         df = self.get_beatability_index(df)
 
+        # Append travel distance/time between to opponents
+        df = self.append_travel_data(df)
+
         # Fit and save opponent encoder
         self.opponent_encoder = LabelEncoder()
         df['opponent'] = self.opponent_encoder.fit_transform(df['opponent'])
@@ -58,6 +61,9 @@ class ProcessInput:
 
         # Season data
         df = self.get_season_data(df)
+
+        # Get opponents form
+        df = self.calculate_opponents_form(df)
 
         return df
 
@@ -110,6 +116,30 @@ class ProcessInput:
 
         # Drop columns used in metric calculation. Not crucial but want to keep in streamlined
         df.drop(['win_proportion', 'loss_proportion'], axis=1, inplace=True)
+
+        return df
+
+    def append_travel_data(self, df):
+        """
+        Append travel data between stadia extracted from Google Maps' API
+        :param df: Main dataframe
+        :return: df: Dataframe with travel appended
+        """
+
+        # Load distances data
+        travel_df = pd.read_csv(os.path.join('data', 'training_data', 'inter_stadium_travel.csv'))
+
+        # Rewrite opponent in same format as team
+        df['temp_opponent'] = df['opponent'].str.lower().str.replace(' ', '-')
+
+        # Merge in the travel data
+        df = df.merge(travel_df[['team_a', 'team_b', 'travel_distance', 'travel_duration']],
+                      how='left',
+                      left_on=['team', 'temp_opponent'],
+                      right_on=['team_a', 'team_b'])
+
+        # Drop the temporary opponent feature
+        df.drop(['temp_opponent', 'team_a', 'team_b'], axis=1, inplace=True)
 
         return df
 
@@ -213,12 +243,22 @@ class ProcessInput:
             df = df.shift(1)
             return df
 
+        def shifted_rolling(df):
+            """ Offset a rolling sum to get n wins in last 5"""
+            df = df.rolling(min_periods=1, window=5).sum()
+            df = df.shift(1)
+            return df
+
         prem_df.loc[:, 'season_league_wins'] = prem_df.groupby(['team', 'season'])['team_win'].apply(shifted_cumsum)
         prem_df.loc[:, 'season_league_draws'] = prem_df.groupby(['team', 'season'])['team_draw'].apply(shifted_cumsum)
         prem_df.loc[:, 'season_goals_for'] = prem_df.groupby(['team', 'season'])['team_score'].apply(shifted_cumsum)
         prem_df.loc[:, 'season_goals_against'] = \
             prem_df.groupby(['team', 'season'])['opposition_score'].apply(shifted_cumsum)
         prem_df.loc[:, 'season_points'] = 3 * prem_df['season_league_wins'] + 1 * prem_df['season_league_draws']
+
+        prem_df.loc[:, 'n_recent_wins'] = prem_df.groupby(['team', 'season'])['team_win'].apply(shifted_rolling)
+        prem_df.loc[:, 'n_recent_losses'] = prem_df.groupby(['team', 'season'])['team_loss'].apply(shifted_rolling)
+        prem_df.loc[:, 'recent_form'] = prem_df['n_recent_wins'] - prem_df['n_recent_losses']
 
         # Time dependent metrics: Points per game (PPG), goals-for per game (GFPG), goals-against per game (GAPG),
         # goal difference per game (GDPG).
@@ -230,11 +270,39 @@ class ProcessInput:
         # Merge the league data back into the overall set
         df = df.merge(prem_df[['team', 'date', 'PPG',
                                'season_points', 'GFPG',
-                               'GAPG', 'GDPG']],
+                               'GAPG', 'GDPG', 'recent_form']],
                       left_on=['team', 'date'], right_on=['team', 'date'], how='left')
 
         # Drop unformated round number
         df.drop('round', axis=1, inplace=True)
+
+        return df
+
+    def calculate_opponents_form(self, df):
+        """
+        Get the current form of the team's opponent
+        :param df: Main dataframe
+        :return: df: Main dataframe with opponent features included
+        """
+
+        # Create a PL table-style DF to get each teams form per round
+        prem_df = df[df['competition'].str.contains('Premier League')]
+        table_df = prem_df[['season_number', 'round_number', 'team', 'season_points', 'PPG', 'GDPG', 'recent_form']] \
+                   .sort_values(by=['season_number', 'round_number', 'season_points'])
+        team_strings = table_df['team'].str.title()
+
+        # Rename the team column to opponent to allow the merge
+        table_df['opponent'] = self.opponent_encoder.transform(team_strings.str.replace('Fc', 'FC')
+                                                               .str.replace('-', ' ')
+                                                               .str.replace('Afc', 'AFC'))
+        table_df.drop('team', axis=1, inplace=True)
+
+        # Merge the league data back into the overall set
+        df = df.merge(table_df,
+                      left_on=['opponent', 'season_number', 'round_number'],
+                      right_on=['opponent', 'season_number', 'round_number'],
+                      how='left',
+                      suffixes=['', '_opponent'])
 
         return df
 
