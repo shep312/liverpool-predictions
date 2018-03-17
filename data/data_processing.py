@@ -2,7 +2,7 @@ import numpy as np
 import os
 import pandas as pd
 import pickle
-from datetime import datetime
+from datetime import datetime, timedelta
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 from sklearn.model_selection import StratifiedShuffleSplit
 
@@ -79,7 +79,7 @@ class ProcessInput:
         :return: df: Processed output
         """
 
-        now = datetime.now()
+        now = datetime.now() - timedelta(days=1)
         df.loc[df['team_draw'], 'result'] = 0
         df.loc[df['team_win'], 'result'] = 1
         df.loc[df['team_loss'], 'result'] = 2

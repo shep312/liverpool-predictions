@@ -21,9 +21,7 @@ def scrape_training_data(start_year, teams):
     """
 
     # Connection settings
-    # http = urllib3.PoolManager()
-    default_headers = urllib3.make_headers(proxy_basic_auth='shephej:Kjowwnim35')
-    http = urllib3.ProxyManager("https://10.132.100.135:8080/", headers=default_headers)  # 8080
+    http = urllib3.PoolManager()
 
     now = datetime.datetime.now()
     for team in teams:
@@ -108,7 +106,7 @@ def scrape_training_data(start_year, teams):
     df['team_draw'] = df['team_score'] == df['opposition_score']
     df['team_loss'] = df['team_score'] < df['opposition_score']
 
-    out_path = os.path.join('training_data', 'world_football_fixture_history.csv')
+    out_path = os.path.join('data', 'training_data', 'world_football_fixture_history.csv')
     df.to_csv(out_path, index=False, encoding='utf-8')
 
     return
@@ -127,7 +125,7 @@ def get_prem_team_names():
     """
 
     # Load .csv
-    file_path = os.path.join('training_data', 'world_football_fixture_history.csv')
+    file_path = os.path.join('data', 'training_data', 'world_football_fixture_history.csv')
     df = pd.read_csv(file_path)
 
     # Extract premier league opponents
