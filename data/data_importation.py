@@ -10,25 +10,39 @@ import os
 warnings.filterwarnings("ignore")
 
 
-def scrape_training_data(start_year, teams):
+def scrape_training_data(start_year, out_path):
     """
     Scrapes www.worldfootball.net for historical PL fixture results for given teams
 
     :param start_year: Defines the first season data is wanted for by the first year of that season
     :type start_year: int
-    :param teams: Defines the teams to get fixture history data for
-    :type teams: list
+    :param out_path: Specifies path to save data to
+    :type teams: string
     """
+
+    # Teams to gather data for
+    teams = get_prem_team_names()
 
     # Connection settings
     http = urllib3.PoolManager()
 
+    # Time to collect data for. Worlfootball.net refers to seasons by their FINAL year
     now = datetime.datetime.now()
+
+    # Get the end season. If it is after August, this is next year
+    if now.month >= 8:
+        end_season = now.year + 1
+    else:
+        end_season = now.year
+    print('Importing data from season {}/{} to season {}/{}'.\
+        format(start_year-1, start_year, end_season-1, end_season))
+
+    # Loop through teams to gather the data
     for team in teams:
         season = start_year
-        season_number = 0
+        season_number = season - 1990
 
-        while season <= now.year:
+        while season <= end_season:
 
             # Page to read
             target_page = 'https://www.worldfootball.net/teams/{}/{}/3/'.format(team, season)
@@ -106,8 +120,11 @@ def scrape_training_data(start_year, teams):
     df['team_draw'] = df['team_score'] == df['opposition_score']
     df['team_loss'] = df['team_score'] < df['opposition_score']
 
-    out_path = os.path.join('data', 'training_data', 'world_football_fixture_history.csv')
-    df.to_csv(out_path, index=False, encoding='utf-8')
+    # Write to a csv
+    if os.path.exists(out_path):
+        pd.read_csv(out_path).append(df).drop_duplicates().to_csv(out_path, index=False, encoding='utf-8')
+    else:
+        df.to_csv(out_path, index=False, encoding='utf-8')
 
     return
 
@@ -125,11 +142,11 @@ def get_prem_team_names():
     """
 
     # Load .csv
-    file_path = os.path.join('data', 'training_data', 'world_football_fixture_history.csv')
+    file_path = os.path.join('data', 'training_data', 'team_names.csv')
     df = pd.read_csv(file_path)
 
     # Extract premier league opponents
-    team_names = df.loc[df['competition'].str.contains('Premier League'), 'opponent'].str.lower()
+    team_names = df['opponent'].str.lower()
     team_names = team_names.str.replace(' ', '-').unique()
     team_names = team_names.tolist()
 
@@ -215,14 +232,10 @@ def get_stadium_distances():
 
 if __name__ == '__main__':
 
-    # Teams to gather data for
-    teams = get_prem_team_names()
-
-    # Season to start from (first year of)
-    start_year = 1990
-
     # Scrape and process
-    scrape_training_data(start_year, teams)
+    start_year = 1990
+    file_path = os.path.join('data', 'training_data', 'world_football_fixture_history.csv')
+    scrape_training_data(start_year, fie_path)
 
     # Update travel between stadium distance if there are any new teams
     update_travel_data = False
