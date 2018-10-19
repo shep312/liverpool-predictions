@@ -1,6 +1,7 @@
 import lightgbm as lgbm
 from sklearn.metrics import accuracy_score, confusion_matrix, precision_score, recall_score
 
+
 def train_lgbm_model(train, y_train, categoricals, train_weight):
     """ Train a LightGBM model on a training set and predict on a test """
 
@@ -27,6 +28,7 @@ def train_lgbm_model(train, y_train, categoricals, train_weight):
                  num_boost_round=best_iteration)
 
     return clf
+
 
 def get_training_metrics(y_test, y_pred):
 

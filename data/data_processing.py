@@ -364,9 +364,11 @@ class ProcessInput:
 
         # Drop dates, but keep the training dates as a weight
         train_weight = train.pop('date')
-        test.drop('date', axis=1, inplace=True)
+        # TODO Temporarily return dates to test the RNN strategy
+        test_weight = test.pop('date')
+        # test.drop('date', axis=1, inplace=True)
 
-        return train, test, y_train, y_test, train_weight
+        return train, test, y_train, y_test, train_weight, test_weight
 
 
 def main():
